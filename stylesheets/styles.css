@@ -849,3 +849,5 @@ section #title .credits.right {
     display: none;
   }
 }
+
+.noSpace { margin: 0; padding: 0; }
