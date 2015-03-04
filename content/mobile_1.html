@@ -31,8 +31,21 @@
         <div id="touch" style="background: grey; width: 100%; height: 100px;"></div>
         <div id="log" style="border: 1px solid silver; width: 100%;"></div>
       </section>
-
     </div>
     
+    <script type="text/javascript">
+      var element = document.getElementById("touch");
+
+      window.onload = function(){
+        element.addEventListener("touchstart", function(){
+
+        });
+      }
+
+      var addLog = function( value ){
+        var log = document.getElementById("log");
+        log.innerHTML = value;
+      }
+    </script>
   </body>
 </html>
