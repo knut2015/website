@@ -51,6 +51,9 @@
         el.style.webkitTransform = "scale("+event.scale+")rotate("+event.rotation+"deg)";
       }, false);
       
+      document.addEventListener("gestureend", function(event){
+        console.log("end");
+      })
     </script>
   </body>
 </html>
