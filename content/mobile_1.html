@@ -37,6 +37,7 @@
       var element = document.getElementById("touch");
 
       window.onload = function(){
+        /*
         element.addEventListener("touchstart", function(e){
           var t = e.changedTouches;
           var txt = '';
@@ -46,6 +47,42 @@
 
           addLog("touchStart: " + txt)
         });
+
+        element.addEventListener("touchmove", function(e){
+          var t = e.changedTouches;
+          var txt = '';
+          for ( var i = 0; i < t.length; i++ ){
+            txt += t[i].pageX;
+          }
+
+          addLog("touchmove: " + txt);
+        });
+*/      
+        element.addEventListener("touchstart", onTouchHandler);
+        element.addEventListener("touchmove", onTouchHandler);
+        element.addEventListener("touchend", onTouchHandler);
+
+        function onTouchHandler(event){
+          var t = event.changedTouches;
+          var txt = '';
+
+          for ( var i = 0; i < t.length; i++ ){
+            txt += t[i].pageX;
+          }
+
+          switch ( event.type ){
+            case "touchstart":
+              addLog("touchStart: " + txt);
+              break;
+            case "touchmove":
+              addLog("touchMove: " + txt);
+              break;
+            case "touchend":
+              addLog("touchEnd: " + txt);
+              break;
+          }
+          /*addLog(event.type)*/          
+        }
       }
 
       var addLog = function( value ){
