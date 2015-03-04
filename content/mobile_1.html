@@ -37,27 +37,6 @@
       var element = document.getElementById("touch");
 
       window.onload = function(){
-        /*
-        element.addEventListener("touchstart", function(e){
-          var t = e.changedTouches;
-          var txt = '';
-          for ( var i = 0; i < t.length; i++ ){
-            txt += t[i].pageX;
-          }
-
-          addLog("touchStart: " + txt)
-        });
-
-        element.addEventListener("touchmove", function(e){
-          var t = e.changedTouches;
-          var txt = '';
-          for ( var i = 0; i < t.length; i++ ){
-            txt += t[i].pageX;
-          }
-
-          addLog("touchmove: " + txt);
-        });
-*/      
         element.addEventListener("touchstart", onTouchHandler);
         element.addEventListener("touchmove", onTouchHandler);
         element.addEventListener("touchend", onTouchHandler);
@@ -80,8 +59,7 @@
             case "touchend":
               addLog("touchEnd: " + txt);
               break;
-          }
-          /*addLog(event.type)*/          
+          }      
         }
       }
 
