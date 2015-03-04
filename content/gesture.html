@@ -47,7 +47,8 @@
       var el = document.getElementById('imgs');
 
       document.addEventListener("gesturechange", function(event){
-        el.style.webkitTransform = "scale("+event.scale+")"
+        el.style.webkitTransform = "scale("+event.scale+")";
+        el.style.webkitTransform = "rotate("+event.rotation+")";
       });
     </script>
   </body>
