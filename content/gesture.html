@@ -49,9 +49,9 @@
       window.addEventListener("orientationchange", function(event){
         var wo = window.orientation;
         if ( wo === 0 || wo == 180 ){
-          alert("세로");
+          $("img").attr("src", "../images/spider.jpg");
         }else if ( wo == 90 || wo == -90 ){
-          alert("가로");
+          $("img").attr("src", "../images/ca.jpg");
         }
       });
 
