@@ -19,14 +19,19 @@
   </head>
   <body>
       <div id="header">
-       
+       <nav>
+          <li class="fork"><a href="https://github.com/knut2015/website">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/knut2015/website/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/knut2015/website/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
       </div><!-- end header -->
 
     <div class="wrapper">
 
       <section>
         <div id="title">
-          <h1>Website</h1>
+          <h1>MUZUK</h1>
           <p></p>
           <hr>
           <span class="credits left">Project maintained by <a href="https://github.com/knut2015">knut2015</a></span>
