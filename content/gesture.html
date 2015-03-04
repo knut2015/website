@@ -48,8 +48,8 @@
       var el = document.getElementById('imgs');
 
       document.addEventListener("gesturechange", function(event){
-        el.style.webkitTransform = "scale("+event.scale+")rotate("+event.rotation+")";
-      });
+        el.style.webkitTransform = "scale("+event.scale+")rotate("+event.rotation+"deg)";
+      }, false);
       
     </script>
   </body>
