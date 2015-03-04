@@ -34,9 +34,40 @@
       </section>
 
       <section>
-        <pre><code>$ cd your_repo_root/repo_name
-        $ git fetch origin
-        $ git checkout gh-pages
+        <pre><code>
+var element = document.getElementById("touch");
+
+window.onload = function(){
+  element.addEventListener("touchstart", onTouchHandler);
+  element.addEventListener("touchmove", onTouchHandler);
+  element.addEventListener("touchend", onTouchHandler);
+
+  function onTouchHandler(event){
+    var t = event.changedTouches;
+    var txt = '';
+
+    for ( var i = 0; i < t.length; i++ ){
+      txt += t[i].pageX;
+    }
+
+    switch ( event.type ){
+      case "touchstart":
+        addLog("touchStart: " + txt);
+        break;
+      case "touchmove":
+        addLog("touchMove: " + txt);
+        break;
+      case "touchend":
+        addLog("touchEnd: " + txt);
+        break;
+    }      
+  }
+}
+
+var addLog = function( value ){
+  var log = document.getElementById("log");
+  log.innerHTML = value;
+}
         </code></pre>
       </section>
     </div>
