@@ -31,7 +31,7 @@
       </section>
 
       <section class="noSpace">
-        <div>
+        <div id="imgs">
           <img src="../images/spider.jpg" alt="spiderman" />
         </div>
 
@@ -44,7 +44,11 @@
     </div>
     
     <script type="text/javascript">
+      var el = document.getElementById('imgs');
 
+      document.addEventListener("gesturechange", function(event){
+        el.style.webkitTransform = "scale("+event.scale+")"
+      });
     </script>
   </body>
 </html>
