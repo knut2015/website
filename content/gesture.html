@@ -45,6 +45,16 @@
     
     <script type="text/javascript">
       
+      /* orientation */
+      window.addEventListener("orientationchange", function(event){
+        var wo = window.orientation;
+        if ( wo === 0 || wo == 180 ){
+          alert("세로");
+        }else if ( wo == 90 || wo == -90 ){
+          alert("가로");
+        }
+      });
+
       var el = document.getElementById('imgs');
 
       document.addEventListener("gesturechange", function(event){
