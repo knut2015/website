@@ -55,7 +55,7 @@ var Works = Works || function(){
 		list: function(){
 			var i;
 			console.log(jsonResultModule.getJsonData()[0]);
-			console.log(jsonResultModule.getJsonData()[0].length);
+			console.log(jsonResultModule.getJsonData()[0].work.length);
 			for ( i = 0; i < jsonResultModule.getJsonData()[0].length; i++ ){
 				$("tbody").append(
 						"<tr>"+
