@@ -67,7 +67,7 @@ var Works = Works || function(){
 						"</tr>"
 					);
 			}
-			
+
 			$("tbody tr").on("click", function(){
 				console.log("================", $(this).index());
 				var idx = $(this).index();
@@ -75,8 +75,13 @@ var Works = Works || function(){
 				console.log(jsonResultModule.getJsonData()[0].work[idx].subTitle);
 				console.log(jsonResultModule.getJsonData()[0].work[idx].typeDev);
 				console.log(jsonResultModule.getJsonData()[0].work[idx].description);
-				console.log(jsonResultModule.getJsonData()[0].work[idx].imgs[0].viewImg);
-				console.log(jsonResultModule.getJsonData()[0].work[idx].imgs[1].viewImg);
+				// console.log(jsonResultModule.getJsonData()[0].work[idx].imgs[0].viewImg);
+				// console.log(jsonResultModule.getJsonData()[0].work[idx].imgs[1].viewImg);
+
+				// console.log(jsonResultModule.getJsonData()[0].work[idx].imgs.length);
+				for ( i = 0; i < jsonResultModule.getJsonData()[0].work[idx].imgs.length; i++){
+					console.log(jsonResultModule.getJsonData()[0].work[idx].imgs[i].viewImg);
+				}
 			});
 		},
 		listClose: function(){
