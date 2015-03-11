@@ -20,7 +20,7 @@ function errorHandler(){
 
 // page complete
 function pageComplete(isComplete){
-	console.log(jsonResultModule.getJsonData()[0].work[0].thumb);
+	console.log(jsonResultModule.getJsonData()[0].work[0].prjName);
 	console.log(jsonResultModule.getJsonData()[0].work[0].imgs[0].viewImg);
 
 	if (isComplete){
