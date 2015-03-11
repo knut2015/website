@@ -56,6 +56,8 @@ var Works = Works || function(){
 	}
 
 	var prj = Project();
+
+	$(".workTable").stop().animate({left: '0%'}, 500);
 }
 
 // photos
