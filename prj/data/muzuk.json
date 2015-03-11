@@ -11,8 +11,8 @@
 					"subTitle" : "hyundai i30 renewal",
 					"role" : "lead developer",
 					"copyright" : "fishingtree",
-					"type" : "promotion / actionscript / flashmotion",
-					"description" : "",
+					"typeDev" : "promotion / actionscript / flashmotion",
+					"description" : "설명 1",
 					"imgs" : 
 					[
 						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k11.jpg"},
@@ -28,8 +28,101 @@
 					"subTitle" : "",
 					"role" : "lead developer",
 					"copyright" : "fishingtree",
-					"type" : "HTML / javascript / CSS / jQuery",
-					"description" : "",
+					"typeDev" : "HTML / javascript / CSS / jQuery",
+					"description" : "설명 2",
+					"imgs" : 
+					[
+						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/02/atickerjs.jpg"}
+					]
+				},
+				{
+					"thumb" : "",
+					"client" : "hyunday",
+					"prjName" : "never ending ideas i30",
+					"subTitle" : "hyundai i30 renewal",
+					"role" : "lead developer",
+					"copyright" : "fishingtree",
+					"typeDev" : "promotion / actionscript / flashmotion",
+					"description" : "설명 3",
+					"imgs" : 
+					[
+						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k11.jpg"},
+						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k21.jpg"},
+						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k31.jpg"},
+						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k41.jpg"}
+					]
+				},
+				{
+					"thumb" : "",
+					"client" : "Samsung",
+					"prjName" : "Samsung home application",
+					"subTitle" : "",
+					"role" : "lead developer",
+					"copyright" : "fishingtree",
+					"typeDev" : "HTML / javascript / CSS / jQuery",
+					"description" : "설명 4",
+					"imgs" : 
+					[
+						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/02/atickerjs.jpg"}
+					]
+				},
+				{
+					"thumb" : "",
+					"client" : "hyunday",
+					"prjName" : "never ending ideas i30",
+					"subTitle" : "hyundai i30 renewal",
+					"role" : "lead developer",
+					"copyright" : "fishingtree",
+					"typeDev" : "promotion / actionscript / flashmotion",
+					"description" : "설명 5",
+					"imgs" : 
+					[
+						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k11.jpg"},
+						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k21.jpg"},
+						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k31.jpg"},
+						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k41.jpg"}
+					]
+				},
+				{
+					"thumb" : "",
+					"client" : "Samsung",
+					"prjName" : "Samsung home application",
+					"subTitle" : "",
+					"role" : "lead developer",
+					"copyright" : "fishingtree",
+					"typeDev" : "HTML / javascript / CSS / jQuery",
+					"description" : "설명 6",
+					"imgs" : 
+					[
+						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/02/atickerjs.jpg"}
+					]
+				},
+				{
+					"thumb" : "",
+					"client" : "hyunday",
+					"prjName" : "never ending ideas i30",
+					"subTitle" : "hyundai i30 renewal",
+					"role" : "lead developer",
+					"copyright" : "fishingtree",
+					"typeDev" : "promotion / actionscript / flashmotion",
+					"description" : "설명 7",
+					"imgs" : 
+					[
+						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k11.jpg"},
+						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k21.jpg"},
+						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k31.jpg"},
+						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k41.jpg"}
+					]
+				},
+				{
+					"thumb" : "",
+					"client" : "Samsung",
+					"prjName" : "Samsung home application",
+					"subTitle" : "",
+					"role" : "lead developer",
+					"copyright" : "fishingtree",
+					"typeDev" : "HTML / javascript / CSS / jQuery",
+					"description" : "설명 8",
 					"imgs" : 
 					[
 						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/02/atickerjs.jpg"}

@@ -68,11 +68,14 @@ var Works = Works || function(){
 					);
 			}
 		},
-		close:function(){
+		listClose: function(){
 			workTable.stop().animate({left: '-100%'}, 400, function(){
 				$(this).css('display', 'none');
 				$("tbody").empty();
 			});
+		},
+		viewClose: function(){
+
 		}
 	}
 
@@ -83,7 +86,22 @@ var Works = Works || function(){
 	});
 
 	$(".listClose").on("click", function(){
-		prj.close();
+		prj.listClose();
+	});
+
+	$("tbody tr").on("click", function(){
+		console.log($(this).index());
+		var idx = $(this).index();
+		console.log(jsonResultModule.getJsonData()[0].work[idx].prjName);
+		console.log(jsonResultModule.getJsonData()[0].work[idx].subTitle);
+		console.log(jsonResultModule.getJsonData()[0].work[idx].typeDev);
+		console.log(jsonResultModule.getJsonData()[0].work[idx].description);
+		console.log(jsonResultModule.getJsonData()[0].work[idx].imgs[0].viewImg);
+		console.log(jsonResultModule.getJsonData()[0].work[idx].imgs[1].viewImg);
+	});
+
+	$(".viewClose").on("click", function(){
+		prj.viewClose();
 	});
 }
 
