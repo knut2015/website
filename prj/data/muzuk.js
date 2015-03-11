@@ -58,7 +58,7 @@ var Works = Works || function(){
 				$("tbody").append(
 						"<tr>"+
 							"<td class='t_thumb'>"+jsonResultModule.getJsonData()[0].work[i].thumb+"</td>"+
-							"<td class='t_client'>"++jsonResultModule.getJsonData()[0].work[i].client++"</td>"+
+							"<td class='t_client'>"+jsonResultModule.getJsonData()[0].work[i].client+"</td>"+
 							"<td class='t_prjName'>i30</td>"+
 							"<td class='t_role'>lead developer</td>"+
 							"<td class='t_copy'>fishingtree</td>"+
