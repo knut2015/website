@@ -25,8 +25,28 @@ function pageComplete(isComplete){
 
 	if (isComplete){
 		pageView();
+		ButtonClick();
 	}
 };
+
+var ButtonClick = ButtonClick || function(){
+	var BtnType = function(){
+
+	}
+
+	BtnType.prototype = {
+		click: function(){
+
+		}
+	}
+
+	var btns = BtnType();
+
+	$(".btnView").on("click", onBtnClickHandler);
+	function onBtnClickHandler(event){
+		console.log($(this).text());
+	}
+}
 
 // static page view
 var pageView = function(){
