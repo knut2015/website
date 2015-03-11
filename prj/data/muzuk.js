@@ -108,9 +108,9 @@ var Works = Works || function(){
 			});
 		},
 		viewClose: function(){
+			workTable.css('display', 'block');
 			workDetail.stop().animate({left: '-100%'}, 400, function(){
 				$(this).css('display', 'none');
-				workTable.fadeIn(0);
 			});
 		}
 	}
