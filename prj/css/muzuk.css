@@ -43,7 +43,7 @@ h1 { font-size: 1em; font-family: 'MuseoSans_900'; width: 60px; margin: 24px aut
 
 
 /* work table */
-.workTable { top: 0; left: -100%; background: #222222; z-index: 900; display: none; }
+.workTable { width: 100%; height: 100%; position: absolute; top: 0; left: -100%; background: #222222; z-index: 900; display: none; }
 .workTable div.workContent { position: relative; top: 85px; }
 table { width: 97.9%; text-align: center; margin: 0 auto; }
 th { font-size: /*12px*/ 0.75em; }
