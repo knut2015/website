@@ -62,7 +62,7 @@ var Works = Works || function(){
 		}
 	}
 
-	var prj = Project();
+	var prj = new Project();
 
 	workTable.css('display', 'block').stop().animate({left: '0%'}, 400, function(){
 		prj.list();
