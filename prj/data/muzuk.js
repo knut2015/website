@@ -54,6 +54,7 @@ var Works = Works || function(){
 	Project.prototype = {
 		list: function(){
 			var i;
+			console.log(jsonResultModule.getJsonData()[0]);
 			console.log(jsonResultModule.getJsonData()[0].length);
 			for ( i = 0; i < jsonResultModule.getJsonData()[0].length; i++ ){
 				$("tbody").append(
