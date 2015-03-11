@@ -49,13 +49,12 @@ var ButtonClick = ButtonClick || function(){
 // works
 var Works = Works || function(){
 	var workTable = $(".workTable");
+	var workDetail = $(".workView");
 	var Project = function(){}
 
 	Project.prototype = {
 		list: function(){
 			var i;
-			// console.log(jsonResultModule.getJsonData()[0]);
-			// console.log(jsonResultModule.getJsonData()[0].work.length);
 			for ( i = 0; i < jsonResultModule.getJsonData()[0].work.length; i++ ){
 				$("tbody").append(
 						"<tr>"+
@@ -69,25 +68,28 @@ var Works = Works || function(){
 			}
 
 			$("tbody tr").on("click", function(){
-				console.log("================", $(this).index());
 				var idx = $(this).index();
 				console.log(jsonResultModule.getJsonData()[0].work[idx].prjName);
 				console.log(jsonResultModule.getJsonData()[0].work[idx].subTitle);
 				console.log(jsonResultModule.getJsonData()[0].work[idx].typeDev);
 				console.log(jsonResultModule.getJsonData()[0].work[idx].description);
-				// console.log(jsonResultModule.getJsonData()[0].work[idx].imgs[0].viewImg);
-				// console.log(jsonResultModule.getJsonData()[0].work[idx].imgs[1].viewImg);
-
-				// console.log(jsonResultModule.getJsonData()[0].work[idx].imgs.length);
+				
 				for ( i = 0; i < jsonResultModule.getJsonData()[0].work[idx].imgs.length; i++){
 					console.log(jsonResultModule.getJsonData()[0].work[idx].imgs[i].viewImg);
 				}
+
+				prj.viewDetail();
 			});
 		},
 		listClose: function(){
 			workTable.stop().animate({left: '-100%'}, 400, function(){
 				$(this).css('display', 'none');
 				$("tbody").empty();
+			});
+		},
+		viewDetail: function(){
+			workDetail.css('display', 'block').stop().animate({left: '0%'}, 400, function(){
+				
 			});
 		},
 		viewClose: function(){
