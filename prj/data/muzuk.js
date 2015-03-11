@@ -50,7 +50,7 @@ var ButtonClick = ButtonClick || function(){
 var Works = Works || function(){
 	var Project = function(){}
 
-	Project.prototype = function(){
+	Project.prototype = {
 		list: function(){},
 		click:function(){}
 	}
