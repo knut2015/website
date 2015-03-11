@@ -22,8 +22,8 @@ function errorHandler(){
 function pageComplete(isComplete){
 	console.log(jsonResultModule.getJsonData()[0].work[0].prjName);
 	console.log(jsonResultModule.getJsonData()[0].work[0].imgs[0].viewImg);
-	console.log(jsonResultModule.getJsonData()[0].photo[0].title);
-	console.log(jsonResultModule.getJsonData()[0].photo[1].title);
+	console.log(jsonResultModule.getJsonData()[1].photo[0].title);
+	console.log(jsonResultModule.getJsonData()[1].photo[1].title);
 
 	if (isComplete){
 		pageView();
