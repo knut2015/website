@@ -60,23 +60,32 @@ var Works = Works || function(){
 						"<tr>"+
 							"<td class='t_thumb'>"+jsonResultModule.getJsonData()[0].work[i].thumb+"</td>"+
 							"<td class='t_client'>"+jsonResultModule.getJsonData()[0].work[i].client+"</td>"+
-							"<td class='t_prjName'>i30</td>"+
-							"<td class='t_role'>lead developer</td>"+
-							"<td class='t_copy'>fishingtree</td>"+
+							"<td class='t_prjName'>"+jsonResultModule.getJsonData()[0].work[i].prjName+"</td>"+
+							"<td class='t_role'>"+jsonResultModule.getJsonData()[0].work[i].role+"</td>"+
+							"<td class='t_copy'>"+jsonResultModule.getJsonData()[0].work[i].copyright+"</td>"+
 						"</tr>"
 					);
 			}
 
 			$("tbody tr").on("click", function(){
 				var idx = $(this).index();
-				console.log(jsonResultModule.getJsonData()[0].work[idx].prjName);
-				console.log(jsonResultModule.getJsonData()[0].work[idx].subTitle);
-				console.log(jsonResultModule.getJsonData()[0].work[idx].typeDev);
-				console.log(jsonResultModule.getJsonData()[0].work[idx].description);
+				var title = jsonResultModule.getJsonData()[0].work[idx].prjName;
+				var subTitle = jsonResultModule.getJsonData()[0].work[idx].subTitle;
+				var typeDev = jsonResultModule.getJsonData()[0].work[idx].typeDev;
+				var desc = jsonResultModule.getJsonData()[0].work[idx].description;
+				var role = jsonResultModule.getJsonData()[0].work[idx].role;
 				
 				for ( i = 0; i < jsonResultModule.getJsonData()[0].work[idx].imgs.length; i++){
 					console.log(jsonResultModule.getJsonData()[0].work[idx].imgs[i].viewImg);
 				}
+
+				var config = {
+					title: title,
+					subTitle: subTitle,
+					typeDev: typeDev,
+					desc: desc,
+					role: role
+				};
 
 				prj.viewDetail();
 			});
@@ -87,9 +96,13 @@ var Works = Works || function(){
 				$("tbody").empty();
 			});
 		},
-		viewDetail: function(){
+		viewDetail: function( config ){
 			workDetail.css('display', 'block').stop().animate({left: '0%'}, 400, function(){
-				
+				$(".viewDetail p.title").text(config.title);
+				$(".viewDetail p.subTitle").text(config.subTitle);
+				$(".viewDetail p.typeDev").text(config.typeDev);
+				$(".viewDetail p.desc").text(config.desc);
+				$(".viewDetail p.role").text(config.role);
 			});
 		},
 		viewClose: function(){
