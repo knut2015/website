@@ -32,22 +32,27 @@ function pageComplete(isComplete){
 };
 
 var ButtonClick = ButtonClick || function(){
-	var BtnType = function(){
-
-	}
-
-	BtnType.prototype = {
-		click: function(){
-
-		}
-	}
-
-	var btns = BtnType();
-
 	$(".btnView").on("click", onBtnClickHandler);
 	function onBtnClickHandler(event){
-		console.log($(this).text());
+		switch ($(this).text()){
+			case "VIEW PROJECT":
+				Works();
+				break;
+			case "VIEW PICTURES":
+				Photos();
+				break;
+		}
 	}
+}
+
+// works
+var Works = Works || function(){
+	console.log("works");
+}
+
+// photos
+var Photos = Photos || function(){
+	console.log("photos");	
 }
 
 // static page view
