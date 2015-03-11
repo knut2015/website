@@ -31,6 +31,7 @@ function pageComplete(isComplete){
 	}
 };
 
+// page button
 var ButtonClick = ButtonClick || function(){
 	$(".btnView").on("click", onBtnClickHandler);
 	function onBtnClickHandler(event){
@@ -47,12 +48,19 @@ var ButtonClick = ButtonClick || function(){
 
 // works
 var Works = Works || function(){
-	console.log("works");
+	var Project = function(){}
+
+	Project.prototype = function(){
+		list: function(){},
+		click:function(){}
+	}
+
+	var prj = Project();
 }
 
 // photos
 var Photos = Photos || function(){
-	console.log("photos");	
+	
 }
 
 // static page view

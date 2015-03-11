@@ -40,3 +40,15 @@ h1 { font-size: 1em; font-family: 'MuseoSans_900'; width: 60px; margin: 24px aut
 .arrowContainer a { float: left; position: absolute; }
 .arrowContainer a.prevCont { left: 3.1%; }
 .arrowContainer a.nextCont { right: 3.1%; }
+
+
+/* work table */
+.workTable { top: 0; left: 0; background: #222222; z-index: 900; }
+table { width: 97.9%; text-align: center; margin: 0 auto; }
+th { font-size: /*12px*/ 0.75em; }
+tbody td { height: 124px; vertical-align: middle; background: #333333; border-bottom: 1px solid #222; }
+td.t_thumb { /*220px*/ 23.4%;}
+td.t_client { /*100px*/ 10.6%;}
+td.t_prjName { /*220px*/ 23.4%;}
+td.t_role { /*180px*/ 19.14%;}
+td.t_copy { /*220px*/ 23.4%;}
