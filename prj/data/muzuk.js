@@ -110,7 +110,7 @@ var Works = Works || function(){
 		viewClose: function(){
 			workDetail.stop().animate({left: '-100%'}, 400, function(){
 				$(this).css('display', 'none');
-				workTable.fadeIn();
+				workTable.fadeIn(0);
 			});
 		}
 	}
