@@ -56,7 +56,7 @@ var Works = Works || function(){
 			var i;
 			console.log(jsonResultModule.getJsonData()[0]);
 			console.log(jsonResultModule.getJsonData()[0].work.length);
-			for ( i = 0; i < jsonResultModule.getJsonData()[0].length; i++ ){
+			for ( i = 0; i < jsonResultModule.getJsonData()[0].work.length; i++ ){
 				$("tbody").append(
 						"<tr>"+
 							"<td class='t_thumb'>"+jsonResultModule.getJsonData()[0].work[i].thumb+"</td>"+
