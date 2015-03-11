@@ -1,3 +1,5 @@
+dataLoadModule.setURL("data/muzuk.json");
+dataLoadModule.setDataType("text");
 dataLoadModule.getAjax();
 
 function successHandler(json){
@@ -23,6 +25,7 @@ function pageComplete(isComplete){
 	}
 };
 
+// static page view
 var pageView = function(){
 	var idx = 0;
 	var timeout;
