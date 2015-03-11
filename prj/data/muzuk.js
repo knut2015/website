@@ -71,6 +71,7 @@ var Works = Works || function(){
 		close:function(){
 			workTable.stop().animate({left: '-100%'}, 400, function(){
 				$(this).css('display', 'none');
+				$("tbody").empty();
 			});
 		}
 	}
