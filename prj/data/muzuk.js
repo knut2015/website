@@ -20,6 +20,8 @@ function errorHandler(){
 
 // page complete
 function pageComplete(isComplete){
+	console.log(jsonResultModule.getJsonData()[0]);
+
 	if (isComplete){
 		pageView();
 	}
