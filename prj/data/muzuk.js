@@ -90,7 +90,7 @@ var Works = Works || function(){
 	});
 
 	$("tbody tr").on("click", function(){
-		console.log($(this).index());
+		console.log("================", $(this).index());
 		var idx = $(this).index();
 		console.log(jsonResultModule.getJsonData()[0].work[idx].prjName);
 		console.log(jsonResultModule.getJsonData()[0].work[idx].subTitle);
