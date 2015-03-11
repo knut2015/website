@@ -48,16 +48,29 @@ var ButtonClick = ButtonClick || function(){
 
 // works
 var Works = Works || function(){
+	var workTable = $(".workTable");
 	var Project = function(){}
 
 	Project.prototype = {
-		list: function(){},
-		click:function(){}
+		list: function(){
+
+		},
+		close:function(){
+			workTable.stop().animate({left: '-100%'}, 400, function(){
+				$(this).css('display', 'none');
+			});
+		}
 	}
 
 	var prj = Project();
 
-	$(".workTable").css('display', 'block').stop().animate({left: '0%'}, 500);
+	workTable.css('display', 'block').stop().animate({left: '0%'}, 400, function(){
+		prj.list();
+	});
+
+	$(".listClose").on("click", function(){
+		prj.close();
+	});
 }
 
 // photos
