@@ -1,0 +1,79 @@
+/**
+ * FONT FACE	
+ * */
+@font-face{
+	font-family:'Roboto-Bold';
+	src: url('../font/Roboto-Bold.eot'), 
+		url('../font/Roboto-Bold.woff') format('woff'), 
+		url('../font/Roboto-Bold.ttf') format('truetype')
+}
+
+@font-face{
+	font-family:'Roboto-Medium';
+	src: url('../font/Roboto-Medium.eot'), 
+		url('../font/Roboto-Medium.woff') format('woff'), 
+		url('../font/Roboto-Medium.ttf') format('truetype'); 
+}
+
+@font-face{
+	font-family:'NanumBarunBold';
+	src: url('../font/NanumBarunGothicBold.eot'), 
+		url('../font/NanumBarunGothicBold.woff') format('woff'), 
+		url('../font/NanumBarunGothicBold.ttf') format('truetype'); 
+}
+
+@font-face{
+	font-family:'NanumBarun';
+	src: url('../font/NanumBarunGothic.eot'), 
+		url('../font/NanumBarunGothic.woff') format('woff'), 
+		url('../font/NanumBarunGothic.ttf') format('truetype'); 
+}
+
+@font-face{
+	font-family:'Roboto-Light';
+	src: url('../font/Roboto-Light.eot'), 
+		url('../font/Roboto-Light.woff') format('woff'), 
+		url('../font/Roboto-Light.ttf') format('truetype'); 
+}
+
+@font-face{
+	font-family:'MuseoSans_100';
+	src: url('../font/museosans_100_italic-webfont.eot'), 
+		url('../font/museosans_100_italic-webfont.woff') format('woff'), 
+		url('../font/museosans_100_italic-webfont.ttf') format('truetype'); 
+}
+
+@font-face{
+	font-family:'MuseoSans_300';
+	src: url('../font/museosans_300-webfont.eot'), 
+		url('../font/museosans_300-webfont.woff') format('woff'), 
+		url('../font/museosans_300-webfont.ttf') format('truetype'); 
+}
+
+@font-face{
+	font-family:'MuseoSans_500';
+	src: url('../font/museosans_500-webfont-webfont.eot'), 
+		url('../font/museosans_500-webfont-webfont.woff') format('woff'), 
+		url('../font/museosans_500-webfont-webfont.ttf') format('truetype'); 
+}
+
+@font-face{
+	font-family:'MuseoSans_700';
+	src: url('../font/museosans_700-webfont.eot'), 
+		url('../font/museosans_700-webfont.woff') format('woff'), 
+		url('../font/museosans_700-webfont.ttf') format('truetype'); 
+}
+
+@font-face{
+	font-family:'MuseoSans_900';
+	src: url('../font/museosans_900-webfont.eot'), 
+		url('../font/museosans_900-webfont.woff') format('woff'), 
+		url('../font/museosans_900-webfont.ttf') format('truetype'); 
+}
+
+@font-face{
+	font-family:'cour';
+	src: url('../font/cour.eot'), 
+		url('../font/cour.woff') format('woff'), 
+		url('../font/cour.ttf') format('truetype'); 
+}

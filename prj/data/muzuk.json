@@ -1,0 +1,50 @@
+{
+	"item":
+	[
+		{
+			"thumb" : "",
+			"client" : "hyunday",
+			"prjName" : "never ending ideas i30",
+			"subTitle" : "hyundai i30 renewal",
+			"role" : "lead developer",
+			"copyright" : "fishingtree",
+			"type" : "promotion / actionscript / flashmotion",
+			"description" : "",
+			"imgs" : 
+			[
+				"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k11.jpg",
+				"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k21.jpg",
+				"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k31.jpg",
+				"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k41.jpg"
+			]
+		},
+		{
+			"thumb" : "",
+			"client" : "Samsung",
+			"prjName" : "Samsung home application",
+			"subTitle" : "",
+			"role" : "lead developer",
+			"copyright" : "fishingtree",
+			"type" : "HTML / javascript / CSS / jQuery",
+			"description" : "",
+			"imgs" : 
+			[
+				"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/02/atickerjs.jpg"
+			]
+		}
+	],
+	
+	"photo":
+	[
+		{
+			"title" : "hawaii",
+			"viewimg" : "http://blog.cmiscm.com/wp-content/uploads/2011/12/desk-1.jpg",
+			"type" : "image"
+		},
+		{
+			"title" : "hawaii",
+			"viewimg" : "http://blog.cmiscm.com/wp-content/uploads/2011/12/d21.jpg",
+			"type" : "video"
+		}
+	]
+}
