@@ -103,11 +103,14 @@ var Works = Works || function(){
 				$(".viewDetail p.typeDev").text(config.typeDev);
 				$(".viewDetail p.desc").text(config.desc);
 				$(".viewDetail p.role").text(config.role);
+
+				workTable.fadeOut();
 			});
 		},
 		viewClose: function(){
 			workDetail.stop().animate({left: '-100%'}, 400, function(){
 				$(this).css('display', 'none');
+				workTable.fadeIn();
 			});
 		}
 	}
@@ -182,6 +185,6 @@ var pageView = function(){
 	};
 
 	$(window).resize(function(){
-		$(".content").css('margin-top', '30%');
+		$(".content").css('top', '30%');
 	}).resize();
 };
