@@ -180,4 +180,8 @@ var pageView = function(){
 			$(".block").css('display', 'none');
 		}, 500);
 	};
+
+	$(window).resize(function(){
+		$(".content").css('margin-top', '30%');
+	}).resize();
 };
