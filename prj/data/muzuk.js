@@ -87,7 +87,7 @@ var Works = Works || function(){
 					role: role
 				};
 
-				prj.viewDetail();
+				prj.viewDetail( config );
 			});
 		},
 		listClose: function(){
