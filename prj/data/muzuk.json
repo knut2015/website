@@ -12,10 +12,10 @@
 			"description" : "",
 			"imgs" : 
 			[
-				"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k11.jpg",
-				"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k21.jpg",
-				"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k31.jpg",
-				"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k41.jpg"
+				{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k11.jpg"},
+				{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k21.jpg"},
+				{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k31.jpg"},
+				{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k41.jpg"}
 			]
 		},
 		{
@@ -29,7 +29,7 @@
 			"description" : "",
 			"imgs" : 
 			[
-				"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/02/atickerjs.jpg"
+				{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/02/atickerjs.jpg"}
 			]
 		}
 	],
