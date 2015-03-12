@@ -148,7 +148,7 @@ var Works = Works || function(){
 	$(".btnNext").on("click", onClickDetailView);
 
 	function onClickDetailView(event){
-		console.log($(this).className);
+		console.log($(this).currentTarget.className);
 	}
 }
 
