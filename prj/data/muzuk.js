@@ -191,9 +191,10 @@ var Photos = Photos || function(){
 			if ( state == "start"){
 				photoView.css('display', 'block').stop().animate({left: '0%'}, 400, function(){
 					photo.update( 0 );
+					$(this).css('overflow-y', 'auto');
 				});
 			}else if ( state == "end" ){
-				photoView.stop().animate({left: '-100%'}, 400, function(){
+				photoView.css('overflow-y', 'none').stop().animate({left: '-100%'}, 400, function(){
 					photo.closePhoto();
 					$(this).css('display', 'none');
 				});
