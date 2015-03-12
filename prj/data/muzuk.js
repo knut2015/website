@@ -235,8 +235,8 @@ var Photos = Photos || function(){
 		photo.viewTransition("end");
 	});
 
-	$(".btnPrev").on("click", onClickDetailView);
-	$(".btnNext").on("click", onClickDetailView);
+	$(".btnPhotoPrev").on("click", onClickDetailView);
+	$(".btnPhotoNext").on("click", onClickDetailView);
 
 	function onClickDetailView(event){
 		switch (event.currentTarget.className){
