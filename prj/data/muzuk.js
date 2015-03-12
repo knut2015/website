@@ -234,8 +234,7 @@ var Photos = Photos || function(){
 	$(".btnNext").on("click", onClickDetailView);
 
 	function onClickDetailView(event){
-		console.log(jsonResultModule.getJsonData()[0].photo);
-		/*
+		console.log(jsonResultModule.getJsonData()[1].photo);
 		switch (event.currentTarget.className){
 			case "btnPrev":
 				index--;
@@ -245,14 +244,13 @@ var Photos = Photos || function(){
 				break;
 			case "btnNext":
 				index++;
-				if ( index > jsonResultModule.getJsonData()[0].photo.length -1 ){
+				if ( index > jsonResultModule.getJsonData()[1].photo.length -1 ){
 					return;
 				}
 				break;
 		}
 
 		photo.update( index );
-		*/
 	}
 }
 
