@@ -313,6 +313,109 @@
 						{"viewImg" : "gb1.jpg"},
 						{"viewImg" : "gb2.jpg"}
 					]
+				},
+				{
+					"color" : "#3c3c3c",
+					"thumb" : "",
+					"client" : "LG",
+					"prjName" : "LG OLED",
+					"subTitle" : "ABOVE AND BEYOND",
+					"role" : "Team member",
+					"copyright" : "fishingtree",
+					"typeDev" : "HTML / jQuery / promotion",
+					"description" : "설명 8",
+					"imgs" : 
+					[
+						{"viewImg" : "oled.jpg"}
+					]
+				},
+				{
+					"color" : "#70ba25",
+					"thumb" : "",
+					"client" : "Mandofootloose",
+					"prjName" : "Mandofootloose",
+					"subTitle" : "Mandofootloose Life Style",
+					"role" : "Team member",
+					"copyright" : "fishingtree",
+					"typeDev" : "HTML / jQuery / promotion",
+					"description" : "설명 8",
+					"imgs" : 
+					[
+						{"viewImg" : "mdf0.jpg"},
+						{"viewImg" : "mdf1.jpg"},
+						{"viewImg" : "mdf2.jpg"}
+					]
+				},
+				{
+					"color" : "#0689d9",
+					"thumb" : "",
+					"client" : "Samsung",
+					"prjName" : "Samsung H.A",
+					"subTitle" : "Samsung H.A",
+					"role" : "Lead developer",
+					"copyright" : "fishingtree",
+					"typeDev" : "HTML / jQuery / promotion",
+					"description" : "설명 8",
+					"imgs" : 
+					[
+						{"viewImg" : "ha0.jpg"},
+						{"viewImg" : "ha1.jpg"},
+						{"viewImg" : "ha2.jpg"}
+					]
+				},
+				{
+					"color" : "#5e0116",
+					"thumb" : "",
+					"client" : "Hyundai",
+					"prjName" : "art of technology SONATA",
+					"subTitle" : "yf sonata ",
+					"role" : "Team member",
+					"copyright" : "fishingtree",
+					"typeDev" : "actionscript / flash motion / promotion",
+					"description" : "설명 8",
+					"imgs" : 
+					[
+						{"viewImg" : "sn0.jpg"},
+						{"viewImg" : "sn1.jpg"},
+						{"viewImg" : "sn2.jpg"},
+						{"viewImg" : "sn3.jpg"},
+						{"viewImg" : "sn4.jpg"},
+						{"viewImg" : "sn5.jpg"}
+					]
+				},
+				{
+					"color" : "#5f99e9",
+					"thumb" : "",
+					"client" : "Hyundai",
+					"prjName" : "Avante coupe",
+					"subTitle" : "2013 Avante coupe",
+					"role" : "Lead developer",
+					"copyright" : "fishingtree",
+					"typeDev" : "HTML / jQuery / promotion",
+					"description" : "설명 8",
+					"imgs" : 
+					[
+						{"viewImg" : "cou.jpg"}
+					]
+				},
+				{
+					"color" : "#246d35",
+					"thumb" : "",
+					"client" : "Kolon Sport",
+					"prjName" : "Kolon Sport S/S",
+					"subTitle" : "Your best way to nature",
+					"role" : "Lead developer",
+					"copyright" : "fishingtree",
+					"typeDev" : "actionscript / flashmotion / promotion",
+					"description" : "설명 8",
+					"imgs" : 
+					[
+						{"viewImg" : "kl0.jpg"},
+						{"viewImg" : "kl1.jpg"},
+						{"viewImg" : "kl2.jpg"},
+						{"viewImg" : "kl3.jpg"},
+						{"viewImg" : "kl4.jpg"}
+					]
 				}
 			]
 		},
