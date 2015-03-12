@@ -180,7 +180,21 @@ var Works = Works || function(){
 
 // photos
 var Photos = Photos || function(){
+	var photoView = $(".photoView");
 	
+	var Photo = function(){
+
+	}
+
+	Photo.prototype = {
+
+	};
+
+	var photo = new Photo();
+
+	photoView.css('display', 'block').stop().animate({left: '0%'}, 400, function(){
+		// prj.list();
+	});
 }
 
 // static page view
