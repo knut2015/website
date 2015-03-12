@@ -101,6 +101,7 @@ var Works = Works || function(){
 		},
 		viewDetail: function( config ){
 			workDetail.css({'display':'block', 'background':config.color}).stop().animate({left: '0%'}, 400, function(){
+				$(this).css('overflow-y', 'auto');
 				$(".viewDetail p.title").text(config.title);
 				$(".viewDetail p.subTitle").text(config.subTitle);
 				$(".viewDetail p.typeDev").text(config.typeDev);
