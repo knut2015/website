@@ -126,9 +126,12 @@ var Works = Works || function(){
 		viewClose: function(){
 			workTable.css('display', 'block');
 			workDetail.css('overflow-y', 'hidden').stop().animate({left: '-100%'}, 400, function(){
-				$(".detailImages").empty();
+				prj.detailImageInit();
 				$(this).css('display', 'none');
 			});
+		},
+		detailImageInit: function(){
+			$(".detailImages").empty();
 		}
 	}
 
@@ -150,6 +153,8 @@ var Works = Works || function(){
 	$(".btnNext").on("click", onClickDetailView);
 
 	function onClickDetailView(event){
+		prj.detailImageInit();
+		
 		switch (event.currentTarget.className){
 			case "btnPrev":
 				index--;
