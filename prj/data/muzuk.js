@@ -112,7 +112,7 @@ var Works = Works || function(){
 				for ( i = 0; i < jsonResultModule.getJsonData()[0].work[config.idx].imgs.length; i++){
 					
 					var imgs = jsonResultModule.getJsonData()[0].work[config.idx].imgs[i].viewImg;
-					$(".detailImages").append("<p><img src='" + imgs + "'></p>").fadeIn();
+					$(".detailImages").append("<p><img src='./image/" + imgs + "'></p>").fadeIn();
 				}
 
 				workTable.fadeOut();
