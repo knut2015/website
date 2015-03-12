@@ -110,7 +110,7 @@ var Works = Works || function(){
 				for ( i = 0; i < jsonResultModule.getJsonData()[0].work[config.idx].imgs.length; i++){
 					
 					var imgs = jsonResultModule.getJsonData()[0].work[config.idx].imgs[i].viewImg;
-					$(".detailImages").empty().append("<p><img src='"+imgs+"'></p>");
+					$(".detailImages").append("<p><img src='"+imgs+"'></p>");
 				}
 
 				workTable.fadeOut();
@@ -118,7 +118,8 @@ var Works = Works || function(){
 		},
 		viewClose: function(){
 			workTable.css('display', 'block');
-			workDetail.stop().animate({left: '-100%'}, 400, function(){
+			workDetail.css('overflow', 'hidden').stop().animate({left: '-100%'}, 400, function(){
+				$(".detailImages").empty();
 				$(this).css('display', 'none');
 			});
 		}
