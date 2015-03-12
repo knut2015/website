@@ -108,9 +108,9 @@ var Works = Works || function(){
 				$(".viewDetail p.role").text(config.role);
 
 				for ( i = 0; i < jsonResultModule.getJsonData()[0].work[config.idx].imgs.length; i++){
-					console.log(jsonResultModule.getJsonData()[0].work[config.idx].imgs[i].viewImg);
+					
 					var imgs = jsonResultModule.getJsonData()[0].work[config.idx].imgs[i].viewImg;
-					$(".detailImages").append("<p><img src='"+imgs+"'></p>");
+					$(".detailImages").empty().append("<p><img src='"+imgs+"'></p>");
 				}
 
 				workTable.fadeOut();
