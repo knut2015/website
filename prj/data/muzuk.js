@@ -69,7 +69,7 @@ var Works = Works || function(){
 					);
 			}
 
-			$("tr").hover(function(){
+			$("tbody tr").hover(function(){
 				$(this).css("background-color", jsonResultModule.getJsonData()[0].work[$(this).index()].color);
 			});
 

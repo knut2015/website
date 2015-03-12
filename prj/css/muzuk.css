@@ -59,4 +59,3 @@ td.t_role { /*180px*/ width: 19.14%;}
 td.t_copy { /*220px*/ width: 23.4%;}
 tr:hover { color: #fff; }
 tr:hover td { background-color: transparent; }
-thead tr:hover { background: #222; }
