@@ -103,7 +103,7 @@ var Works = Works || function(){
 			});
 		},
 		viewDetail: function( config ){
-			workDetail.css({'display':'block', 'background-color':'config.color'}).stop().animate({left: '0%'}, 400, function(){
+			workDetail.css({'display':'block', 'background-color':config.color}).stop().animate({left: '0%'}, 400, function(){
 				$(".viewDetail p.title").text(config.title);
 				$(".viewDetail p.subTitle").text(config.subTitle);
 				$(".viewDetail p.typeDev").text(config.typeDev);
