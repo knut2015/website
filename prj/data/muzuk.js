@@ -67,7 +67,7 @@ var Works = Works || function(){
 					);
 			}
 
-			$("tr:hover").css("background-color", jsonResultModule.getJsonData()[0].work[1].color;
+			$("tr:hover").css("background-color", jsonResultModule.getJsonData()[0].work[1].color);
 			$("tbody tr").on("click", function(){
 				var idx = $(this).index();
 				var title = jsonResultModule.getJsonData()[0].work[idx].prjName;
