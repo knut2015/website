@@ -32,7 +32,7 @@ h1 { font-size: 1em; font-family: 'MuseoSans_900'; width: 60px; margin: 24px aut
   
 /* indicate */
 .pages {  }
-.indicate { float: left; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; margin: 0 4px; width: 6px; height: 6px; border: 1px solid white;  background: transparent; }
+.indicate { float: left; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; border-radius: 50%; margin: 0 4px; width: 6px; height: 6px; border: 1px solid white;  background: transparent; }
 .pageActive { background: white; }
 
 /* arrow container */
