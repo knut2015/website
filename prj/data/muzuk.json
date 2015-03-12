@@ -49,7 +49,7 @@
 					"client" : "KIA",
 					"prjName" : "K5 Teaser",
 					"subTitle" : "K 시리즈, 그 두번째 이야기",
-					"role" : "lead developer",
+					"role" : "Lead developer",
 					"copyright" : "fishingtree",
 					"typeDev" : "promotion / actionscript / flashmotion",
 					"description" : "설명 3",
@@ -67,7 +67,7 @@
 					"client" : "KIA",
 					"prjName" : "THE WORLS BEST K5",
 					"subTitle" : "THE WORLS BEST K5",
-					"role" : "lead developer",
+					"role" : "Team member",
 					"copyright" : "fishingtree",
 					"typeDev" : "promotion / actionscript / flashmotion",
 					"description" : "설명 4",
@@ -84,7 +84,7 @@
 					"client" : "Bandai",
 					"prjName" : "Jungle Force",
 					"subTitle" : "Power Rangers Jungle Force",
-					"role" : "lead developer",
+					"role" : "Lead developer",
 					"copyright" : "fishingtree",
 					"typeDev" : "renewal / actionscript / flashmotion",
 					"description" : "설명 5",
@@ -159,7 +159,7 @@
 					"client" : "KIA",
 					"prjName" : "Morning eco plus",
 					"subTitle" : "Good Morning Puzzle",
-					"role" : "lead developer",
+					"role" : "Lead developer",
 					"copyright" : "fishingtree",
 					"typeDev" : "promotion / actionscript / flashmotion",
 					"description" : "설명 8",
@@ -199,6 +199,119 @@
 						{"viewImg" : "p9.jpg"},
 						{"viewImg" : "p10.jpg"},
 						{"viewImg" : "p11.jpg"}
+					]
+				},
+				{
+					"color" : "#c3014a",
+					"thumb" : "",
+					"client" : "LG mobile",
+					"prjName" : "Optimus Black",
+					"subTitle" : "보여주기 위해 태어났다",
+					"role" : "Lead developer",
+					"copyright" : "fishingtree",
+					"typeDev" : "promotion / actionscript / flashmotion",
+					"description" : "설명 8",
+					"imgs" : 
+					[
+						{"viewImg" : "ob0.jpg"},
+						{"viewImg" : "ob2.jpg"},
+						{"viewImg" : "ob3.jpg"},
+						{"viewImg" : "ob4.jpg"},
+						{"viewImg" : "ob5.jpg"},
+						{"viewImg" : "ob6.jpg"}
+					]
+				},
+				{
+					"color" : "#ee3f76",
+					"thumb" : "",
+					"client" : "LG mobile",
+					"prjName" : "Optimus Bright",
+					"subTitle" : "Optimus Bright Japan version",
+					"role" : "Lead developer",
+					"copyright" : "fishingtree",
+					"typeDev" : "promotion / actionscript / flashmotion",
+					"description" : "설명 8",
+					"imgs" : 
+					[
+						{"viewImg" : "obj0.jpg"},
+						{"viewImg" : "obj2.jpg"},
+						{"viewImg" : "obj3.jpg"},
+						{"viewImg" : "obj4.jpg"},
+						{"viewImg" : "obj5.jpg"},
+						{"viewImg" : "obj6.jpg"}
+					]
+				},
+				{
+					"color" : "#2b4b60",
+					"thumb" : "",
+					"client" : "Hyunday",
+					"prjName" : "i30",
+					"subTitle" : "never ending ideas i30",
+					"role" : "Lead developer",
+					"copyright" : "fishingtree",
+					"typeDev" : "promotion / actionscript / flashmotion",
+					"description" : "설명 8",
+					"imgs" : 
+					[
+						{"viewImg" : "it0.jpg"},
+						{"viewImg" : "it2.jpg"},
+						{"viewImg" : "it3.jpg"},
+						{"viewImg" : "it4.jpg"},
+						{"viewImg" : "it5.jpg"},
+						{"viewImg" : "it6.jpg"}
+					]
+				},
+				{
+					"color" : "#5b0336",
+					"thumb" : "",
+					"client" : "LG",
+					"prjName" : "LG Future reporter",
+					"subTitle" : "euro2012 tournament game",
+					"role" : "Lead developer",
+					"copyright" : "fishingtree",
+					"typeDev" : "HTML / Facebook / promotion",
+					"description" : "설명 8",
+					"imgs" : 
+					[
+						{"viewImg" : "eu0.jpg"},
+						{"viewImg" : "eu.jpg"}
+					]
+				},
+				{
+					"color" : "#095851",
+					"thumb" : "",
+					"client" : "KIA",
+					"prjName" : "Beat POP",
+					"subTitle" : "create your onw kia beat",
+					"role" : "Team member",
+					"copyright" : "fishingtree",
+					"typeDev" : "HTML / jQuery / Facebook / promotion",
+					"description" : "설명 8",
+					"imgs" : 
+					[
+						{"viewImg" : "bp0.jpg"},
+						{"viewImg" : "bp1.jpg"},
+						{"viewImg" : "bp2.jpg"},
+						{"viewImg" : "bp3.jpg"},
+						{"viewImg" : "bp4.jpg"},
+						{"viewImg" : "bp5.jpg"}
+					]
+				},
+				{
+					"color" : "#32312f",
+					"thumb" : "",
+					"client" : "Hyundai",
+					"prjName" : "Hyundai Global GBCS",
+					"subTitle" : "hyundai global gbcs",
+					"role" : "Lead developer",
+					"copyright" : "fishingtree",
+					"typeDev" : "HTML / jQuery / promotion",
+					"description" : "설명 8",
+					"imgs" : 
+					[
+						{"viewImg" : "gb0.jpg"},
+						{"viewImg" : "gb1.jpg"},
+						{"viewImg" : "gb2.jpg"}
 					]
 				}
 			]
