@@ -162,14 +162,12 @@ var Works = Works || function(){
 				index--;
 				if ( index < 0 ) {
 					index = 0;
-					return;
 				}
 				break;
 			case "btnNext":
 				index++;
 				if ( index > jsonResultModule.getJsonData()[0].work.length -1 ){
 					index = jsonResultModule.getJsonData()[0].work.length -1;
-					return;
 				}
 				break;
 		}
@@ -245,14 +243,12 @@ var Photos = Photos || function(){
 				index--;
 				if ( index < 0 ) {
 					index = 0;
-					return;
 				}
 				break;
 			case "btnNext":
 				index++;
 				if ( index > jsonResultModule.getJsonData()[1].photo.length -1 ){
 					index = jsonResultModule.getJsonData()[1].photo.length -1;
-					return;
 				}
 				break;
 		}
