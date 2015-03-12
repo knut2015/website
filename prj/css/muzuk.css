@@ -57,5 +57,5 @@ td.t_client { /*100px*/ width: 10.6%;}
 td.t_prjName { /*220px*/ width: 23.4%;}
 td.t_role { /*180px*/ width: 19.14%;}
 td.t_copy { /*220px*/ width: 23.4%;}
-tr:hover { color: #fff; background-color: #257390; }
+tr:hover { color: #fff; }
 tr:hover td { background-color: transparent; }

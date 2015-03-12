@@ -67,6 +67,7 @@ var Works = Works || function(){
 					);
 			}
 
+			$("tr:hover").css("background-color", jsonResultModule.getJsonData()[0].work[1].color;
 			$("tbody tr").on("click", function(){
 				var idx = $(this).index();
 				var title = jsonResultModule.getJsonData()[0].work[idx].prjName;
@@ -74,6 +75,7 @@ var Works = Works || function(){
 				var typeDev = jsonResultModule.getJsonData()[0].work[idx].typeDev;
 				var desc = jsonResultModule.getJsonData()[0].work[idx].description;
 				var role = jsonResultModule.getJsonData()[0].work[idx].role;
+				var color = jsonResultModule.getJsonData()[0].work[idx].color;
 				
 				for ( i = 0; i < jsonResultModule.getJsonData()[0].work[idx].imgs.length; i++){
 					console.log(jsonResultModule.getJsonData()[0].work[idx].imgs[i].viewImg);
@@ -84,7 +86,8 @@ var Works = Works || function(){
 					subTitle: subTitle,
 					typeDev: typeDev,
 					desc: desc,
-					role: role
+					role: role,
+					color: color
 				};
 
 				prj.viewDetail( config );
@@ -128,6 +131,8 @@ var Works = Works || function(){
 	$(".viewClose").on("click", function(){
 		prj.viewClose();
 	});
+
+
 }
 
 // photos
