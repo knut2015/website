@@ -2,12 +2,14 @@
 /* 모바일 (가로 480px 미만) 용 스타일 */
 @media only screen and (max-width: 479px) {
 	/* 480px 이상 */
+	.debug { background: red; }
 	.description div.default { display: none; color: red; }
 	.description div.mobile { display: block; }
 }
  
 @media only screen and (min-width: 480px) {
 	/* 480px 이상 */
+	.debug { background: yellow; }
 	.description div.default { display: none; }
 	.description div.mobile { display: block; }
 }
