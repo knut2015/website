@@ -45,7 +45,7 @@ h1 { font-size: 1em; font-family: 'MuseoSans_900'; width: 60px; margin: 24px aut
 /* work table */
 .workTable, .workView { width: 100%; height: 100%; position: absolute; top: 0; left: -100%; z-index: 900; display: none; overflow-y: auto; }
 .workTable { background: #222222; }
-.workView { background: #257390; }
+/*.workView { background: #257390; }*/
 
 div.workContent { position: relative; top: 15%; }
 
