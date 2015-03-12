@@ -189,7 +189,7 @@ var Photos = Photos || function(){
 		viewTransition: function( state ){
 			if ( state == "start"){
 				photoView.css('display', 'block').stop().animate({left: '0%'}, 400, function(){
-					photo.update();
+					photo.update( 0 );
 				});
 			}else if ( state == "end" ){
 				photoView.stop().animate({left: '-100%'}, 400, function(){
