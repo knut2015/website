@@ -203,7 +203,9 @@ var Photos = Photos || function(){
 		view: function( config ){
 			photoView.find("p.title").text( config.title );
 			photoView.find("p.date").text( config.date );
-			photoView.find("div.imgs").append("<img src='"+ config.imgs +"'>").fadeIn();
+			photoView.find("div.imgs").append("<img src='"+ config.imgs +"'>").load(function(){
+				$(this).fadeIn();
+			});
 		},
 		update: function( idx ){
 			var title = jsonResultModule.getJsonData()[1].photo[idx].title
