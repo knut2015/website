@@ -102,8 +102,8 @@ var Works = Works || function(){
 			prj.viewDetail( config );
 		},
 		listClose: function(){
-			workTable.stop().animate({left: '-100%'}, 400, function(){
-				$(this).css('display', 'none');
+			workTable.css('overflow-y','hidden').stop().animate({left: '-100%'}, 400, function(){
+				$(this).css('display':'none');
 				$("tbody").empty();
 			});
 		},
@@ -126,7 +126,7 @@ var Works = Works || function(){
 			});
 		},
 		viewClose: function(){
-			workTable.css('display', 'block');
+			workTable.css({'display':'block'});
 			workDetail.css('overflow-y', 'hidden').stop().animate({left: '-100%'}, 400, function(){
 				prj.detailImageInit();
 				$(this).css('display', 'none');
@@ -173,7 +173,6 @@ var Works = Works || function(){
 				}
 				break;
 		}
-		console.log(index);
 		prj.update( index );
 	}
 }
