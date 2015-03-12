@@ -193,11 +193,11 @@ var Photos = Photos || function(){
 					photo.update( 0 );
 				});
 			}else if ( state == "end" ){
-				photoView.css('overflow', 'hidden');/*
-				photoView.css('overflow', 'hidden').stop().animate({left: '-100%'}, 400, function(){
+				photoView.css('overflow', 'hidden');
+				photoView.stop().animate({left: '-100%'}, 400, function(){
 					photo.closePhoto();
 					$(this).css('display', 'none');
-				});*/
+				});
 			}
 		},
 		view: function( config ){
