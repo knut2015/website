@@ -48,7 +48,7 @@ h1 { font-size: 1em; font-family: 'MuseoSans_900'; width: 60px; margin: 24px aut
 /*.workView { background: #257390; }*/
 .photoView { background: #257390; }
 
-div.workContent { position: relative; top: 15%; }
+div.detialContent { position: relative; top: 15%; }
 
 table { width: 97.9%; text-align: center; margin: 0 auto; }
 th { font-size:  0.75em; /*12px*/}
