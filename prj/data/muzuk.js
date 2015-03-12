@@ -160,13 +160,13 @@ var Works = Works || function(){
 		prj.detailImageInit();
 
 		switch (event.currentTarget.className){
-			case "btnPhotoPrev":
+			case "btnPrev":
 				index--;
 				if ( index < 0 ) {
 					index = 0;
 				}
 				break;
-			case "btnPhotoNext":
+			case "btnNext":
 				index++;
 				if ( index > jsonResultModule.getJsonData()[0].work.length -1 ){
 					index = jsonResultModule.getJsonData()[0].work.length -1;
@@ -240,13 +240,13 @@ var Photos = Photos || function(){
 
 	function onClickDetailView(event){
 		switch (event.currentTarget.className){
-			case "btnPrev":
+			case "btnPhotoPrev":
 				index--;
 				if ( index < 0 ) {
 					index = 0;
 				}
 				break;
-			case "btnNext":
+			case "btnPhotoNext":
 				index++;
 				if ( index > jsonResultModule.getJsonData()[1].photo.length -1 ){
 					index = jsonResultModule.getJsonData()[1].photo.length -1;
