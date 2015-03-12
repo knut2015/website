@@ -194,10 +194,10 @@ var Photos = Photos || function(){
 					$(this).css('overflow-y', 'auto');
 				});
 			}else if ( state == "end" ){
-				photoView.css('overflow', 'none').stop().animate({left: '-100%'}, 400, function(){
+				photoView.css('overflow', 'none')/*.stop().animate({left: '-100%'}, 400, function(){
 					photo.closePhoto();
-					// $(this).css('display', 'none');
-				});
+					$(this).css('display', 'none');
+				});*/
 			}
 		},
 		view: function( config ){
