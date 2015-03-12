@@ -97,7 +97,7 @@
 					]
 				},
 				{
-					"color" : "#e5e6e8",
+					"color" : "#818890",
 					"thumb" : "",
 					"client" : "Nexentire",
 					"prjName" : "NEXEN",
@@ -151,6 +151,54 @@
 						{"viewImg" : "mdg3.jpg"},
 						{"viewImg" : "mdg4.jpg"},
 						{"viewImg" : "mdg5.jpg"}
+					]
+				},
+				{
+					"color" : "#ffd966",
+					"thumb" : "",
+					"client" : "KIA",
+					"prjName" : "Morning eco plus",
+					"subTitle" : "Good Morning Puzzle",
+					"role" : "lead developer",
+					"copyright" : "fishingtree",
+					"typeDev" : "promotion / actionscript / flashmotion",
+					"description" : "설명 8",
+					"imgs" : 
+					[
+						{"viewImg" : "m0.jpg"},
+						{"viewImg" : "m1.jpg"},
+						{"viewImg" : "m2.jpg"},
+						{"viewImg" : "m3.jpg"},
+						{"viewImg" : "m4.jpg"},
+						{"viewImg" : "m5.jpg"},
+						{"viewImg" : "m6.jpg"},
+						{"viewImg" : "m7.jpg"},
+						{"viewImg" : "m8.jpg"}
+					]
+				},
+				{
+					"color" : "#88bd3b",
+					"thumb" : "",
+					"client" : "KIA",
+					"prjName" : "Picanto Facebook promotion",
+					"subTitle" : "a world trip to geneva in Picanto",
+					"role" : "Team member",
+					"copyright" : "fishingtree",
+					"typeDev" : "promotion / actionscript / flashmotion",
+					"description" : "설명 8",
+					"imgs" : 
+					[
+						{"viewImg" : "p0.jpg"},
+						{"viewImg" : "p2.jpg"},
+						{"viewImg" : "p3.jpg"},
+						{"viewImg" : "p4.jpg"},
+						{"viewImg" : "p5.jpg"},
+						{"viewImg" : "p6.jpg"},
+						{"viewImg" : "p7.jpg"},
+						{"viewImg" : "p8.jpg"},
+						{"viewImg" : "p9.jpg"},
+						{"viewImg" : "p10.jpg"},
+						{"viewImg" : "p11.jpg"}
 					]
 				}
 			]
