@@ -141,7 +141,7 @@ var Works = Works || function(){
 
 	var prj = new Project();
 
-	workTable.css('display', 'block').stop().animate({left: '0%'}, 400, function(){
+	workTable.css({'display':'block', 'overflow-y':'auto'}).stop().animate({left: '0%'}, 400, function(){
 		prj.list();
 	});
 
