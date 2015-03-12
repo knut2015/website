@@ -7,10 +7,10 @@
 				{
 					"color" : "#257390",
 					"thumb" : "",
-					"client" : "hyunday",
-					"prjName" : "never ending ideas i30",
-					"subTitle" : "hyundai i30 renewal",
-					"role" : "lead developer",
+					"client" : "SKT",
+					"prjName" : "Song-do U-CITY",
+					"subTitle" : "Global Fair & Festival 2009 Incheon, Korea",
+					"role" : "Team member",
 					"copyright" : "fishingtree",
 					"typeDev" : "promotion / actionscript / flashmotion",
 					"description" : "설명 1",
@@ -26,49 +26,56 @@
 				{
 					"color" : "#222222",
 					"thumb" : "",
-					"client" : "Samsung",
-					"prjName" : "Samsung home application",
-					"subTitle" : "",
-					"role" : "lead developer",
+					"client" : "Hyundai",
+					"prjName" : "TucsonLM Global",
+					"subTitle" : "Tucson ix global model lunching",
+					"role" : "Team member",
 					"copyright" : "fishingtree",
-					"typeDev" : "HTML / javascript / CSS / jQuery",
+					"typeDev" : "promotion / actionscript / flashmotion",
 					"description" : "설명 2",
 					"imgs" : 
 					[
-						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/02/atickerjs.jpg"}
+						{"viewImg" : "ts0.jpg"},
+						{"viewImg" : "ts1.jpg"},
+						{"viewImg" : "ts2.jpg"},
+						{"viewImg" : "ts3.jpg"},
+						{"viewImg" : "ts4.jpg"},
+						{"viewImg" : "ts5.jpg"}
 					]
 				},
 				{
 					"color" : "#009900",
 					"thumb" : "",
-					"client" : "LG mobile",
-					"prjName" : "Optimus Black",
-					"subTitle" : "Optimusblack grand lunching",
+					"client" : "KIA",
+					"prjName" : "K5 Teaser",
+					"subTitle" : "K 시리즈, 그 두번째 이야기",
 					"role" : "lead developer",
 					"copyright" : "fishingtree",
 					"typeDev" : "promotion / actionscript / flashmotion",
 					"description" : "설명 3",
 					"imgs" : 
 					[
-						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k11.jpg"},
-						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k21.jpg"},
-						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k31.jpg"},
-						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k41.jpg"}
+						{"viewImg" : "k5t0.jpg"},
+						{"viewImg" : "k5t1.jpg"},
+						{"viewImg" : "k5t2.jpg"},
+						{"viewImg" : "k5t3.jpg"}
 					]
 				},
 				{
 					"color" : "",
 					"thumb" : "",
-					"client" : "Samsung",
-					"prjName" : "Samsung home application",
-					"subTitle" : "",
+					"client" : "KIA",
+					"prjName" : "THE WORLS BEST K5",
+					"subTitle" : "THE WORLS BEST K5",
 					"role" : "lead developer",
 					"copyright" : "fishingtree",
-					"typeDev" : "HTML / javascript / CSS / jQuery",
+					"typeDev" : "promotion / actionscript / flashmotion",
 					"description" : "설명 4",
 					"imgs" : 
 					[
-						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/02/atickerjs.jpg"}
+						{"viewImg" : "k5g0.jpg"},
+						{"viewImg" : "k5g1.jpg"},
+						{"viewImg" : "k5g2.jpg"}
 					]
 				},
 				{
