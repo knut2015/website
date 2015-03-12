@@ -20,10 +20,12 @@ function errorHandler(){
 
 // page complete
 function pageComplete(isComplete){
+	/*
 	console.log(jsonResultModule.getJsonData()[0].work[0].prjName);
 	console.log(jsonResultModule.getJsonData()[0].work[0].imgs[0].viewImg);
 	console.log(jsonResultModule.getJsonData()[1].photo[0].title);
 	console.log(jsonResultModule.getJsonData()[1].photo[1].title);
+	*/
 
 	if (isComplete){
 		pageView();
@@ -117,7 +119,7 @@ var Works = Works || function(){
 				for ( i = 0; i < jsonResultModule.getJsonData()[0].work[config.idx].imgs.length; i++){
 					
 					var imgs = jsonResultModule.getJsonData()[0].work[config.idx].imgs[i].viewImg;
-					$(".detailImages").append("<p><img src='"+imgs+"'></p>").fadeIn();
+					$(".detailImages").append("<p><img src='" + imgs + "'></p>").fadeIn();
 				}
 
 				workTable.fadeOut();
@@ -171,7 +173,7 @@ var Works = Works || function(){
 				}
 				break;
 		}
-
+		console.log(index);
 		prj.update( index );
 	}
 }
