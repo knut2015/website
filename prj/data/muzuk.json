@@ -81,67 +81,76 @@
 				{
 					"color" : "",
 					"thumb" : "",
-					"client" : "hyunday",
-					"prjName" : "never ending ideas i30",
-					"subTitle" : "hyundai i30 renewal",
+					"client" : "Bandai",
+					"prjName" : "Jungle Force",
+					"subTitle" : "Power Rangers Jungle Force",
 					"role" : "lead developer",
 					"copyright" : "fishingtree",
-					"typeDev" : "promotion / actionscript / flashmotion",
+					"typeDev" : "renewal / actionscript / flashmotion",
 					"description" : "설명 5",
 					"imgs" : 
 					[
-						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k11.jpg"},
-						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k21.jpg"},
-						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k31.jpg"},
-						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k41.jpg"}
+						{"viewImg" : "jg0.jpg"},
+						{"viewImg" : "jg1.jpg"},
+						{"viewImg" : "jg2.jpg"},
+						{"viewImg" : "jg3.jpg"}
 					]
 				},
 				{
 					"color" : "",
 					"thumb" : "",
-					"client" : "KIA",
-					"prjName" : "Picanto Facebook promotion",
-					"subTitle" : "",
-					"role" : "lead developer",
+					"client" : "Nexentire",
+					"prjName" : "NEXEN",
+					"subTitle" : "Driving Tomorrow, Nexen",
+					"role" : "Team member",
 					"copyright" : "fishingtree",
-					"typeDev" : "HTML / javascript / CSS / jQuery",
+					"typeDev" : "renewal / actionscript / flashmotion",
 					"description" : "설명 6",
 					"imgs" : 
 					[
-						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/02/atickerjs.jpg"}
+						{"viewImg" : "nx0.jpg"},
+						{"viewImg" : "nx1.jpg"},
+						{"viewImg" : "nx2.jpg"}
 					]
 				},
 				{
 					"color" : "",
 					"thumb" : "",
-					"client" : "hyunday",
+					"client" : "Hyunday",
 					"prjName" : "Avante",
 					"subTitle" : "Avante MD promotion",
-					"role" : "lead developer",
+					"role" : "Team member",
 					"copyright" : "fishingtree",
 					"typeDev" : "promotion / actionscript / flashmotion",
 					"description" : "설명 7",
 					"imgs" : 
 					[
-						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k11.jpg"},
-						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k21.jpg"},
-						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k31.jpg"},
-						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/09/k41.jpg"}
+						{"viewImg" : "mdt0.jpg"},
+						{"viewImg" : "mdt1.jpg"},
+						{"viewImg" : "mdt2.jpg"},
+						{"viewImg" : "mdt3.jpg"},
+						{"viewImg" : "mdt4.jpg"},
+						{"viewImg" : "mdt5.jpg"}
 					]
 				},
 				{
 					"color" : "",
 					"thumb" : "",
-					"client" : "Nexen Tire",
-					"prjName" : "Nexentire renewal",
-					"subTitle" : "",
-					"role" : "lead developer",
+					"client" : "Hyunday",
+					"prjName" : "Avante",
+					"subTitle" : "Avante MD promotion",
+					"role" : "Team member",
 					"copyright" : "fishingtree",
-					"typeDev" : "HTML / javascript / CSS / jQuery",
+					"typeDev" : "promotion / actionscript / flashmotion",
 					"description" : "설명 8",
 					"imgs" : 
 					[
-						{"viewImg" : "http://blog.cmiscm.com/wp-content/uploads/2014/02/atickerjs.jpg"}
+						{"viewImg" : "mdg0.jpg"},
+						{"viewImg" : "mdg1.jpg"},
+						{"viewImg" : "mdg2.jpg"},
+						{"viewImg" : "mdg3.jpg"},
+						{"viewImg" : "mdg4.jpg"},
+						{"viewImg" : "mdg5.jpg"}
 					]
 				}
 			]
