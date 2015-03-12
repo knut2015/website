@@ -225,7 +225,7 @@ var Photos = Photos || function(){
 			photo.view( config );
 		},
 		closePhoto: function(){
-			photoView.find("div.imgs").fadeOut().empty();
+			photoView.find("div.imgs").fadeOut(0).empty();
 		}
 	};
 
