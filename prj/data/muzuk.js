@@ -191,13 +191,13 @@ var Photos = Photos || function(){
 			if ( state == "start"){
 				photoView.css('display', 'block').stop().animate({left: '0%'}, 400, function(){
 					photo.update( 0 );
-					$(this).css('overflow-y', 'hidden');
 				});
 			}else if ( state == "end" ){
-				photoView.css('overflow-y', 'hidden').stop().animate({left: '-100%'}, 400, function(){
+				photoView.css('overflow', 'hidden');/*
+				photoView.css('overflow', 'hidden').stop().animate({left: '-100%'}, 400, function(){
 					photo.closePhoto();
 					$(this).css('display', 'none');
-				});
+				});*/
 			}
 		},
 		view: function( config ){
