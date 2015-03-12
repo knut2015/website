@@ -151,8 +151,8 @@ var Works = Works || function(){
 		prj.viewClose();
 	});
 
-	workView.find("a.btnPrev").on("click", onClickDetailView);
-	workView.find("a.btnNext").on("click", onClickDetailView);
+	workDetail.find("a.btnPrev").on("click", onClickDetailView);
+	workDetail.find("a.btnNext").on("click", onClickDetailView);
 
 	function onClickDetailView(event){
 		prj.detailImageInit();
