@@ -253,6 +253,7 @@ var Photos = Photos || function(){
 				break;
 		}
 
+		photo.closePhoto();
 		photo.update( index );
 	}
 }
