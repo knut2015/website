@@ -196,7 +196,7 @@ var Photos = Photos || function(){
 			}else if ( state == "end" ){
 				photoView.css('overflow', 'none').stop().animate({left: '0%'}, 400, function(){
 					photo.closePhoto();
-					$(this).css('display', 'none');
+					// $(this).css('display', 'none');
 				});
 			}
 		},
