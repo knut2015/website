@@ -103,7 +103,7 @@ var Works = Works || function(){
 		},
 		listClose: function(){
 			workTable.css('overflow-y','hidden').stop().animate({left: '-100%'}, 400, function(){
-				$(this).css('display':'none');
+				$(this).css('display','none');
 				$("tbody").empty();
 			});
 		},
