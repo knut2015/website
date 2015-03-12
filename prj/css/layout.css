@@ -1,8 +1,11 @@
 
 /* 모바일 (가로 480px 미만) 용 스타일 */
 @media only screen and (max-width: 479px) {
-	.description div.default { display: none; color: yellow; }
+	.content { width: 100%; }
+	.description { width: 80%; }
+	.description div.default { display: none; }
 	.description div.mobile { display: block; }
+	.btnView { width: 50%; margin: 10% auto; }
 }
  
 @media only screen and (min-width: 480px) {
