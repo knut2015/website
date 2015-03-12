@@ -203,8 +203,10 @@ var Photos = Photos || function(){
 		view: function( config ){
 			photoView.find("p.title").text( config.title );
 			photoView.find("p.date").text( config.date );
-			photoView.find("div.imgs").append("<img src='"+ config.imgs +"'>").load(function(){
-				$(this).fadeIn();
+			photoView.find("div.imgs").append("<img src='"+ config.imgs +"'>");
+			
+			$("div.imgs").find("img").load(function(){
+				photoView.find("div.imgs").fadeIn();
 			});
 		},
 		update: function( idx ){
