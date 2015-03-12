@@ -1,6 +1,6 @@
 
 /* 모바일 (가로 480px 미만) 용 스타일 */
-@media all screen and (max-width: 479px) {
+@media all (max-width: 479px) {
 	/* 480px 이상 */
 	.debug { background: red; }
 	.description p.default { display: none; color: red; }
