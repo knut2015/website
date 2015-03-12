@@ -234,6 +234,8 @@ var Photos = Photos || function(){
 	$(".btnNext").on("click", onClickDetailView);
 
 	function onClickDetailView(event){
+		console.log(jsonResultModule.getJsonData()[0].photo.length);
+		/*
 		switch (event.currentTarget.className){
 			case "btnPrev":
 				index--;
@@ -250,6 +252,7 @@ var Photos = Photos || function(){
 		}
 
 		photo.update( index );
+		/*
 	}
 }
 
