@@ -50,6 +50,8 @@ var ButtonClick = ButtonClick || function(){
 var Works = Works || function(){
 	var workTable = $(".workTable");
 	var workDetail = $(".workView");
+	var index = 0;
+
 	var Project = function(){}
 
 	Project.prototype = {
@@ -73,7 +75,7 @@ var Works = Works || function(){
 
 			$("tbody tr").on("click", function(){
 				var idx = $(this).index();
-				
+				index = idx;
 				prj.update( idx );
 			});
 		},
@@ -148,7 +150,20 @@ var Works = Works || function(){
 	$(".btnNext").on("click", onClickDetailView);
 
 	function onClickDetailView(event){
-		console.log(event.currentTarget.className);
+		switch (event.currentTarget.className){
+			case "btnPrev":
+				index--;
+				if ( index < 0 ) index = 0;
+				break;
+			case "btnNext":
+				index++;
+				if ( index > jsonResultModule.getJsonData()[0].work.length -1 ){
+					index = jsonResultModule.getJsonData()[0].work.length -1;
+				}
+				break;
+		}
+
+		prj.update( index );
 	}
 }
 
