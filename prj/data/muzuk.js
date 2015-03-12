@@ -119,7 +119,7 @@ var Works = Works || function(){
 		},
 		viewClose: function(){
 			workTable.css('display', 'block');
-			workDetail.css('overflow', 'hidden').stop().animate({left: '-100%'}, 400, function(){
+			workDetail.css('overflow-y', 'hidden').stop().animate({left: '-100%'}, 400, function(){
 				$(".detailImages").empty();
 				$(this).css('display', 'none');
 			});
