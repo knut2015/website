@@ -151,8 +151,8 @@ var Works = Works || function(){
 		prj.viewClose();
 	});
 
-	$(".btnPrev").on("click", onClickDetailView);
-	$(".btnNext").on("click", onClickDetailView);
+	workView.find("a.btnPrev").on("click", onClickDetailView);
+	workView.find("a.btnNext").on("click", onClickDetailView);
 
 	function onClickDetailView(event){
 		prj.detailImageInit();
@@ -161,14 +161,12 @@ var Works = Works || function(){
 			case "btnPrev":
 				index--;
 				if ( index < 0 ) {
-					// index = 0;
 					return;
 				}
 				break;
 			case "btnNext":
 				index++;
 				if ( index > jsonResultModule.getJsonData()[0].work.length -1 ){
-					// index = jsonResultModule.getJsonData()[0].work.length -1;
 					return;
 				}
 				break;
@@ -181,20 +179,78 @@ var Works = Works || function(){
 // photos
 var Photos = Photos || function(){
 	var photoView = $(".photoView");
-	
-	var Photo = function(){
+	var index = 0;
+
+	var Photograph = function(){
 
 	}
 
-	Photo.prototype = {
+	Photograph.prototype = {
+		viewTransition: function( state ){
+			if ( state == "start"){
+				photoView.css('display', 'block').stop().animate({left: '0%'}, 400, function(){
+					photo.update();
+				});
+			}else if ( state == "end" ){
+				photoView.stop().animate({left: '-100%'}, 400, function(){
+					photo.closePhoto();
+					$(this).css('display', 'none');
+				});
+			}
+		},
+		view: function( config ){
+			photoView.find("p.title").text( config.title );
+			photoView.find("p.date").text( config.date );
+			photoView.find("div").empty().append("<img src='"+ config.imgs +"'>");
+		},
+		update: function( idx ){
+			var title = jsonResultModule.getJsonData()[1].photo[idx].title
+			var date = jsonResultModule.getJsonData()[1].photo[idx].date;
+			var imgs = jsonResultModule.getJsonData()[1].photo[idx].viewimg;
+			var type = jsonResultModule.getJsonData()[1].photo[idx].type;
+			
+			var config = {
+				title: title,
+				date: date,
+				imgs: imgs,
+				type: type
+			};
 
+			photo.view( config );
+		},
+		closePhoto: function(){
+			photoView.find("div").empty();
+		}
 	};
 
-	var photo = new Photo();
+	var photo = new Photograph();
+	photo.viewTransition("start");
 
-	photoView.css('display', 'block').stop().animate({left: '0%'}, 400, function(){
-		// prj.list();
+	$(".closePhoto").on("click", function(){
+		photo.viewTransition("end");
 	});
+
+	photoView.find("a.btnPrev").on("click", onClickDetailView);
+	photoView.find("a.btnNext").on("click", onClickDetailView);
+
+	function onClickDetailView(event){
+		switch (event.currentTarget.className){
+			case "btnPrev":
+				index--;
+				if ( index < 0 ) {
+					return;
+				}
+				break;
+			case "btnNext":
+				index++;
+				if ( index > jsonResultModule.getJsonData()[0].photo.length -1 ){
+					return;
+				}
+				break;
+		}
+
+		photo.update( index );
+	}
 }
 
 // static page view
