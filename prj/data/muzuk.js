@@ -151,8 +151,8 @@ var Works = Works || function(){
 		prj.viewClose();
 	});
 
-	workDetail.find("a.btnPrev").on("click", onClickDetailView);
-	workDetail.find("a.btnNext").on("click", onClickDetailView);
+	$(".btnPrev").on("click", onClickDetailView);
+	$(".btnNext").on("click", onClickDetailView);
 
 	function onClickDetailView(event){
 		prj.detailImageInit();
@@ -230,8 +230,8 @@ var Photos = Photos || function(){
 		photo.viewTransition("end");
 	});
 
-	photoView.find("a.btnPrev").on("click", onClickDetailView);
-	photoView.find("a.btnNext").on("click", onClickDetailView);
+	$(".btnPrev").on("click", onClickDetailView);
+	$(".btnNext").on("click", onClickDetailView);
 
 	function onClickDetailView(event){
 		switch (event.currentTarget.className){
