@@ -3,8 +3,8 @@
 @media only screen and (max-width: 479px) {
 	/* 480px 이상 */
 	.debug { background: red; }
-	.description p.default { display: none; color: red; }
-	.description p.mobile { display: block; }
+	.description div.default { display: none; color: red; }
+	.description div.mobile { display: block; }
 }
  
 @media only screen and (min-width: 480px) {
