@@ -161,12 +161,14 @@ var Works = Works || function(){
 			case "btnPrev":
 				index--;
 				if ( index < 0 ) {
+					index = 0;
 					return;
 				}
 				break;
 			case "btnNext":
 				index++;
 				if ( index > jsonResultModule.getJsonData()[0].work.length -1 ){
+					index = jsonResultModule.getJsonData()[0].work.length -1;
 					return;
 				}
 				break;
@@ -201,7 +203,7 @@ var Photos = Photos || function(){
 		view: function( config ){
 			photoView.find("p.title").text( config.title );
 			photoView.find("p.date").text( config.date );
-			photoView.find("div.imgs").empty().append("<img src='"+ config.imgs +"'>");
+			photoView.find("div.imgs").empty().append("<img src='"+ config.imgs +"'>").fadeIn();
 		},
 		update: function( idx ){
 			var title = jsonResultModule.getJsonData()[1].photo[idx].title
@@ -219,7 +221,7 @@ var Photos = Photos || function(){
 			photo.view( config );
 		},
 		closePhoto: function(){
-			photoView.find("div").empty();
+			photoView.find("div.imgs").fadeOut().empty();
 		}
 	};
 
@@ -234,17 +236,18 @@ var Photos = Photos || function(){
 	$(".btnNext").on("click", onClickDetailView);
 
 	function onClickDetailView(event){
-		console.log(jsonResultModule.getJsonData()[1].photo);
 		switch (event.currentTarget.className){
 			case "btnPrev":
 				index--;
 				if ( index < 0 ) {
+					index = 0;
 					return;
 				}
 				break;
 			case "btnNext":
 				index++;
 				if ( index > jsonResultModule.getJsonData()[1].photo.length -1 ){
+					index = jsonResultModule.getJsonData()[1].photo.length -1;
 					return;
 				}
 				break;
