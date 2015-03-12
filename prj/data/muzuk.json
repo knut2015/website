@@ -143,15 +143,27 @@
 			"photo":
 			[
 				{
-					"title" : "hawaii",
+					"title" : "Hawaii",
 					"date" : "Feb.2014",
 					"viewimg" : "http://blog.cmiscm.com/wp-content/uploads/2011/12/d21.jpg",
 					"type" : "image"
 				},
 				{
-					"title" : "samchungdong",
+					"title" : "Samchungdong",
 					"date" : "Mar.2015",
-					"viewimg" : "http://blog.cmiscm.com/wp-content/uploads/2011/12/d21.jpg",
+					"viewimg" : "http://blog.cmiscm.com/wp-content/uploads/2011/12/d41.jpg",
+					"type" : "image"
+				},
+				{
+					"title" : "Jeju",
+					"date" : "Feb.2014",
+					"viewimg" : "http://blog.cmiscm.com/wp-content/uploads/2011/12/d31.jpg",
+					"type" : "image"
+				},
+				{
+					"title" : "House",
+					"date" : "Mar.2015",
+					"viewimg" : "http://blog.cmiscm.com/wp-content/uploads/2011/12/d11.jpg",
 					"type" : "image"
 				}
 			]
