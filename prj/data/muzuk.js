@@ -73,25 +73,29 @@ var Works = Works || function(){
 
 			$("tbody tr").on("click", function(){
 				var idx = $(this).index();
-				var title = jsonResultModule.getJsonData()[0].work[idx].prjName;
-				var subTitle = jsonResultModule.getJsonData()[0].work[idx].subTitle;
-				var typeDev = jsonResultModule.getJsonData()[0].work[idx].typeDev;
-				var desc = jsonResultModule.getJsonData()[0].work[idx].description;
-				var role = jsonResultModule.getJsonData()[0].work[idx].role;
-				var color = jsonResultModule.getJsonData()[0].work[idx].color;
 				
-				var config = {
-					idx: idx,
-					title: title,
-					subTitle: subTitle,
-					typeDev: typeDev,
-					desc: desc,
-					role: role,
-					color: color
-				};
-
-				prj.viewDetail( config );
+				prj.update( idx );
 			});
+		},
+		update: function( idx ){
+			var title = jsonResultModule.getJsonData()[0].work[idx].prjName;
+			var subTitle = jsonResultModule.getJsonData()[0].work[idx].subTitle;
+			var typeDev = jsonResultModule.getJsonData()[0].work[idx].typeDev;
+			var desc = jsonResultModule.getJsonData()[0].work[idx].description;
+			var role = jsonResultModule.getJsonData()[0].work[idx].role;
+			var color = jsonResultModule.getJsonData()[0].work[idx].color;
+			
+			var config = {
+				idx: idx,
+				title: title,
+				subTitle: subTitle,
+				typeDev: typeDev,
+				desc: desc,
+				role: role,
+				color: color
+			};
+
+			prj.viewDetail( config );
 		},
 		listClose: function(){
 			workTable.stop().animate({left: '-100%'}, 400, function(){
@@ -111,7 +115,7 @@ var Works = Works || function(){
 				for ( i = 0; i < jsonResultModule.getJsonData()[0].work[config.idx].imgs.length; i++){
 					
 					var imgs = jsonResultModule.getJsonData()[0].work[config.idx].imgs[i].viewImg;
-					$(".detailImages").append("<p><img src='"+imgs+"'></p>");
+					$(".detailImages").empty().append("<p><img src='"+imgs+"'></p>");
 				}
 
 				workTable.fadeOut();
@@ -140,7 +144,12 @@ var Works = Works || function(){
 		prj.viewClose();
 	});
 
+	$(".btnPrev").on("click", onClickDetailView);
+	$(".btnNext").on("click", onClickDetailView);
 
+	function onClickDetailView(event){
+		console.log($(this).className);
+	}
 }
 
 // photos
