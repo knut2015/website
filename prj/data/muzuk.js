@@ -234,7 +234,7 @@ var Photos = Photos || function(){
 	$(".btnNext").on("click", onClickDetailView);
 
 	function onClickDetailView(event){
-		console.log(jsonResultModule.getJsonData()[0].photo.length);
+		console.log(jsonResultModule.getJsonData()[0].photo);
 		/*
 		switch (event.currentTarget.className){
 			case "btnPrev":
