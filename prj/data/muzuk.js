@@ -80,11 +80,8 @@ var Works = Works || function(){
 				var role = jsonResultModule.getJsonData()[0].work[idx].role;
 				var color = jsonResultModule.getJsonData()[0].work[idx].color;
 				
-				for ( i = 0; i < jsonResultModule.getJsonData()[0].work[idx].imgs.length; i++){
-					console.log(jsonResultModule.getJsonData()[0].work[idx].imgs[i].viewImg);
-				}
-
 				var config = {
+					idx: idx,
 					title: title,
 					subTitle: subTitle,
 					typeDev: typeDev,
@@ -103,13 +100,18 @@ var Works = Works || function(){
 			});
 		},
 		viewDetail: function( config ){
-			alert(config.color);
 			workDetail.css({'display':'block', 'background':config.color}).stop().animate({left: '0%'}, 400, function(){
 				$(".viewDetail p.title").text(config.title);
 				$(".viewDetail p.subTitle").text(config.subTitle);
 				$(".viewDetail p.typeDev").text(config.typeDev);
 				$(".viewDetail p.desc").text(config.desc);
 				$(".viewDetail p.role").text(config.role);
+
+				for ( i = 0; i < jsonResultModule.getJsonData()[0].work[config.idx].imgs.length; i++){
+					console.log(jsonResultModule.getJsonData()[0].work[config.idx].imgs[i].viewImg);
+					var imgs = jsonResultModule.getJsonData()[0].work[config.idx].imgs[i].viewImg;
+					$(".detailImages").append("<p><img src='"+imgs+"'></p>");
+				}
 
 				workTable.fadeOut();
 			});
