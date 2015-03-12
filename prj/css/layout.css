@@ -3,33 +3,49 @@
 @media only screen and (max-width: 479px) {
 	/* 480px 이상 */
 	.debug { background: red; }
+	.description p.default { display: none; }
+	.description p.mobile { display: block; }
 }
  
 @media only screen and (min-width: 480px) {
 	/* 480px 이상 */
+	.description p.default { display: none; }
+	.description p.mobile { display: block; }
 }
 
 @media only screen and (min-width: 600px) {
 	/* 600px 이상 */
+	.description p.default { display: none; }
+	.description p.mobile { display: block; }
 }
 
 @media only screen and (min-width: 768px) {
 	/* 768px 이상 */
+	.description p.default { display: none; }
+	.description p.mobile { display: block; }
 }
 
 @media only screen and (min-width: 992px) {
 	/* 992px 이상 */
+	.description p.default { display: block; }
+	.description p.mobile { display: none; }
 }
 
 @media only screen and (min-width: 1382px) {
 	/* 1382px 이상 */
+	.description p.default { display: block; }
+	.description p.mobile { display: none; }
 }
 
 @media only screen and (min-width: 1600px) {
 	/* 1600px 이상 */
+	.description p.default { display: block; }
+	.description p.mobile { display: none; }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
 	/* iPhone4+ 레티나 디스플레이 */
+	.description p.default { display: block; }
+	.description p.mobile { display: none; }
 }
 
