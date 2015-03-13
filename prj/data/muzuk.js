@@ -53,13 +53,19 @@ var Works = Works || function(){
 		list: function(){
 			var i;
 			for ( i = 0; i < jsonResultModule.getJsonData()[0].work.length; i++ ){
-				$("tbody").append(
+				$("tbody.default").append(
 						"<tr>"+
 							"<td class='t_thumb'>"+jsonResultModule.getJsonData()[0].work[i].thumb+"</td>"+
 							"<td class='t_client'>"+jsonResultModule.getJsonData()[0].work[i].client+"</td>"+
 							"<td class='t_prjName'>"+jsonResultModule.getJsonData()[0].work[i].prjName+"</td>"+
 							"<td class='t_role'>"+jsonResultModule.getJsonData()[0].work[i].role+"</td>"+
 							"<td class='t_copy'>"+jsonResultModule.getJsonData()[0].work[i].copyright+"</td>"+
+						"</tr>"
+					);
+				$("tbody.mobile").append(
+						"<tr>"+
+							"<td class='t_thumb'>"+jsonResultModule.getJsonData()[0].work[i].thumb+"</td>"+
+							"<td class='t_prjName'>"+jsonResultModule.getJsonData()[0].work[i].prjName+"</td>"+
 						"</tr>"
 					);
 			}
@@ -112,7 +118,7 @@ var Works = Works || function(){
 				for ( i = 0; i < jsonResultModule.getJsonData()[0].work[config.idx].imgs.length; i++){
 					
 					var imgs = jsonResultModule.getJsonData()[0].work[config.idx].imgs[i].viewImg;
-					$(".detailImages").append("<p><img src='./image/uploads/" + imgs + "'></p>").fadeIn();
+					$(".detailI mages").append("<p><img src='./image/uploads/" + imgs + "'></p>").fadeIn();
 				}
 
 				workTable.fadeOut();

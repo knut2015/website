@@ -3,8 +3,8 @@
 @media only screen and (max-width: 479px) {
 	.content { width: 100%; }
 	.description { width: 80%; }
-	.description div.default { display: none; }
-	.description div.mobile { display: block; }
+	.default { display: none; }
+	.mobile { display: block; }
 	.btnView { width: 50%; margin: 10% auto; max-width: 180px; }
 	.arrowContainer { display: none; }
 }
