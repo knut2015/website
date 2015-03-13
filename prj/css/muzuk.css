@@ -47,7 +47,7 @@ h1 { font-size: 1em; font-family: 'MuseoSans_900'; width: 60px; margin: 24px aut
 .workTable { background: #222222; }
 .workTable div.title { position: relative; left: 4%; font-family: 'MuseoSans_500'; font-size: 1.5em; }
 .workTable p.desc { position: relative; left: 4%; font-family: 'MuseoSans_300'; font-size: 0.75em; }
-.workTable div.listClose { position: relative; right: 0%; }
+.workTable div.listClose { position: absolute; top: 0; right: 0%; }
 /*.workView { background: #257390; }*/
 .photoView { background: #257390; }
 
