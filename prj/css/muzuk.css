@@ -53,7 +53,7 @@ h1 { font-size: 1em; font-family: 'MuseoSans_900'; width: 60px; margin: 24px aut
 
 div.detialContent { position: relative; top: 15%; }
 
-table { width: 97.9%; text-align: center; margin: 0 auto; }
+table { width: 97.9%; text-align: center; margin: 10% auto; }
 th { font-size:  0.75em; /*12px*/}
 tbody td { height: 124px; vertical-align: middle; background: #333333; border-bottom: 1px solid #222; }
 td.t_thumb { /*220px*/ width: 23.4%;}
