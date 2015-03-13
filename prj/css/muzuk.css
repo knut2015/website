@@ -45,9 +45,9 @@ h1 { font-size: 1em; font-family: 'MuseoSans_900'; width: 60px; margin: 24px aut
 /* work table */
 .workTable, .workView, .photoView { width: 100%; height: 100%; position: absolute; top: 0; left: -100%; z-index: 900; display: none; overflow-y: auto; }
 .workTable { background: #222222; }
-.workTable div.title { font-family: 'MuseoSans_500'; font-size: 1.5em; }
-.workTable p.desc { font-family: 'MuseoSans_300'; font-size: 0.75em; }
-.workTable div.listClose { position: fixed; top: 100px; right: 0; }
+.workTable div.title { position: relative; left: 4%; font-family: 'MuseoSans_500'; font-size: 1.5em; }
+.workTable p.desc { position: relative; left: 4%; font-family: 'MuseoSans_300'; font-size: 0.75em; }
+.workTable div.listClose { position: fixed; top: 100px; right: 10%; }
 /*.workView { background: #257390; }*/
 .photoView { background: #257390; }
 
