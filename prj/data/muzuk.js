@@ -53,7 +53,7 @@ var Works = Works || function(){
 		list: function(){
 			var i;
 			for ( i = 0; i < jsonResultModule.getJsonData()[0].work.length; i++ ){
-				$("tbody.default").append(
+				$("tbody").append(
 						"<tr>"+
 							"<td class='t_thumb'>"+jsonResultModule.getJsonData()[0].work[i].thumb+"</td>"+
 							"<td class='t_client'>"+jsonResultModule.getJsonData()[0].work[i].client+"</td>"+
