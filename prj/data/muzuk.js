@@ -62,12 +62,6 @@ var Works = Works || function(){
 							"<td class='t_copy'>"+jsonResultModule.getJsonData()[0].work[i].copyright+"</td>"+
 						"</tr>"
 					);
-				$("tbody.mobile").append(
-						"<tr>"+
-							"<td class='t_thumb'>"+jsonResultModule.getJsonData()[0].work[i].thumb+"</td>"+
-							"<td class='t_prjName'>"+jsonResultModule.getJsonData()[0].work[i].prjName+"</td>"+
-						"</tr>"
-					);
 			}
 
 			$("tbody tr").hover(function(){
