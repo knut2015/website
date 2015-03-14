@@ -50,7 +50,7 @@ h1 { font-size: 1em; font-family: 'MuseoSans_900'; width: 60px; margin: 24px aut
 .workTable div.listClose { position: absolute; top: 0; right: 10%; }
 
 .workView p.title { font-family: 'MuseoSans_500'; font-size: 2em; }
-.nbg { font-family: 'NanumBarun'; font-size: 0.75%; }
+.nbg { font-family: 'NanumBarun'; font-size: 0.75%; line-height: 10%; }
 .workView p.subTitle { font-family: 'NanumBarun'; font-size: 0.875%; }
 .workView p.typeDev {  }
 .workView p.desc {  } 
