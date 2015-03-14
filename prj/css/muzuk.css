@@ -48,10 +48,19 @@ h1 { font-size: 1em; font-family: 'MuseoSans_900'; width: 60px; margin: 24px aut
 .workTable div.title { position: relative; left: 4%; font-family: 'MuseoSans_500'; font-size: 1.5em; }
 .workTable p.desc { position: relative; left: 4%; font-family: 'MuseoSans_300'; font-size: 0.75em; padding: 1% 0; }
 .workTable div.listClose { position: absolute; top: 0; right: 10%; }
-/*.workView { background: #257390; }*/
+
+.workView p.title { font-family: 'MuseoSans_500'; font-size: 2em; }
+.nbg { font-family: 'NanumBarun'; font-size: 0.75%; }
+.workView p.subTitle { font-size: 0.875%; }
+.workView p.typeDev {  }
+.workView p.desc {  } 
+.workView p.role {  }
+.workView div.viewClose {  }
+.workView div.detailImages { margin: 0 auto; }
+
 .photoView { background: #257390; }
 
-div.detialContent { position: relative; top: 15%; }
+div.detialContent { position: relative; top: 15%; max-width: 1000px; margin: 0 auto; }
 
 table { width: 97.9%; text-align: center; margin: 5% auto; }
 th { font-size:  0.75em; /*12px*/}
