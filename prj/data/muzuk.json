@@ -5,7 +5,23 @@
 			"work":
 			[
 				{
-					"color" : "#725d1a",
+					"color" : "#a09290",
+					"thumb" : "",
+					"client" : "Sungkwang High school",
+					"prjName" : "[ 게이트 뷰 ] 성광여고 갤러리",
+					"subTitle" : "성광여고 갤러리 뷰",
+					"role" : "Lead developer",
+					"copyright" : "Daum fingertouch",
+					"typeDev" : "Digital Signage / HTML / jQuery",
+					"description" : "ajax로 xml데이터를 받아와 커버플로우 갤러리를 제작 학교내에 게이트 뷰라는 사이니지 장비가 설치되었다 participation rate: 100%",
+					"imgs" : 
+					[
+						{"viewImg" : "sg0.jpg"},
+						{"viewImg" : "sg1.jpg"}
+					]
+				},
+				{
+					"color" : "#4c8afb",
 					"thumb" : "",
 					"client" : "Daum",
 					"prjName" : "[ 디지털 뷰 ] 다음 만화세상. 생존 아이템을 찾아라!",
