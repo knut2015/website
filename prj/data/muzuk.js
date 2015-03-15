@@ -30,7 +30,7 @@ function pageComplete(isComplete){
 var ButtonClick = ButtonClick || function(){
 	$(".btnView").on("click", onBtnClickHandler);
 	function onBtnClickHandler(event){
-		$("header").stop().animate({top: -100px}, 300);
+		$("header").stop().animate({top: -100}, 300);
 		switch ($(this).text()){
 			case "VIEW PROJECT":
 				Works();
@@ -100,7 +100,7 @@ var Works = Works || function(){
 				$(this).css('display','none');
 				$("tbody").empty();
 			});
-			$("header").stop().animate({top: 0px}, 300);
+			$("header").stop().animate({top: 0}, 300);
 		},
 		viewDetail: function( config ){
 			workDetail.css({'display':'block', 'background':config.color}).stop().animate({left: '0%'}, 400, function(){
@@ -222,7 +222,7 @@ var Photos = Photos || function(){
 		},
 		closePhoto: function(){
 			photoView.find("div.imgs").fadeOut(0).empty();
-			$("header").stop().animate({top: 0px}, 300);
+			$("header").stop().animate({top: 0}, 300);
 		}
 	};
 
