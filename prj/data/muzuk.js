@@ -123,7 +123,7 @@ var Works = Works || function(){
 		},
 		viewClose: function(){
 			workTable.css({'display':'block'});
-			workDetail.css('overflow-y', 'hidden').stop().animate({left: '-100%'}, 'easeInOutExpo', 400, function(){
+			workDetail.css('overflow-y', 'hidden').stop().animate({left: '-100%'}, 400, function(){
 				prj.detailImageInit();
 				$(this).css('display', 'none');
 			});
