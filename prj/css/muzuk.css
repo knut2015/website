@@ -60,7 +60,7 @@ h1 { font-size: 1em; font-family: 'MuseoSans_900'; width: 60px; margin: 24px aut
 .workView div.detailImages { margin: 0 auto; }
 .workView div.workArrow { position: fixed; top: 50%; left: 0%; width: 100% }
 .workView div.workArrow div.viewPrev { position: absolute; left: 4%; }
-.workView div.workArrow div.viewNext { position: absolute; right: 9%; }
+.workView div.workArrow div.viewNext { position: absolute; right: 5%; }
 
 .photoView { background: #257390; }
 
