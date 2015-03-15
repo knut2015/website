@@ -4,7 +4,54 @@
 		{
 			"work":
 			[
-				
+				{
+					"color" : "#ffcc42",
+					"thumb" : "",
+					"client" : "Daum",
+					"prjName" : "[ 디지털 뷰 ] 오늘 당신의 선택은?",
+					"subTitle" : "오늘 당신의 선택은?",
+					"role" : "Lead developer",
+					"copyright" : "Daum fingertouch",
+					"typeDev" : "Digital Signage / actionscript",
+					"description" : "이상형 월드컵과 같은 다양한 주제로 토너먼트 구현 webservice를 이용해 실시간으로 업데이트 되며, 토너먼트 외에 투표를 진행하는 컨텐츠도 제작 participation rate: 100%",
+					"imgs" : 
+					[
+						{"viewImg" : "vo0.jpg"},
+						{"viewImg" : "vo1.jpg"},
+						{"viewImg" : "vo2.jpg"}
+					]
+				},
+				{
+					"color" : "#17827b",
+					"thumb" : "",
+					"client" : "Daum",
+					"prjName" : "[ 디지털 뷰 ] 2014 프로야구 - DaumSports",
+					"subTitle" : "2014 프로야구",
+					"role" : "Lead developer",
+					"copyright" : "Daum fingertouch",
+					"typeDev" : "Digital Signage / actionscript",
+					"description" : "2014 프로야구 하이라이트 다음 제주본사에서 매일 데이터를 업데이트를 한다. 콘솔과 NCF연동 인터페이스 구현 participation rate: 100%",
+					"imgs" : 
+					[
+						{"viewImg" : "ds0.jpg"}
+					]
+				},
+				{
+					"color" : "#a09290",
+					"thumb" : "",
+					"client" : "Sungkwang High school",
+					"prjName" : "[ 게이트 뷰 ] 성광여고 갤러리",
+					"subTitle" : "성광여고 갤러리 뷰",
+					"role" : "Lead developer",
+					"copyright" : "Daum fingertouch",
+					"typeDev" : "Digital Signage / HTML / jQuery",
+					"description" : "ajax로 xml데이터를 받아와 커버플로우 갤러리를 제작 학교내에 게이트 뷰라는 사이니지 장비가 설치되었다. participation rate: 100%",
+					"imgs" : 
+					[
+						{"viewImg" : "sg0.jpg"},
+						{"viewImg" : "sg1.jpg"}
+					]
+				},
 				{
 					"color" : "#4c8afb",
 					"thumb" : "",
