@@ -118,6 +118,7 @@ var Works = Works || function(){
 				}
 
 				workTable.fadeOut();
+				$(".block").css('display', 'none');
 			});
 		},
 		viewClose: function(){
@@ -168,7 +169,8 @@ var Works = Works || function(){
 				}
 				break;
 		}
-		prj.update( index );
+		$(".block").css('display', 'block');
+		// prj.update( index );
 	}
 }
 
