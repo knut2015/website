@@ -47,7 +47,7 @@ h1 { font-size: 1em; font-family: 'MuseoSans_900'; width: 60px; margin: 24px aut
 .workTable { background: #222222; }
 .workTable div.title { position: relative; left: 4%; font-family: 'MuseoSans_500','NanumBarun'; font-size: 1.5em; }
 .workTable p.desc { position: relative; left: 4%; font-family: 'MuseoSans_300','NanumBarun'; font-size: 0.75em; padding: 1% 0; }
-.workTable div.listClose { position: absolute; top: 0; right: 10%; }
+.workTable div.listClose { position: absolute; top: 0; right: 5%; }
 
 .workView p.title { font-family: 'MuseoSans_500','NanumBarun'; font-size: 2em; }
 .nbg { font-family: 'NanumBarun'; font-size: 0.75em; line-height: 130%; }
