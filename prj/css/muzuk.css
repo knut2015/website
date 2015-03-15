@@ -53,7 +53,7 @@ h1 { font-size: 1em; font-family: 'MuseoSans_900'; width: 60px; margin: 24px aut
 .nbg { font-family: 'NanumBarun'; font-size: 0.75em; line-height: 130%; }
 .workView p.subTitle { font-family: 'NanumBarun'; font-size: 0.875em; margin: 30px 0; }
 .workView p.typeDev {  }
-.workView p.desc { padding-bottom: 10px; } 
+.workView p.desc { padding-bottom: 10px; width: 70%; } 
 .workView p.role { margin-bottom: 30px; }
 .workView p.staticTtl { font-weight: bold; margin-top: 30px; }
 .workView div.viewClose { position: absolute; top: 0; right: 0; width: 45px; }
@@ -63,6 +63,9 @@ h1 { font-size: 1em; font-family: 'MuseoSans_900'; width: 60px; margin: 24px aut
 .workView div.workArrow div.viewNext { position: absolute; right: 5%; }
 
 .photoView { background: #257390; }
+.photoArrow { position: absolute; top: 50%; width: 100; }
+.p_view { position: absolute; left: 0; }
+.n_view { position: absolute; right: 0; }
 
 div.detialContent { position: relative; top: 15%; max-width: 1000px; margin: 0 auto; }
 
