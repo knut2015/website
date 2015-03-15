@@ -68,7 +68,7 @@ h1 { font-size: 1em; font-family: 'MuseoSans_900'; width: 60px; margin: 24px aut
 .photoArrow { position: absolute; top: 50%; width: 100%; }
 .p_view { position: absolute; left: 0; }
 .n_view { position: absolute; right: 0; }
-.closePhoto { position: absolute; width: 45px; margin: 0 auto; }
+.closePhoto { position: relative; width: 45px; margin: 0 auto; margin-top: -40px; }
 
 div.detialContent { position: relative; top: 15%; max-width: 1000px; margin: 0 auto; }
 
