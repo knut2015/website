@@ -123,7 +123,7 @@ var Works = Works || function(){
 		},
 		viewClose: function(){
 			workTable.css({'display':'block'});
-			workDetail.css('overflow-y', 'hidden').stop().animate({left: '-100%'}, 400, function(){
+			workDetail.css('overflow-y', 'hidden').stop().animate({left: '-100%'}, 'easeInOutExpo', 400, function(){
 				prj.detailImageInit();
 				$(this).css('display', 'none');
 			});
@@ -137,7 +137,7 @@ var Works = Works || function(){
 
 	var prj = new Project();
 
-	workTable.css({'display':'block', 'overflow-y':'auto'}).stop().animate({left: '0%'}, 400, function(){
+	workTable.css({'display':'block', 'overflow-y':'auto'}).stop().animate({left: '0%'}, 400, 'easeInOutExpo', function(){
 		prj.list();
 	});
 
@@ -187,12 +187,12 @@ var Photos = Photos || function(){
 		viewTransition: function( state ){
 			if ( state == "start"){
 				photoView.css('overflow-y', 'auto');
-				photoView.css('display', 'block').stop().animate({left: '0%'}, 400, function(){
+				photoView.css('display', 'block').stop().animate({left: '0%'}, 'easeInOutExpo', 400, function(){
 					photo.update( 0 );
 				});
 			}else if ( state == "end" ){
 				photoView.css('overflow-y', 'hidden');
-				photoView.stop().animate({left: '-100%'}, 400, function(){
+				photoView.stop().animate({left: '-100%'}, 'easeInOutExpo', 400, function(){
 					photo.closePhoto();
 					$(this).css('display', 'none');
 				});
