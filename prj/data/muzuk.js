@@ -198,7 +198,7 @@ var Photos = Photos || function(){
 			}else if ( state == "end" ){
 				photoView.css('overflow-y', 'hidden');
 				photoView.stop().animate({left: '-100%'}, 200, function(){
-					photo.closePhoto();
+					photo.closePhoto(true);
 					$(this).css('display', 'none');
 				});
 			}
@@ -227,9 +227,11 @@ var Photos = Photos || function(){
 
 			photo.view( config );
 		},
-		closePhoto: function(){
+		closePhoto: function(val){
 			photoView.find("div.imgs").fadeOut(0).empty();
-			$("header").stop().animate({top: 0}, 300);
+			if (val){
+				$("header").stop().animate({top: 0}, 300);
+			}
 		}
 	};
 
@@ -259,7 +261,7 @@ var Photos = Photos || function(){
 				break;
 		}
 
-		photo.closePhoto();
+		photo.closePhoto(false);
 		photo.update( index );
 	}
 }
