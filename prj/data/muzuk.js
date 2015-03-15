@@ -205,7 +205,7 @@ var Photos = Photos || function(){
 		},
 		view: function( config ){
 			photoView.find("p.title").text( config.title );
-			photoView.find("p.date").text( config.date );
+			// photoView.find("p.date").text( config.date );
 			photoView.find("div.imgs").empty().append("<img src='"+ config.imgs +"'>");
 			
 			$("div.imgs").find("img").load(function(){
