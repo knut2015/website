@@ -5,6 +5,45 @@
 			"work":
 			[
 				{
+					"color" : "#725d1a",
+					"thumb" : "",
+					"client" : "Daum",
+					"prjName" : "Daum Webtoon",
+					"subTitle" : "Daum Webtoon mini game",
+					"role" : "Lead developer",
+					"copyright" : "Daum fingertouch",
+					"typeDev" : "Digital Signage / promotion / actionscript",
+					"description" : "다음 웹툰 '1호선' 이벤트 프로모션
+디지털뷰에서 1호선 웹툰의 미리보기 및 숨은그림찾기 미니게임 진행
+지하철 역사에 있기 때문에 빠르고 정확한 게임 진행이 고려되었다
+전화번호 입력 후 바로 문자 메시지로 당첨여부 확인",
+					"imgs" : 
+					[
+						{"viewImg" : "da0.jpg"},
+						{"viewImg" : "da1.jpg"},
+						{"viewImg" : "da2.jpg"},
+						{"viewImg" : "da3.jpg"}
+					]
+				},
+				{
+					"color" : "#e60012",
+					"thumb" : "",
+					"client" : "Homeplus",
+					"prjName" : "Homeplus Digital Signage",
+					"subTitle" : "Homeplus Digital Magazine",
+					"role" : "Lead developer",
+					"copyright" : "Daum fingertouch",
+					"typeDev" : "Digital Signage / promotion / actionscript",
+					"description" : "설명 1",
+					"imgs" : 
+					[
+						{"viewImg" : "hz0.jpg"},
+						{"viewImg" : "hz1.jpg"},
+						{"viewImg" : "hz2.jpg"},
+						{"viewImg" : "hz3.jpg"}
+					]
+				},
+				{
 					"color" : "#8aafcc",
 					"thumb" : "",
 					"client" : "SKT",
@@ -12,7 +51,7 @@
 					"subTitle" : "Global Fair & Festival 2009 Incheon, Korea",
 					"role" : "Team member",
 					"copyright" : "fishingtree",
-					"typeDev" : "promotion / actionscript / flashmotion",
+					"typeDev" : "Digital Signage / promotion / actionscript / flashmotion",
 					"description" : "설명 1",
 					"imgs" : 
 					[
