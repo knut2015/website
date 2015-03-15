@@ -63,9 +63,12 @@ h1 { font-size: 1em; font-family: 'MuseoSans_900'; width: 60px; margin: 24px aut
 .workView div.workArrow div.viewNext { position: absolute; right: 5%; }
 
 .photoView { background: #257390; }
-.photoArrow { position: absolute; top: 50%; width: 100; }
+.photoView p.title { font-family: 'MuseoSans_500','NanumBarun'; font-size: 1em; color: white; }
+.photoView p.date { font-family: 'MuseoSans_500','NanumBarun'; font-size: 0.75em; color: white; }
+.photoArrow { position: absolute; top: 50%; width: 100%; }
 .p_view { position: absolute; left: 0; }
 .n_view { position: absolute; right: 0; }
+.closePhoto { position: absolute; width: 45px; margin: 0 auto; }
 
 div.detialContent { position: relative; top: 15%; max-width: 1000px; margin: 0 auto; }
 
