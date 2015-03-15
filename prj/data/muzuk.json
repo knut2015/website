@@ -13,7 +13,8 @@
 					"role" : "Lead developer",
 					"copyright" : "Daum fingertouch",
 					"typeDev" : "Digital Signage / HTML / jQuery",
-					"description" : "ajax로 xml데이터를 받아와 커버플로우 갤러리를 제작 학교내에 게이트 뷰라는 사이니지 장비가 설치되었다 participation rate: 100%",
+					"description" : "ajax로 xml데이터를 받아와 커버플로우 갤러리를 제작 학교내에 게이트 뷰라는 사이니지 장비가 설치되었다 
+					participation rate: 100%",
 					"imgs" : 
 					[
 						{"viewImg" : "sg0.jpg"},
