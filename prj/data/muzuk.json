@@ -5,6 +5,24 @@
 			"work":
 			[
 				{
+					"color" : "#17827b",
+					"thumb" : "",
+					"client" : "Daum",
+					"prjName" : "[ 디지털 뷰 ] 2014 프로야구 - DaumSports",
+					"subTitle" : "2014 프로야구",
+					"role" : "Lead developer",
+					"copyright" : "Daum fingertouch",
+					"typeDev" : "Digital Signage / actionscript",
+					"description" : "2014 프로야구 하이라이트
+다음 제주본사에서 매일 데이터를 업데이트를 한다
+콘솔과 NCF연동 인터페이스 구현
+participation rate: 100%",
+					"imgs" : 
+					[
+						{"viewImg" : "ds0.jpg"}
+					]
+				},
+				{
 					"color" : "#a09290",
 					"thumb" : "",
 					"client" : "Sungkwang High school",
