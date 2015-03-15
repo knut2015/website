@@ -58,7 +58,9 @@ h1 { font-size: 1em; font-family: 'MuseoSans_900'; width: 60px; margin: 24px aut
 .workView p.staticTtl { font-weight: bold; margin-top: 30px; }
 .workView div.viewClose { position: absolute; top: 0; right: 0; width: 45px; }
 .workView div.detailImages { margin: 0 auto; }
-.workView div.arrowContainer { position: absolute; top: 50%; }
+.workView div.arrowContainer { position: fixed; top: 50%; left: 0%; width: 100% }
+.workView div.arrowContainer div.viewPrev { position: absolute; left: 4%; }
+.workView div.arrowContainer div.viewNext { position: absolute; right: 9%; }
 
 .photoView { background: #257390; }
 
