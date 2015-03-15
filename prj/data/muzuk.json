@@ -4,42 +4,7 @@
 		{
 			"work":
 			[
-				{
-					"color" : "#725d1a",
-					"thumb" : "",
-					"client" : "Daum",
-					"prjName" : "Daum Webtoon",
-					"subTitle" : "Daum Webtoon mini game",
-					"role" : "Lead developer",
-					"copyright" : "Daum fingertouch",
-					"typeDev" : "Digital Signage / promotion / actionscript",
-					"description" : "",
-					"imgs" : 
-					[
-						{"viewImg" : "da0.jpg"},
-						{"viewImg" : "da1.jpg"},
-						{"viewImg" : "da2.jpg"},
-						{"viewImg" : "da3.jpg"}
-					]
-				},
-				{
-					"color" : "#e60012",
-					"thumb" : "",
-					"client" : "Homeplus",
-					"prjName" : "Homeplus Digital Signage",
-					"subTitle" : "Homeplus Digital Magazine",
-					"role" : "Lead developer",
-					"copyright" : "Daum fingertouch",
-					"typeDev" : "Digital Signage / promotion / actionscript",
-					"description" : "설명 1",
-					"imgs" : 
-					[
-						{"viewImg" : "hz0.jpg"},
-						{"viewImg" : "hz1.jpg"},
-						{"viewImg" : "hz2.jpg"},
-						{"viewImg" : "hz3.jpg"}
-					]
-				},
+				
 				{
 					"color" : "#8aafcc",
 					"thumb" : "",
