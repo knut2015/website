@@ -114,8 +114,8 @@ var Works = Works || function(){
 				for ( i = 0; i < jsonResultModule.getJsonData()[0].work[config.idx].imgs.length; i++){
 					
 					var imgs = jsonResultModule.getJsonData()[0].work[config.idx].imgs[i].viewImg;
-					$(".detailImages").append("<p><img src='./image/uploads/" + imgs + "'></p>");
-					// $(".detailImages p img").css('display', 'none');
+					$(".detailImages").append("<p><img src='./image/uploads/" + imgs + "'></p>").fadeIn();
+					$(".detailImages p img").css('display', 'none');
 				}
 
 				$(".detailImages p img").load(function(){

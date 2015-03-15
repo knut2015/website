@@ -246,8 +246,8 @@
 					]
 				},
 				{
-					"color" : "th20.jpg#2e3841",
-					"thumb" : "",
+					"color" : "#2e3841",
+					"thumb" : "th20.jpg",
 					"client" : "Hyundai",
 					"prjName" : "TucsonLM Global",
 					"subTitle" : "Tucson ix global model lunching",
