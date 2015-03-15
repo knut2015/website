@@ -13,9 +13,7 @@
 					"role" : "Lead developer",
 					"copyright" : "Daum fingertouch",
 					"typeDev" : "Digital Signage / actionscript",
-					"description" : "이상형 월드컵과 같은 다양한 주제로 토너먼트 구현
-webservice를 이용해 실시간으로 업데이트 되며, 토너먼트 외에 투표를 진행하는 컨텐츠도 제작
-participation rate: 100%",
+					"description" : "이상형 월드컵과 같은 다양한 주제로 토너먼트 구현 webservice를 이용해 실시간으로 업데이트 되며, 토너먼트 외에 투표를 진행하는 컨텐츠도 제작 participation rate: 100%",
 					"imgs" : 
 					[
 						{"viewImg" : "vo0.jpg"},
@@ -32,10 +30,7 @@ participation rate: 100%",
 					"role" : "Lead developer",
 					"copyright" : "Daum fingertouch",
 					"typeDev" : "Digital Signage / actionscript",
-					"description" : "2014 프로야구 하이라이트
-다음 제주본사에서 매일 데이터를 업데이트를 한다
-콘솔과 NCF연동 인터페이스 구현
-participation rate: 100%",
+					"description" : "2014 프로야구 하이라이트 다음 제주본사에서 매일 데이터를 업데이트를 한다. 콘솔과 NCF연동 인터페이스 구현 participation rate: 100%",
 					"imgs" : 
 					[
 						{"viewImg" : "ds0.jpg"}
