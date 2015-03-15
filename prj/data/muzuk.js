@@ -103,7 +103,7 @@ var Works = Works || function(){
 			$("header").stop().animate({top: 0}, 300);
 		},
 		viewDetail: function( config ){
-			workDetail.css({'display':'block', 'background':config.color}).stop().animate({left: '0%'}, 400, function(){
+			workDetail.css({'display':'block', 'background':config.color}).stop().animate({left: '0%'}, 'easeInOutExpo', 400, function(){
 				$(this).css('overflow-y', 'auto');
 				$(".viewDetail p.title").text(config.title);
 				$(".viewDetail p.subTitle").text(config.subTitle);
