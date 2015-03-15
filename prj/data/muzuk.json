@@ -13,10 +13,7 @@
 					"role" : "Lead developer",
 					"copyright" : "Daum fingertouch",
 					"typeDev" : "Digital Signage / promotion / actionscript",
-					"description" : "다음 웹툰 '1호선' 이벤트 프로모션
-디지털뷰에서 1호선 웹툰의 미리보기 및 숨은그림찾기 미니게임 진행
-지하철 역사에 있기 때문에 빠르고 정확한 게임 진행이 고려되었다
-전화번호 입력 후 바로 문자 메시지로 당첨여부 확인",
+					"description" : "다음 웹툰 '1호선' 이벤트 프로모션 디지털뷰에서 1호선 웹툰의 미리보기 및 숨은그림찾기 미니게임 진행. 지하철 역사에 있기 때문에 빠르고 정확한 게임 진행이 고려되었다. 전화번호 입력 후 바로 문자 메시지로 당첨여부 확인",
 					"imgs" : 
 					[
 						{"viewImg" : "da0.jpg"},
