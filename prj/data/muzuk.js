@@ -192,7 +192,7 @@ var Photos = Photos || function(){
 				});
 			}else if ( state == "end" ){
 				photoView.css('overflow-y', 'hidden');
-				photoView.stop().animate({left: '-100%'}, 'easeInOutExpo', 400, function(){
+				photoView.stop().animate({left: '-100%'}, 400, function(){
 					photo.closePhoto();
 					$(this).css('display', 'none');
 				});
