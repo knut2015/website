@@ -170,7 +170,7 @@ var Works = Works || function(){
 				break;
 		}
 		$(".block").css('display', 'block');
-		// prj.update( index );
+		prj.update( index );
 	}
 }
 
