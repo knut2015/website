@@ -51,10 +51,11 @@ h1 { font-size: 1em; font-family: 'MuseoSans_900'; width: 60px; margin: 24px aut
 
 .workView p.title { font-family: 'MuseoSans_500'; font-size: 2em; }
 .nbg { font-family: 'NanumBarun'; font-size: 0.75em; line-height: 130%; }
-.workView p.subTitle { font-family: 'NanumBarun'; font-size: 0.875em; }
+.workView p.subTitle { font-family: 'NanumBarun'; font-size: 0.875em; margin: 30px 0; }
 .workView p.typeDev {  }
 .workView p.desc { padding-bottom: 10px; } 
 .workView p.role {  }
+.workView p.staticTtl { font-weight: bold; margin-top: 30px; }
 .workView div.viewClose {  }
 .workView div.detailImages { margin: 0 auto; }
 
