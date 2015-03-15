@@ -187,12 +187,12 @@ var Photos = Photos || function(){
 		viewTransition: function( state ){
 			if ( state == "start"){
 				photoView.css('overflow-y', 'auto');
-				photoView.css('display', 'block').stop().animate({left: '0%'}, 400, function(){
+				photoView.css('display', 'block').stop().animate({left: '0%'}, 200, function(){
 					photo.update( 0 );
 				});
 			}else if ( state == "end" ){
 				photoView.css('overflow-y', 'hidden');
-				photoView.stop().animate({left: '-100%'}, 400, function(){
+				photoView.stop().animate({left: '-100%'}, 200, function(){
 					photo.closePhoto();
 					$(this).css('display', 'none');
 				});
