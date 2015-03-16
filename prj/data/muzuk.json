@@ -509,9 +509,69 @@
 			"photo":
 			[
 				{
-					"title" : "Pattaya",
+					"title" : "Hawaii",
 					"date" : "",
-					"viewimg" : "DSCN2926.jpg",
+					"viewimg" : "h1.jpg",
+					"type" : "image"
+				},
+				{
+					"title" : "Hawaii",
+					"date" : "",
+					"viewimg" : "h2.jpg",
+					"type" : "image"
+				},
+				{
+					"title" : "Hawaii",
+					"date" : "",
+					"viewimg" : "h3.jpg",
+					"type" : "image"
+				},
+				{
+					"title" : "Hawaii",
+					"date" : "",
+					"viewimg" : "h4.jpg",
+					"type" : "image"
+				},
+				{
+					"title" : "Hawaii",
+					"date" : "",
+					"viewimg" : "h5.jpg",
+					"type" : "image"
+				},
+				{
+					"title" : "Hawaii",
+					"date" : "",
+					"viewimg" : "h6.jpg",
+					"type" : "image"
+				},
+				{
+					"title" : "Hawaii",
+					"date" : "",
+					"viewimg" : "h7.jpg",
+					"type" : "image"
+				},
+				{
+					"title" : "Hawaii",
+					"date" : "",
+					"viewimg" : "h8.jpg",
+					"type" : "image"
+				},
+				{
+					"title" : "Hawaii",
+					"date" : "",
+					"viewimg" : "h9.jpg",
+					"type" : "image"
+				},
+				{
+					"title" : "Hawaii",
+					"date" : "",
+					"viewimg" : "h10.jpg",
+					"type" : "image"
+				},
+				{
+					"title" : "Hawaii",
+					"date" : "",
+					"viewimg" : "h11.jpg",
 					"type" : "image"
 				},
 				{
@@ -537,7 +597,13 @@
 					"date" : "",
 					"viewimg" : "DSCN3008.jpg",
 					"type" : "image"
-				}
+				},
+				{
+					"title" : "Pattaya",
+					"date" : "",
+					"viewimg" : "DSCN2926.jpg",
+					"type" : "image"
+				}				
 			]
 		}
 	]
