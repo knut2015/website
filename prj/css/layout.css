@@ -6,13 +6,16 @@
 	.default { display: none; }
 	.mobile { display: block; }
 	.btnView { width: 50%; margin: 10% auto; max-width: 180px; }
-	.arrowContainer { display: none; }
+	.aDefault  { display: none; }
+	.aMobile { display: block; }
 }
  
 @media only screen and (min-width: 480px) {
 	/* 480px 이상 */
 	.description div.default { display: none; }
 	.description div.mobile { display: block; }
+	.aDefault  { display: block; }
+	.aMobile { display: none; }
 }
 
 @media only screen and (min-width: 600px) {
