@@ -66,7 +66,7 @@ var Works = Works || function(){
 					);
 			}
 
-			prj.loadingView( false );
+			// prj.loadingView( false );
 
 			$("tbody tr").hover(function(){
 				$(this).css("background-color", jsonResultModule.getJsonData()[0].work[$(this).index()].color);
