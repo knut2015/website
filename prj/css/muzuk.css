@@ -70,7 +70,7 @@ h1 { font-size: 1em; font-family: 'MuseoSans_900'; width: 60px; margin: 24px aut
 .n_view { position: absolute; right: 0; }
 .closePhoto { position: relative; width: 45px; margin: 0 auto; margin-top: -65px; padding: 10px; }
 
-div.detialContent { position: relative; top: 15%; max-width: 1000px; margin: 0 auto; height: 650px; }
+div.detialContent { position: relative; top: 15%; max-width: 1000px; margin: 0 auto; /*height: 650px;*/ }
 
 table { width: 97.9%; text-align: center; margin: 5% auto; }
 th { font-size:  0.75em; /*12px*/}
