@@ -48,13 +48,13 @@ var Works = Works || function(){
 	var workDetail = $(".workView");
 	var index = 0;
 
-	var Project = function(){}
+	var Project = function(){
+		loadingView( false );
+	}
 
 	Project.prototype = {
 		list: function(){
 			var i;
-			prj.loadingView( false );
-			
 			for ( i = 0; i < jsonResultModule.getJsonData()[0].work.length; i++ ){
 				$("tbody").append(
 						"<tr>"+
@@ -77,10 +77,10 @@ var Works = Works || function(){
 				prj.update( idx );
 			});
 
-			prj.loadingView( true );
+			loadingView( true );
 		},
 		update: function( idx ){
-			prj.loadingView( false );
+			loadingView( false );
 
 			var title = jsonResultModule.getJsonData()[0].work[idx].prjName;
 			var subTitle = jsonResultModule.getJsonData()[0].work[idx].subTitle;
@@ -126,7 +126,7 @@ var Works = Works || function(){
 
 				$(".detailImages p img").load(function(){
 					$(this).fadeIn();
-					prj.loadingView( true );
+					loadingView( true );
 				});
 
 				workTable.fadeOut();
@@ -144,16 +144,6 @@ var Works = Works || function(){
 			$(".detailImages").fadeOut(300, function(){
 				$(this).empty();
 			});
-		},
-		loadingView: function( isState ){
-			if (isState){
-				$(".preloading").fadeOut();
-			}else{
-				$(".preloading").fadeIn();
-			}
-
-			isState != isState;
-			console.log( isState );
 		}
 	}
 
@@ -202,7 +192,7 @@ var Photos = Photos || function(){
 	var index = 0;
 
 	var Photograph = function(){
-
+		loadingView( true );
 	}
 
 	Photograph.prototype = {
@@ -227,6 +217,7 @@ var Photos = Photos || function(){
 			
 			$("div.imgs").find("img").load(function(){
 				photoView.find("div.imgs").fadeIn();
+				loadingView( true );
 			});
 		},
 		update: function( idx ){
@@ -338,3 +329,13 @@ var pageView = function(){
 
 	$(".preloading").fadeOut();
 };
+
+var loadingView = function( isState ){
+	if (isState){
+		$(".preloading").fadeOut();
+	}else{
+		$(".preloading").fadeIn();
+	}
+
+	isState != isState;
+}
