@@ -53,6 +53,7 @@ var Works = Works || function(){
 	Project.prototype = {
 		list: function(){
 			var i;
+			prj.loadingView( true );
 			for ( i = 0; i < jsonResultModule.getJsonData()[0].work.length; i++ ){
 				$("tbody").append(
 						"<tr>"+
@@ -64,6 +65,8 @@ var Works = Works || function(){
 						"</tr>"
 					);
 			}
+
+			prj.loadingView( false );
 
 			$("tbody tr").hover(function(){
 				$(this).css("background-color", jsonResultModule.getJsonData()[0].work[$(this).index()].color);
@@ -120,6 +123,7 @@ var Works = Works || function(){
 
 				$(".detailImages p img").load(function(){
 					$(this).fadeIn();
+					prj.loadingView( false );
 				});
 
 				workTable.fadeOut();
@@ -137,6 +141,13 @@ var Works = Works || function(){
 			$(".detailImages").fadeOut(300, function(){
 				$(this).empty();
 			});
+		},
+		loadingView: function( isState ){
+			if (isState){
+				$(".preloading").fadeOut();
+			}else{
+				$(".preloading").fadeIn();
+			}
 		}
 	}
 
