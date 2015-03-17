@@ -269,7 +269,8 @@ var Photos = Photos || function(){
 				break;
 		}
 
-		photo.closePhoto(false);
+		loadingView( false );
+		photo.closePhoto( false );
 		photo.update( index );
 	}
 }
