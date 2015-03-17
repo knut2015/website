@@ -79,6 +79,8 @@ var Works = Works || function(){
 			});
 		},
 		update: function( idx ){
+			prj.loadingView( true );
+
 			var title = jsonResultModule.getJsonData()[0].work[idx].prjName;
 			var subTitle = jsonResultModule.getJsonData()[0].work[idx].subTitle;
 			var typeDev = jsonResultModule.getJsonData()[0].work[idx].typeDev;
@@ -329,4 +331,6 @@ var pageView = function(){
 	$(window).resize(function(){
 		$(".content").css('top', '30%');
 	}).resize();
+
+	prj.loadingView( false );
 };
