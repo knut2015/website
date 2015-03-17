@@ -332,5 +332,5 @@ var pageView = function(){
 		$(".content").css('top', '30%');
 	}).resize();
 
-	prj.loadingView( false );
+	$(".preloading").fadeOut();
 };
