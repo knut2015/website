@@ -54,6 +54,7 @@ var Works = Works || function(){
 		list: function(){
 			var i;
 			prj.loadingView( true );
+			
 			for ( i = 0; i < jsonResultModule.getJsonData()[0].work.length; i++ ){
 				$("tbody").append(
 						"<tr>"+
@@ -66,8 +67,6 @@ var Works = Works || function(){
 					);
 			}
 
-			// prj.loadingView( false );
-
 			$("tbody tr").hover(function(){
 				$(this).css("background-color", jsonResultModule.getJsonData()[0].work[$(this).index()].color);
 			});
@@ -77,6 +76,8 @@ var Works = Works || function(){
 				index = idx;
 				prj.update( idx );
 			});
+
+			prj.loadingView( false );
 		},
 		update: function( idx ){
 			prj.loadingView( true );

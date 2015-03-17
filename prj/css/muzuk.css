@@ -83,4 +83,4 @@ td.t_copy { /*220px*/ width: 23.4%;}
 tr:hover { color: #fff; }
 tr:hover td { background-color: transparent; }
 
-.preloading { position: absolute; top: 50%; left: 50%; }
+.preloading { position: absolute; top: 50%; left: 50%; z-index: 9999; }
