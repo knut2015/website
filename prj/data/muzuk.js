@@ -151,6 +151,9 @@ var Works = Works || function(){
 			}else{
 				$(".preloading").fadeIn();
 			}
+
+			isState != isState;
+			console.log( isState );
 		}
 	}
 
