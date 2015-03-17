@@ -192,7 +192,7 @@ var Photos = Photos || function(){
 	var index = 0;
 
 	var Photograph = function(){
-		loadingView( true );
+		loadingView( false );
 	}
 
 	Photograph.prototype = {
