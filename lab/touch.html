@@ -30,7 +30,7 @@
 		
 		<style type="text/css">
 			.flick { overflow: hidden; }
-			.flickContainer { position: relative; width: 100%; height: 400px; }
+			#flickContainer { position: relative; width: 100%; height: 400px; }
 			.flick { position: absolute; width: 100%; }
 			.pan1 { left: 0%; }
 			.pan2 { left: 100%; }
@@ -40,7 +40,7 @@
 	</head>
 	<body>
 		<div class="flick">
-			<div class="flickContainer clearfix">
+			<div id="flickContainer clearfix">
 				<p class="flick pan1"><img src="../prj/image/uploads/photo/h1.jpg"></p>
 				<p class="flick pan2"><img src="../prj/image/uploads/photo/h2.jpg"></p>
 				<p class="flick pan3"><img src="../prj/image/uploads/photo/h3.jpg"></p>
@@ -49,7 +49,7 @@
 		</div>
 		<script type="text/javascript">
 			var startX = 0;
-			var flick = document.getElementsByClassName("flickContainer");
+			var flick = document.getElementsById("flickContainer");
 			console.log("flick: "+ flick);
 
 			document.addEventListener("touchstart", function(event){
