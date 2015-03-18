@@ -218,6 +218,7 @@ var Photos = Photos || function(){
 			$("div.imgs").find("img").load(function(){
 				photoView.find("div.imgs").fadeIn();
 				loadingView( true );
+				$(".photoArrow").fadeIn();
 			});
 		},
 		update: function( idx ){
@@ -268,7 +269,7 @@ var Photos = Photos || function(){
 				}
 				break;
 		}
-
+		$(".photoArrow").fadeOut();
 		loadingView( false );
 		photo.closePhoto( false );
 		photo.update( index );
