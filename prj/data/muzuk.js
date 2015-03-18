@@ -269,7 +269,7 @@ var Photos = Photos || function(){
 				}
 				break;
 		}
-		$(".photoArrow").fadeOut();
+		$(".photoArrow").fadeOut(0);
 		loadingView( false );
 		photo.closePhoto( false );
 		photo.update( index );
