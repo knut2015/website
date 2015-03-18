@@ -269,6 +269,7 @@ var Photos = Photos || function(){
 				}
 				break;
 		}
+		
 		$(".photoArrow").fadeOut(0);
 		loadingView( false );
 		photo.closePhoto( false );
