@@ -59,7 +59,13 @@
 				var moveX = event.touches[0].pageX;
 				var dist = moveX - startX;
 				// flick.style.webkitTransform = "translate(" + dist + "px)";
-				console.log('dist: ' + dist + ', moveX: ' + moveX);
+				// console.log('dist: ' + dist + ', moveX: ' + moveX);
+				// if (dist <= 0 && dist > 0){
+				// 	return;
+				// }else{
+				// 	flick.style.webkitTransform = "translate("+dist+"px)";
+				// }
+				flick.style.webkitTransform = "translate("+dist+"px)";
 			});
 
 			document.addEventListener("touchend", function(event){
