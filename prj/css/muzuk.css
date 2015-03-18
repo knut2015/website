@@ -72,11 +72,11 @@ h1 { font-size: 1em; font-family: 'MuseoSans_900'; width: 60px; margin: 24px aut
 
 div.detialContent { position: relative; top: 15%; max-width: 1000px; margin: 0 auto; /*height: 650px;*/ }
 
-table { width: 97.9%; text-align: left; margin: 5% 3% 0; }
+table { width: 97.9%; text-align: left; margin: 5% 0; }
 th { font-size:  0.75em; /*12px*/}
-tbody td { height: 124px; vertical-align: middle; background: #333333; border-bottom: 1px solid #222; }
+tbody td { height: 124px; vertical-align: middle; background: #333333; border-bottom: 1px solid #222; font-size: 0.75em; }
 td.t_thumb { /*220px*/ width: 23.4%;}
-td.t_client { /*100px*/ width: 10.6%;}
+td.t_client { /*100px*/ width: 10.6%; padding-left: 1%;}
 td.t_prjName { /*220px*/ width: 23.4%;}
 td.t_role { /*180px*/ width: 19.14%;}
 td.t_copy { /*220px*/ width: 23.4%;}
