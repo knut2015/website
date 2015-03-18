@@ -77,7 +77,7 @@ th { font-size:  0.75em; /*12px*/}
 tbody td { height: 124px; vertical-align: middle; background: #333333; border-bottom: 1px solid #222; font-size: 0.75em; }
 td.t_thumb { /*220px*/ width: 23.4%;}
 td.t_client { /*100px*/ width: 10.6%; padding-left: 1%; }
-td.t_prjName { /*420px*/ width: 44.68%; padding-left: 1%; }
+td.t_prjName { /*420px*/ width: 44.68%; margin-left: 2%; }
 td.t_role { /*100px*/ width: 10.6%;}
 td.t_copy { /*100px*/ width: 10.6%;}
 tr:hover { color: #fff; }
