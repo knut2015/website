@@ -49,6 +49,7 @@
 		</div>
 		<script type="text/javascript">
 			var startX = 0;
+			var flick = document.getElementsByClassName("flickContainer");
 
 			document.addEventListener("touchstart", function(event){
 				startX = event.touches[0].pageX;
@@ -57,7 +58,7 @@
 			document.addEventListener("touchmove", function(event){
 				var moveX = event.touches[0].pageX;
 				var dist = moveX - startX;
-				$(".flickContainer").style.webkitTransform = "translate(" + dist + "px)";
+				flick.style.webkitTransform = "translate(" + dist + "px)";
 				console.log('dist: ' + dist + ', moveX: ' + moveX);
 			});
 
