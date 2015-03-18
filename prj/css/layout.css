@@ -8,7 +8,7 @@
 	.btnView { width: 50%; margin: 10% auto; max-width: 180px; }
 	.aDefault  { display: none; }
 	.aMobile { display: block; }
-	.workView p.title { font-family: 'MuseoSans_500','NanumBarun'; font-size: 0.75em; }
+	.workView p.title { font-family: 'MuseoSans_500','NanumBarun'; font-size: 1.1em; }
 }
  
 @media only screen and (min-width: 480px) {
@@ -17,7 +17,7 @@
 	.description div.mobile { display: block; }
 	.aDefault  { display: block; }
 	.aMobile { display: none; }
-	.workView p.title { font-family: 'MuseoSans_500','NanumBarun'; font-size: 1em; }
+	.workView p.title { font-family: 'MuseoSans_500','NanumBarun'; font-size: 1.4em; }
 }
 
 @media only screen and (min-width: 600px) {
