@@ -31,16 +31,20 @@
 		<style type="text/css">
 			.flick { overflow: hidden; }
 			.flickContainer { position: relative; width: 100%; }
-			.flickContainer p { float: left; }
+			.flickContainer p { position: absolute; width: 100%; }
+			.pan1 { left: 0%; }
+			.pan1 { left: 100%; }
+			.pan1 { left: 200%; }
+			.pan1 { left: 300%; }
 		</style>
 </head>
 <body>
 	<div class="flick">
 		<div class="flickContainer clearfix">
-			<p><img src="../prj/image/uploads/photo/h1.jpg"></p>
-			<p><img src="../prj/image/uploads/photo/h2.jpg"></p>
-			<p><img src="../prj/image/uploads/photo/h3.jpg"></p>
-			<p><img src="../prj/image/uploads/photo/h4.jpg"></p>
+			<p class="pan1"><img src="../prj/image/uploads/photo/h1.jpg"></p>
+			<p class="pan2"><img src="../prj/image/uploads/photo/h2.jpg"></p>
+			<p class="pan3"><img src="../prj/image/uploads/photo/h3.jpg"></p>
+			<p class="pan4"><img src="../prj/image/uploads/photo/h4.jpg"></p>
 		</div>
 	</div>
 	<script type="text/javascript">
