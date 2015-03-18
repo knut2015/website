@@ -58,6 +58,7 @@
 				var moveX = event.touches[0].pageX;
 				var dist = moveX - startX;
 				$(".flickContainer").style.webkitTransform = "translate(" + dist + "px)";
+				console.log('dist: ' + dist + ', moveX: ' + moveX);
 			});
 
 			document.addEventListener("touchend", function(event){
