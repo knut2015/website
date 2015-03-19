@@ -55,23 +55,30 @@ var Works = Works || function(){
 	Project.prototype = {
 		list: function(){
 			var i;
-			var mq = window.matchMedia('screen and (min-width: 800px)');
+			var mq = window.matchMedia('screen and (min-width: 700px)');
 			if ( mq.matches ){
-				console.log("DESCTOP");
+				for ( i = 0; i < jsonResultModule.getJsonData()[0].work.length; i++ ){
+					$("tbody").empty().append(
+							"<tr>"+
+								"<td class='t_thumb'><img src='./image/uploads/"+jsonResultModule.getJsonData()[0].work[i].thumb+"'></td>"+
+								"<td class='t_client'>"+jsonResultModule.getJsonData()[0].work[i].client+"</td>"+
+								"<td class='t_prjName'>"+jsonResultModule.getJsonData()[0].work[i].prjName+"</td>"+
+								"<td class='t_role'>"+jsonResultModule.getJsonData()[0].work[i].role+"</td>"+
+								"<td class='t_copy'>"+jsonResultModule.getJsonData()[0].work[i].copyright+"</td>"+
+							"</tr>"
+						);
+				}
 			}else{
-				console.log("MOBILE");
+				for ( i = 0; i < jsonResultModule.getJsonData()[0].work.length; i++ ){
+					$("tbody").empty().append(
+							"<tr>"+
+								"<td class='t_thumb'><img src='./image/uploads/"+jsonResultModule.getJsonData()[0].work[i].thumb+"'></td>"+
+								"<td class='t_prjName'>"+jsonResultModule.getJsonData()[0].work[i].prjName+"</td>"+
+							"</tr>"
+						);
+				}
 			}
-			for ( i = 0; i < jsonResultModule.getJsonData()[0].work.length; i++ ){
-				$("tbody").append(
-						"<tr>"+
-							"<td class='t_thumb'><img src='./image/uploads/"+jsonResultModule.getJsonData()[0].work[i].thumb+"'></td>"+
-							"<td class='t_client'>"+jsonResultModule.getJsonData()[0].work[i].client+"</td>"+
-							"<td class='t_prjName'>"+jsonResultModule.getJsonData()[0].work[i].prjName+"</td>"+
-							"<td class='t_role'>"+jsonResultModule.getJsonData()[0].work[i].role+"</td>"+
-							"<td class='t_copy'>"+jsonResultModule.getJsonData()[0].work[i].copyright+"</td>"+
-						"</tr>"
-					);
-			}
+			
 
 			$("tbody tr").hover(function(){
 				$(this).css("background-color", jsonResultModule.getJsonData()[0].work[$(this).index()].color);
