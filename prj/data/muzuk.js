@@ -78,8 +78,7 @@ var Works = Works || function(){
 					for ( i = 0; i < jsonResultModule.getJsonData()[0].work.length; i++ ){
 						$("tbody").append(
 								"<tr>"+
-									"<td class='t_thumb'><img src='./image/uploads/"+jsonResultModule.getJsonData()[0].work[i].thumb+"'></td>"+
-									"<td class='t_prjName'>"+jsonResultModule.getJsonData()[0].work[i].prjName+"</td>"+
+									"<td class='t_thumb'><img src='./image/uploads/"+jsonResultModule.getJsonData()[0].work[i].thumb+"'></td>"
 								"</tr>"
 							);
 					}
