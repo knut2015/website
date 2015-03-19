@@ -55,6 +55,12 @@ var Works = Works || function(){
 	Project.prototype = {
 		list: function(){
 			var i;
+			var mq = window.matchMedia('screen and (min-width: 800px)');
+			if ( mq.matches ){
+				console.log("DESCTOP");
+			}else{
+				console.log("MOBILE");
+			}
 			for ( i = 0; i < jsonResultModule.getJsonData()[0].work.length; i++ ){
 				$("tbody").append(
 						"<tr>"+
