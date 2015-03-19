@@ -56,8 +56,9 @@ var Works = Works || function(){
 		list: function(){
 			var i;
 			var mq = window.matchMedia('screen and (min-width: 700px)');
-			$("tbody").empty();
+
 			if ( mq.matches ){
+				$("tbody").empty();
 				for ( i = 0; i < jsonResultModule.getJsonData()[0].work.length; i++ ){
 					$("tbody").append(
 							"<tr>"+
@@ -70,6 +71,7 @@ var Works = Works || function(){
 						);
 				}
 			}else{
+				$("tbody").empty();
 				for ( i = 0; i < jsonResultModule.getJsonData()[0].work.length; i++ ){
 					$("tbody").append(
 							"<tr>"+
