@@ -79,6 +79,7 @@ var Works = Works || function(){
 						$("tbody").append(
 								"<tr>"+
 									"<td class='t_thumb'><img src='./image/uploads/"+jsonResultModule.getJsonData()[0].work[i].thumb+"'></td>"+
+									"<td class='t_prjName'>"+jsonResultModule.getJsonData()[0].work[i].prjName+"</td>"+
 								"</tr>"
 							);
 					}
