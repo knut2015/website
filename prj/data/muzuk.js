@@ -56,32 +56,37 @@ var Works = Works || function(){
 		list: function(){
 			var i;
 			var mq = window.matchMedia('screen and (min-width: 700px)');
+			mq.addListener(widthMatch);
+			widthMatch(mq);
 
-			if ( mq.matches ){
-				$("tbody").empty();
-				for ( i = 0; i < jsonResultModule.getJsonData()[0].work.length; i++ ){
-					$("tbody").append(
-							"<tr>"+
-								"<td class='t_thumb'><img src='./image/uploads/"+jsonResultModule.getJsonData()[0].work[i].thumb+"'></td>"+
-								"<td class='t_client'>"+jsonResultModule.getJsonData()[0].work[i].client+"</td>"+
-								"<td class='t_prjName'>"+jsonResultModule.getJsonData()[0].work[i].prjName+"</td>"+
-								"<td class='t_role'>"+jsonResultModule.getJsonData()[0].work[i].role+"</td>"+
-								"<td class='t_copy'>"+jsonResultModule.getJsonData()[0].work[i].copyright+"</td>"+
-							"</tr>"
-						);
-				}
-			}else{
-				$("tbody").empty();
-				for ( i = 0; i < jsonResultModule.getJsonData()[0].work.length; i++ ){
-					$("tbody").append(
-							"<tr>"+
-								"<td class='t_thumb'><img src='./image/uploads/"+jsonResultModule.getJsonData()[0].work[i].thumb+"'></td>"+
-								"<td class='t_prjName'>"+jsonResultModule.getJsonData()[0].work[i].prjName+"</td>"+
-							"</tr>"
-						);
+			function widthMatch(mq){
+				if ( mq.matches ){
+					$("tbody").empty();
+					for ( i = 0; i < jsonResultModule.getJsonData()[0].work.length; i++ ){
+						$("tbody").append(
+								"<tr>"+
+									"<td class='t_thumb'><img src='./image/uploads/"+jsonResultModule.getJsonData()[0].work[i].thumb+"'></td>"+
+									"<td class='t_client'>"+jsonResultModule.getJsonData()[0].work[i].client+"</td>"+
+									"<td class='t_prjName'>"+jsonResultModule.getJsonData()[0].work[i].prjName+"</td>"+
+									"<td class='t_role'>"+jsonResultModule.getJsonData()[0].work[i].role+"</td>"+
+									"<td class='t_copy'>"+jsonResultModule.getJsonData()[0].work[i].copyright+"</td>"+
+								"</tr>"
+							);
+					}
+				}else{
+					$("tbody").empty();
+					for ( i = 0; i < jsonResultModule.getJsonData()[0].work.length; i++ ){
+						$("tbody").append(
+								"<tr>"+
+									"<td class='t_thumb'><img src='./image/uploads/"+jsonResultModule.getJsonData()[0].work[i].thumb+"'></td>"+
+									"<td class='t_prjName'>"+jsonResultModule.getJsonData()[0].work[i].prjName+"</td>"+
+								"</tr>"
+							);
+					}
 				}
 			}
 			
+
 
 			$("tbody tr").hover(function(){
 				$(this).css("background-color", jsonResultModule.getJsonData()[0].work[$(this).index()].color);
