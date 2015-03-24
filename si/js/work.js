@@ -38,7 +38,7 @@ var CreateWork = CreateWork || function(){
 		}
 	}
 
-	var work = new Work();
+	var work = new Works();
 
 	work.thumb();
 }
