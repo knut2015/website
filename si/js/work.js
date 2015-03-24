@@ -1,4 +1,4 @@
-dataLoadModule.setURL("../data/muzuk.json");
+dataLoadModule.setURL("../data/json/sparkle.json");
 dataLoadModule.setDataType("text");
 dataLoadModule.getAjax();
 
