@@ -30,21 +30,26 @@ var CreateWork = CreateWork || function(){
 	}
 
 	Works.prototype = {
-		thumb : function(){
+		thumb: function(){
 			var i;
 			//workData.length
 			for ( i = 0; i < 3; i++ ){
 				console.log(workData[i].w_Thumb);
 				$(".isotope").append("<div class='item'><img src='"+workData[i].w_Thumb+"'></div>");
 			}
+
+			$(".item img").load(function(){
+				blog.isotope();
+			});
+		},
+		isotope: function(){
+			return isotopeUseful();
 		}
 	}
 
 	var work = new Works();
 
 	work.thumb();
-
-	isotopeUseful();
 }
 
 
