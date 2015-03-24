@@ -30,7 +30,7 @@ var CreateWork = CreateWork || function(){
 	}
 
 	Works.prototype = {
-		thumb = {
+		thumb : {
 			var i;
 			for ( i = 0; i < workData.length; i++ ){
 				console.log(workData[i].w_Thumb);
