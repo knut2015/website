@@ -18,6 +18,7 @@ function errorHandler(){
 
 function pageComplete(isComplete){
 	if (isComplete){
-		console.log("success");
+		console.log(jsonResultModule.getJsonData().work[0].clientName);
+		console.log(jsonResultModule.getJsonData().work[1].clientName);
 	}
 }
