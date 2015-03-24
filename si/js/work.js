@@ -39,7 +39,7 @@ var CreateWork = CreateWork || function(){
 			}
 
 			$(".item img").load(function(){
-				blog.isotope();
+				work.isotope();
 			});
 		},
 		isotope: function(){
