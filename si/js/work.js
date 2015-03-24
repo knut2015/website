@@ -3,7 +3,7 @@ dataLoadModule.setDataType("text");
 dataLoadModule.getAjax();
 
 function successHandler(json){
-	var item = $.parseJSON(json).blogItem;
+	var item = $.parseJSON(json).work;
 	var itemLen = item.length;
 	
 	jsonResultModule.setJsonData(item);
