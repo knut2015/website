@@ -18,7 +18,27 @@ function errorHandler(){
 
 function pageComplete(isComplete){
 	if (isComplete){
-		console.log(jsonResultModule.getJsonData()[1].work[0]);
-		// console.log(jsonResultModule.getJsonData().work[1].clientName);
+		CreateWork();
 	}
+}
+
+var CreateWork = CreateWork || function(){
+	var workData = jsonResultModule.getJsonData()[1].work;
+
+	var Works = function(){
+
+	}
+
+	Works.prototype = {
+		thumb = {
+			var i;
+			for ( i = 0; i < workData.length; i++ ){
+				console.log(workData[i].w_Thumb);
+			}
+		}
+	}
+
+	var work = new Work();
+
+	work.thumb();
 }
