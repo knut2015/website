@@ -307,7 +307,7 @@ function textEditer(){
     });
 }
 
-var fontScale = 60;
+var fontScale = 20;
 angular.module('test', []).controller('AppCtrl', function($scope) {
 
     $scope.chart = {
@@ -319,7 +319,7 @@ angular.module('test', []).controller('AppCtrl', function($scope) {
     $scope.addObject = function() {
         $scope.chart.object.push({
             label: 'New Description',
-            amt: '20',
+            amt: '50',
             done: false
         });
     };
