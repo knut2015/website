@@ -1,0 +1,1629 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<app>
+	<viewList>
+		<menuList>
+			<section id="food">
+				<page><![CDATA[Dumpling]]></page>
+				<menuType>
+					<category>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+					</category>
+					<item code="12101">
+						<thumb>thumb_03.jpg</thumb>
+						<images>
+							<type>001.jpg</type>
+							<type>002.jpg</type>
+							<type>003.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리, 청경채50g, 새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4, 瓢儿菜 50克, 杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[샤오롱바오]]></type>
+							<type><![CDATA[Xiao Long Bao]]></type>
+							<type><![CDATA[小龍包]]></type>
+							<type><![CDATA[小籠包]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[9,900]]></price>
+					</item>
+					<item code="12111">
+						<thumb>thumb_01.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리, 청경채50g, 새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4, 瓢儿菜 50克, 杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[새우 고기 샤오마이]]></type>
+							<type><![CDATA[Steamed Shrimp & Pork Shaomai]]></type>
+							<type><![CDATA[蝦仁燒賣]]></type>
+							<type><![CDATA[海老・豚肉入りシューマイ]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[13,800]]></price>
+					</item>
+				</menuType>
+			</section>
+			<section id="food">
+				<page><![CDATA[Soup & huntun]]></page>
+				<menuType>
+					<category>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+					</category>
+					<item code="13103">
+						<thumb>thumb_03.jpg</thumb>
+						<images>
+							<type>010.jpg</type>
+							<type>011.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[게살 송이 스프]]></type>
+							<type><![CDATA[Pine Mushrooms & Crab Meat Soup]]></type>
+							<type><![CDATA[松栮蟹粉湯]]></type>
+							<type><![CDATA[カニと松茸スープ]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="13105">
+						<thumb>thumb_04.jpg</thumb>
+						<images>
+							<type>012.jpg</type>
+							<type>013.jpg</type>
+							<type>014.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[야채 고기 훈툰탕]]></type>
+							<type><![CDATA[Vegetable & Pork Wonton Soup]]></type>
+							<type><![CDATA[菜肉餛飩湯]]></type>
+							<type><![CDATA[野菜・豚肉ワンタンスープ]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[7,700]]></price>
+					</item>
+				</menuType>
+			</section>
+			
+			<section id="food">
+				<page><![CDATA[Cuisine]]></page>
+				<menuType>
+					<category>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+					</category>
+					<item code="14103">
+						<thumb>thumb_03.jpg</thumb>
+						<images>
+							<type>018.jpg</type>
+							<type>019.jpg</type>
+							<type>020.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[찹쌀 탕수육]]></type>
+							<type><![CDATA[Clutinously Fried Pork With Sweet & Sour Sauce]]></type>
+							<type><![CDATA[鍋包肉]]></type>
+							<type><![CDATA[豚肉の骨付き香り揚げ]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[25,500]]></price>
+					</item>
+					<item code="14104">
+						<thumb>thumb_04.jpg</thumb>
+						<images>
+							<type>001.jpg</type>
+							<type>002.jpg</type>
+							<type>003.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[새우냉채]]></type>
+							<type><![CDATA[Cold Shrimps & Cucumbers With Chili Sauce]]></type>
+							<type><![CDATA[凉拌蝦仁]]></type>
+							<type><![CDATA[海老の酢の物]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[22,000]]></price>
+					</item>
+					<item code="14105">
+						<thumb>thumb_05.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[크림새우]]></type>
+							<type><![CDATA[Fried Shrimps With Cream Sauce]]></type>
+							<type><![CDATA[富貴蝦仁]]></type>
+							<type><![CDATA[クリームエビ]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[25,000]]></price>
+					</item>
+				</menuType>
+			</section>
+			
+			<section id="food">
+				<page><![CDATA[Noodle]]></page>
+				<menuType>
+					<category>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+					</category>
+					<item code="15101">
+						<thumb>thumb_08.jpg</thumb>
+						<images>
+							<type>018.jpg</type>
+							<type>019.jpg</type>
+							<type>020.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[대만식 우육면]]></type>
+							<type><![CDATA[Braused Beef Noodle Soup]]></type>
+							<type><![CDATA[红烧牛肉麵]]></type>
+							<type><![CDATA[台湾風牛肉麺]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[12,000]]></price>
+					</item>
+					<item code="15102">
+						<thumb>thumb_09.jpg</thumb>
+						<images>
+							<type>001.jpg</type>
+							<type>002.jpg</type>
+							<type>003.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[대만식 우육탕면]]></type>
+							<type><![CDATA[Braused Beef Noodle Soup(Served WithOut Beef)]]></type>
+							<type><![CDATA[台湾風牛肉の煮込み麺]]></type>
+							<type><![CDATA[台湾の牛肉湯麺]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[8,000]]></price>
+					</item>
+					<item code="15104">
+						<thumb>thumb_010.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[새우 탕면]]></type>
+							<type><![CDATA[Shrimps & Sliced Bamboo Shoots Noodle Soup]]></type>
+							<type><![CDATA[蝦仁麵]]></type>
+							<type><![CDATA[えび麺]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[9,500]]></price>
+					</item>
+					<item code="15106">
+						<thumb>thumb_011.jpg</thumb>
+						<images>
+							<type>001.jpg</type>
+							<type>002.jpg</type>
+							<type>003.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[새우 볶음면]]></type>
+							<type><![CDATA[Fried Spicy Noodle With Shrimps & Vegetables]]></type>
+							<type><![CDATA[蝦炒麵]]></type>
+							<type><![CDATA[エビ焼き麵]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[10,000]]></price>
+					</item>
+				</menuType>
+			</section>
+			
+			<section id="food">
+				<page><![CDATA[Rice]]></page>
+				<menuType>
+					<category>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+					</category>
+					<item code="16102">
+						<thumb>thumb_08.jpg</thumb>
+						<images>
+							<type>018.jpg</type>
+							<type>019.jpg</type>
+							<type>020.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[새우 볶음밥]]></type>
+							<type><![CDATA[Fried Rice With Eggs & Shrimps]]></type>
+							<type><![CDATA[蝦仁蛋飯]]></type>
+							<type><![CDATA[海老入りチャーハン]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[11,000]]></price>
+					</item>
+					<item code="16103">
+						<thumb>thumb_09.jpg</thumb>
+						<images>
+							<type>001.jpg</type>
+							<type>002.jpg</type>
+							<type>003.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[게살 볶음밥]]></type>
+							<type><![CDATA[Fride Rice With Eggs & Crab Meat]]></type>
+							<type><![CDATA[蟹粉蛋飯]]></type>
+							<type><![CDATA[カニ入りチャーハン]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[12,000]]></price>
+					</item>
+					<item code="16104">
+						<thumb>thumb_010.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[계란 볶음밥]]></type>
+							<type><![CDATA[Fride Rice With Eggs]]></type>
+							<type><![CDATA[蛋 炒 飯]]></type>
+							<type><![CDATA[えび麺]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[7,200]]></price>
+					</item>
+					<item code="16105">
+						<thumb>thumb_011.jpg</thumb>
+						<images>
+							<type>001.jpg</type>
+							<type>002.jpg</type>
+							<type>003.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[소고기 볶음밥]]></type>
+							<type><![CDATA[Fried Rice With Eggs & Shredded Beef]]></type>
+							<type><![CDATA[牛肉蛋飯]]></type>
+							<type><![CDATA[牛肉入りチャーハン]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[10,500]]></price>
+					</item>
+					<item code="16106">
+						<thumb>thumb_011.jpg</thumb>
+						<images>
+							<type>001.jpg</type>
+							<type>002.jpg</type>
+							<type>003.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[돼지고기 볶음밥]]></type>
+							<type><![CDATA[Fried Rice With Eggs & Shredded Pork]]></type>
+							<type><![CDATA[肉絲蛋飯]]></type>
+							<type><![CDATA[牛肉入りチャーハン]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[10,500]]></price>
+					</item>
+					</menuType>
+					<menuType>
+					<category>
+						<type><![CDATA[덮밥 소스]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[丼ソース]]></type>
+					</category>
+					<item code="16109">
+						<thumb>thumb_011.jpg</thumb>
+						<images>
+							<type>001.jpg</type>
+							<type>002.jpg</type>
+							<type>003.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[베이컨 볶음밥]]></type>
+							<type><![CDATA[Fried Rice With Eggs & Bacon Dice]]></type>
+							<type><![CDATA[肉絲蛋飯]]></type>
+							<type><![CDATA[ベーコン入りチャーハン]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[10,500]]></price>
+					</item>
+					<item code="16201">
+						<thumb>thumb_011.jpg</thumb>
+						<images>
+							<type>001.jpg</type>
+							<type>002.jpg</type>
+							<type>003.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[매운 닭고기 볶음]]></type>
+							<type><![CDATA[Sauteed Chicken & Vegetable With Spicy Sauce]]></type>
+							<type><![CDATA[辣子燴鷄丁]]></type>
+							<type><![CDATA[鶏肉のピリ辛炒め]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[5,500]]></price>
+					</item>
+					<item code="16202">
+						<thumb>thumb_011.jpg</thumb>
+						<images>
+							<type>001.jpg</type>
+							<type>002.jpg</type>
+							<type>003.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[굴소스 해물 볶음]]></type>
+							<type><![CDATA[Sauteed Cuttlefish & Shrimps With Oyster Sauce]]></type>
+							<type><![CDATA[辣子燴鷄丁]]></type>
+							<type><![CDATA[海産物のオイスターソース炒め]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[6,000]]></price>
+					</item>
+				</menuType>
+			</section>
+			
+			<section id="food">
+				<page><![CDATA[Extra]]></page>
+				<menuType>
+					<category>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+					</category>
+					<item code="17101">
+						<thumb>thumb_08.jpg</thumb>
+						<images>
+							<type>018.jpg</type>
+							<type>019.jpg</type>
+							<type>020.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[굴소스 청경채 볶음]]></type>
+							<type><![CDATA[Sauted Bok Choy With Oyster Sauce]]></type>
+							<type><![CDATA[蠔油青菜]]></type>
+							<type><![CDATA[チンゲンサイのオイスターソース炒め]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[9,900]]></price>
+					</item>
+					<item code="17102">
+						<thumb>thumb_09.jpg</thumb>
+						<images>
+							<type>001.jpg</type>
+							<type>002.jpg</type>
+							<type>003.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[춘권]]></type>
+							<type><![CDATA[Fried Spring Roll]]></type>
+							<type><![CDATA[春 捲]]></type>
+							<type><![CDATA[春巻き]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[3,500]]></price>
+					</item>
+					<item code="17104">
+						<thumb>thumb_010.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[시금치 볶음]]></type>
+							<type><![CDATA[Sauted Spinach]]></type>
+							<type><![CDATA[菠 菜]]></type>
+							<type><![CDATA[ほうれん草炒め]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[9,900]]></price>
+					</item>
+					<item code="17109">
+						<thumb>thumb_011.jpg</thumb>
+						<images>
+							<type>001.jpg</type>
+							<type>002.jpg</type>
+							<type>003.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[김치]]></type>
+							<type><![CDATA[Gimchi]]></type>
+							<type><![CDATA[泡 菜]]></type>
+							<type><![CDATA[キムチ]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[5,500]]></price>
+					</item>
+				</menuType>
+			</section>
+			
+			<section id="drink">
+				<page><![CDATA[DRINK]]></page>
+				<menuType>
+					<category>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+					</category>
+					<item code="21101">
+						<thumb>thumb_020.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[코크]]></type>
+							<type><![CDATA[Coke]]></type>
+							<type><![CDATA[可口可乐]]></type>
+							<type><![CDATA[コーラ]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[2,500]]></price>
+					</item>
+					<item code="21102">
+						<thumb>thumb_021.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[코크 라이트]]></type>
+							<type><![CDATA[Coke Lite]]></type>
+							<type><![CDATA[可口可乐 Lite]]></type>
+							<type><![CDATA[コーラライト]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[2,500]]></price>
+					</item>
+					<item code="21103">
+						<thumb>thumb_023.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[스프라이트]]></type>
+							<type><![CDATA[Sprite]]></type>
+							<type><![CDATA[雪碧 ]]></type>
+							<type><![CDATA[スプライト]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[2,500]]></price>
+					</item>
+					<item code="21104">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[환타 오렌지/포도]]></type>
+							<type><![CDATA[Fanta Orange/Grape]]></type>
+							<type><![CDATA[芬 达   橙子/萄]]></type>
+							<type><![CDATA[ファンタ オレンジ/グレープ]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[2,500]]></price>
+					</item>
+					<item code="21105">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[아이스티(복숭아 맛)]]></type>
+							<type><![CDATA[Ice Tea(Peach)]]></type>
+							<type><![CDATA[冰茶。(桃 味)]]></type>
+							<type><![CDATA[アイスティー(ピッチ)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[2,500]]></price>
+					</item>
+					<item code="21106">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[오렌지쥬스 (미니 메이드)]]></type>
+							<type><![CDATA[Orange Juice]]></type>
+							<type><![CDATA[鲜橘汁 []]></type>
+							<type><![CDATA[オレンジジュース(ミニッツメイド)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[3,500]]></price>
+					</item>
+					<item code="21107">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[커피]]></type>
+							<type><![CDATA[Coffee]]></type>
+							<type><![CDATA[咖啡]]></type>
+							<type><![CDATA[コーヒー]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[2,500]]></price>
+					</item>
+				</menuType>
+				
+				<menuType>
+					<category>
+						<type><![CDATA[에이드]]></type>
+						<type><![CDATA[Ade]]></type>
+						<type><![CDATA[水]]></type>
+						<type><![CDATA[エード]]></type>
+					</category>
+					<item code="22101">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[오렌지 에이드]]></type>
+							<type><![CDATA[Orange Ade]]></type>
+							<type><![CDATA[橘子水]]></type>
+							<type><![CDATA[オレンジエード]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,000]]></price>
+					</item>
+					<item code="22102">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[블루베리 에이드]]></type>
+							<type><![CDATA[Blueberry Ade]]></type>
+							<type><![CDATA[藍苺摩檬水]]></type>
+							<type><![CDATA[ブルーベリーエード]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,000]]></price>
+					</item>
+				</menuType>
+				
+				<menuType>
+					<category>
+						<type><![CDATA[국산/수입맥주]]></type>
+						<type><![CDATA[Beer]]></type>
+						<type><![CDATA[国産/輸入啤酒]]></type>
+						<type><![CDATA[国産/輸入ビール]]></type>
+					</category>
+					<item code="23101">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[하이트]]></type>
+							<type><![CDATA[Hite]]></type>
+							<type><![CDATA[hite啤酒]]></type>
+							<type><![CDATA[ハイト(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23102">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[카스]]></type>
+							<type><![CDATA[Cass]]></type>
+							<type><![CDATA[嘉士啤酒]]></type>
+							<type><![CDATA[カス(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23103">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[OB라거]]></type>
+							<type><![CDATA[OB Lager]]></type>
+							<type><![CDATA[OB Lager]]></type>
+							<type><![CDATA[OBラガー(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23104">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[생맥주(300ml)]]></type>
+							<type><![CDATA[draft beer]]></type>
+							<type><![CDATA[生啤酒]]></type>
+							<type><![CDATA[生なまビール(300ml)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[3,500]]></price>
+					</item>
+				</menuType>
+				<menuType>
+					<category>
+						<type><![CDATA[국산/수입맥주]]></type>
+						<type><![CDATA[Beer]]></type>
+						<type><![CDATA[国産/輸入啤酒]]></type>
+						<type><![CDATA[国産/輸入ビール]]></type>
+					</category>
+					<item code="23101">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[하이트]]></type>
+							<type><![CDATA[Hite]]></type>
+							<type><![CDATA[hite啤酒]]></type>
+							<type><![CDATA[ハイト(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23102">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[카스]]></type>
+							<type><![CDATA[Cass]]></type>
+							<type><![CDATA[嘉士啤酒]]></type>
+							<type><![CDATA[カス(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23103">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[OB라거]]></type>
+							<type><![CDATA[OB Lager]]></type>
+							<type><![CDATA[OB Lager]]></type>
+							<type><![CDATA[OBラガー(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23104">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[생맥주(300ml)]]></type>
+							<type><![CDATA[draft beer]]></type>
+							<type><![CDATA[生啤酒]]></type>
+							<type><![CDATA[生なまビール(300ml)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[3,500]]></price>
+					</item>
+				</menuType>
+				<menuType>
+					<category>
+						<type><![CDATA[국산/수입맥주]]></type>
+						<type><![CDATA[Beer]]></type>
+						<type><![CDATA[国産/輸入啤酒]]></type>
+						<type><![CDATA[国産/輸入ビール]]></type>
+					</category>
+					<item code="23101">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[하이트]]></type>
+							<type><![CDATA[Hite]]></type>
+							<type><![CDATA[hite啤酒]]></type>
+							<type><![CDATA[ハイト(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23102">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[카스]]></type>
+							<type><![CDATA[Cass]]></type>
+							<type><![CDATA[嘉士啤酒]]></type>
+							<type><![CDATA[カス(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23103">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[OB라거]]></type>
+							<type><![CDATA[OB Lager]]></type>
+							<type><![CDATA[OB Lager]]></type>
+							<type><![CDATA[OBラガー(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+				</menuType>
+				<menuType>
+					<category>
+						<type><![CDATA[국산/수입맥주]]></type>
+						<type><![CDATA[Beer]]></type>
+						<type><![CDATA[国産/輸入啤酒]]></type>
+						<type><![CDATA[国産/輸入ビール]]></type>
+					</category>
+					<item code="23101">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[하이트]]></type>
+							<type><![CDATA[Hite]]></type>
+							<type><![CDATA[hite啤酒]]></type>
+							<type><![CDATA[ハイト(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23102">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[카스]]></type>
+							<type><![CDATA[Cass]]></type>
+							<type><![CDATA[嘉士啤酒]]></type>
+							<type><![CDATA[カス(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23103">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[OB라거]]></type>
+							<type><![CDATA[OB Lager]]></type>
+							<type><![CDATA[OB Lager]]></type>
+							<type><![CDATA[OBラガー(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23104">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[생맥주(300ml)]]></type>
+							<type><![CDATA[draft beer]]></type>
+							<type><![CDATA[生啤酒]]></type>
+							<type><![CDATA[生なまビール(300ml)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[3,500]]></price>
+					</item>
+					<item code="23104">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[생맥주(300ml)]]></type>
+							<type><![CDATA[draft beer]]></type>
+							<type><![CDATA[生啤酒]]></type>
+							<type><![CDATA[生なまビール(300ml)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[3,500]]></price>
+					</item>
+					<item code="23104">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[생맥주(300ml)]]></type>
+							<type><![CDATA[draft beer]]></type>
+							<type><![CDATA[生啤酒]]></type>
+							<type><![CDATA[生なまビール(300ml)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[3,500]]></price>
+					</item>
+					<item code="23104">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[생맥주(300ml)]]></type>
+							<type><![CDATA[draft beer]]></type>
+							<type><![CDATA[生啤酒]]></type>
+							<type><![CDATA[生なまビール(300ml)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[3,500]]></price>
+					</item>
+				</menuType>
+				<menuType>
+					<category>
+						<type><![CDATA[국산/수입맥주]]></type>
+						<type><![CDATA[Beer]]></type>
+						<type><![CDATA[国産/輸入啤酒]]></type>
+						<type><![CDATA[国産/輸入ビール]]></type>
+					</category>
+					<item code="23101">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[하이트]]></type>
+							<type><![CDATA[Hite]]></type>
+							<type><![CDATA[hite啤酒]]></type>
+							<type><![CDATA[ハイト(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23102">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[카스]]></type>
+							<type><![CDATA[Cass]]></type>
+							<type><![CDATA[嘉士啤酒]]></type>
+							<type><![CDATA[カス(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23103">
+						<thumb>thumb_024.jpg</thumb>
+						<images>
+							<type>004.jpg</type>
+							<type>005.jpg</type>
+							<type>006.jpg</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[OB라거]]></type>
+							<type><![CDATA[OB Lager]]></type>
+							<type><![CDATA[OB Lager]]></type>
+							<type><![CDATA[OBラガー(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+				</menuType>
+			</section>
+		</menuList>
+	</viewList>
+</app>

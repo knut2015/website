@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<OrderCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TableNum>1</TableNum>
+  <Date>2013-09-30 18:40:41</Date>
+  <TotalPrice>24900</TotalPrice>
+  <Orders>
+    <Order>
+      <Code>0</Code>
+      <Name>샤오롱바오</Name>
+      <Price>9900</Price>
+      <Count>1</Count>
+    </Order>
+    <Order>
+      <Code>1</Code>
+      <Name>게살 샤오롱바오</Name>
+      <Price>15000</Price>
+      <Count>1</Count>
+    </Order>
+  </Orders>
+</OrderCollection>

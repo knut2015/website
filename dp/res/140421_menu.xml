@@ -1,0 +1,2729 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<app>
+	<viewList>
+		<menuList>
+			<section id="food">
+				<page><![CDATA[셋트메뉴]]></page>
+				<menuType>
+					<category>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+					</category>
+					<item code="11101">
+						<thumb>11101_s.png</thumb>
+						<images>
+							<type>11101_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[스폐셜만찬세트]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[77,000]]></price>
+					</item>
+					<item code="11102">
+						<thumb>11102_s.png</thumb>
+						<images>
+							<type>11102_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[행복만찬세트]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[55,000]]></price>
+					</item>
+					<item code="11103">
+						<thumb>11103_s.png</thumb>
+						<images>
+							<type>11103_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[런치메뉴]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[55,000]]></price>
+					</item>
+				</menuType>
+			</section>
+			<section id="food">
+				<page><![CDATA[특판스페셜]]></page>
+				<menuType>
+					<category>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+					</category>
+					<item code="12101">
+						<thumb>12101_s.png</thumb>
+						<images>
+							<type>12101_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[생밀복 지리]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[22,000]]></price>
+					</item>
+					<item code="12102">
+						<thumb>12102_s.png</thumb>
+						<images>
+							<type>12102_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[활참복]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[39,000]]></price>
+					</item>
+					<item code="12103">
+						<thumb>12103_s.png</thumb>
+						<images>
+							<type>12103_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[과메기]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[18,000]]></price>
+					</item>
+					<item code="12104">
+						<thumb>12104_s.png</thumb>
+						<images>
+							<type>12104_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[생밀복 탕]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[22,000]]></price>
+					</item>
+				</menuType>
+			</section>
+			
+			<section id="food">
+				<page><![CDATA[삼천포스페셜 단품]]></page>
+			
+				<menuType>
+					<category>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+					</category>
+					<item code="13101">
+						<thumb>13101_s.png</thumb>
+						<images>
+							<type>13101_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[돌문어숙회]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[22,000]]></price>
+					</item>
+					<item code="13102">
+						<thumb>13102_s.png</thumb>
+						<images>
+							<type>13102_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[돌문어 통마리(대)]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[22,000]]></price>
+					</item>
+					<item code="13103">
+						<thumb>13103_s.png</thumb>
+						<images>
+							<type>13103_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[돌문어 통마리(소)]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[33,000]]></price>
+					</item>
+					<item code="13104">
+						<thumb>13104_s.png</thumb>
+						<images>
+							<type>13104_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[돌멍개 한접시]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[22,000]]></price>
+					</item>
+					<item code="13105">
+						<thumb>13105_s.png</thumb>
+						<images>
+							<type>13105_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[전복회 한접시]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[22,000]]></price>
+					</item>
+					<item code="13106">
+						<thumb>13106_s.png</thumb>
+						<images>
+							<type>13106_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[참소라회 한접시]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[33,000]]></price>
+					</item>
+					<item code="13107">
+						<thumb>13107_s.png</thumb>
+						<images>
+							<type>13107_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[산낙지 한접시]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[33,000]]></price>
+					</item>
+					<item code="13108">
+						<thumb>13108_s.png</thumb>
+						<images>
+							<type>13108_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[구룡포 과메기]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[22,000]]></price>
+					</item>
+					<item code="13109">
+						<thumb>13109_s.png</thumb>
+						<images>
+							<type>13109_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[새조새 샤브전골]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[33,000]]></price>
+					</item>
+					<item code="13110">
+						<thumb>13110_s.png</thumb>
+						<images>
+							<type>13110_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[해산물모듬(대)]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[66,000]]></price>
+					</item>
+					<item code="13111">
+						<thumb>13111_s.png</thumb>
+						<images>
+							<type>13111_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[해산물모듬(소)]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[33,000]]></price>
+					</item>
+				</menuType>
+			</section>
+			
+			<section id="food">
+				<page><![CDATA[웰빙초밥 / 회덮밥]]></page>
+				<menuType>
+					<category>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+					</category>
+					<item code="14101">
+						<thumb>14101_s.png</thumb>
+						<images>
+							<type>14101_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[회덮밥(일반)]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[11,000]]></price>
+					</item>
+					<item code="14102">
+						<thumb>14102_s.png</thumb>
+						<images>
+							<type>14102_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[회덮밥(특)]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[22,000]]></price>
+					</item>
+					<item code="14103">
+						<thumb>14103_s.png</thumb>
+						<images>
+							<type>14103_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[활어초밥(10pcs)]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[22,000]]></price>
+					</item>
+					<item code="14104">
+						<thumb>14104_s.png</thumb>
+						<images>
+							<type>14104_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[복초밥(10pcs)]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[55,000]]></price>
+					</item>
+					<item code="14105">
+						<thumb>14105_s.png</thumb>
+						<images>
+							<type>14105_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[자연산 참복초밥(12pcs)]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[99,000]]></price>
+					</item>
+					<item code="14106">
+						<thumb>14106_s.png</thumb>
+						<images>
+							<type>14106_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[스페셜초밥(15pcs)]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[110,000]]></price>
+					</item>
+				</menuType>
+			</section>
+			
+			<section id="food">
+				<page><![CDATA[복 매운탕]]></page>
+				<menuType>
+					<category>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+					</category>
+					<item code="15101">
+						<thumb>15101_s.png</thumb>
+						<images>
+							<type>15101_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[은복 매운탕(일반)]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[11,000]]></price>
+					</item>
+					<item code="15102">
+						<thumb>15102_s.png</thumb>
+						<images>
+							<type>15102_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[은복 매운탕(특)]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[13,200]]></price>
+					</item>
+					<item code="15103">
+						<thumb>15103_s.png</thumb>
+						<images>
+							<type>15103_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[까치복 매운탕]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[19,800]]></price>
+					</item>
+					<item code="15104">
+						<thumb>15104_s.png</thumb>
+						<images>
+							<type>15104_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[밀복 매운탕]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[17,600]]></price>
+					</item>
+					<item code="15105">
+						<thumb>15105_s.png</thumb>
+						<images>
+							<type>15104_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[생밀복 매운탕]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[]]></price>
+					</item>
+					<item code="15106">
+						<thumb>15106_s.png</thumb>
+						<images>
+							<type>15104_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[활참복 매운탕(중)]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[44,000]]></price>
+					</item>
+					<item code="15107">
+						<thumb>15107_s.png</thumb>
+						<images>
+							<type>15104_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[활참복 매운탕(대)]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[66,000]]></price>
+					</item>
+				</menuType>
+			</section>
+			
+			<section id="food">
+				<page><![CDATA[복지리]]></page>
+				<menuType>
+					<category>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+					</category>
+					<item code="16101">
+						<thumb>16101_s.png</thumb>
+						<images>
+							<type>16101_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[은복 지리(일반)]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[11,000]]></price>
+					</item>
+					<item code="16102">
+						<thumb>16102_s.png</thumb>
+						<images>
+							<type>16102_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[은복 지리(특)]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[13,200]]></price>
+					</item>
+					<item code="16103">
+						<thumb>16103_s.png</thumb>
+						<images>
+							<type>16103_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[까치복 지리]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[19,800]]></price>
+					</item>
+					<item code="16104">
+						<thumb>16104_s.png</thumb>
+						<images>
+							<type>16104_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[밀복 지리]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[17,600]]></price>
+					</item>
+					<item code="16105">
+						<thumb>16105_s.png</thumb>
+						<images>
+							<type>16105_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[생밀복 지리]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[]]></price>
+					</item>
+					<item code="16106">
+						<thumb>16106_s.png</thumb>
+						<images>
+							<type>16106_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[활참복 지리(중)]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[44,000]]></price>
+					</item>
+					<item code="16107">
+						<thumb>16107_s.png</thumb>
+						<images>
+							<type>16107_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[활참복 지리(대)]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[66,000]]></price>
+					</item>
+				</menuType>
+			</section>
+
+			<section id="food">
+				<page><![CDATA[봄 계절메뉴]]></page>
+				<menuType>
+					<category>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+					</category>
+					<item code="17101">
+						<thumb>17101_s.png</thumb>
+						<images>
+							<type>17101_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[밀복 삼색나물 비빔밥세트]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[19,800]]></price>
+					</item>
+					<item code="17102">
+						<thumb>17102_s.png</thumb>
+						<images>
+							<type>17102_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[까치복 삼색나물 비빔밥세트]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[22,000]]></price>
+					</item>
+				</menuType>
+			</section>
+
+			<section id="food">
+				<page><![CDATA[복찜 복수육]]></page>
+				<menuType>
+					<category>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+					</category>
+					<item code="18101">
+						<thumb>18101_s.png</thumb>
+						<images>
+							<type>18102_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[은복]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[44,000]]></price>
+					</item>
+					<item code="18202">
+						<thumb>18202_s.png</thumb>
+						<images>
+							<type>18202_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[밀복찜 / 밀복수육]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[66,000]]></price>
+					</item>
+					<item code="18203">
+						<thumb>18203_s.png</thumb>
+						<images>
+							<type>18203_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[까치복찜 / 까치복수육]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[88,000]]></price>
+					</item>
+					<item code="18204">
+						<thumb>18204_s.png</thumb>
+						<images>
+							<type>18204_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[활복찜 / 활복수육]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[132,000]]></price>
+					</item>
+				</menuType>
+			</section>
+
+			<section id="food">
+				<page><![CDATA[복찜 및 불고기]]></page>
+				<menuType>
+					<category>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+					</category>
+					<item code="19101">
+						<thumb>19101_s.png</thumb>
+						<images>
+							<type>19101_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[복갈비찜]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[35,000]]></price>
+					</item>
+					<item code="19102">
+						<thumb>19102_s.png</thumb>
+						<images>
+							<type>19102_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[복불고기(대)]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[88,000]]></price>
+					</item>
+					<item code="19103">
+						<thumb>19103_s.png</thumb>
+						<images>
+							<type>19103_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[복불고기(중)]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[33,000]]></price>
+					</item>
+					<item code="19104">
+						<thumb>19104_s.png</thumb>
+						<images>
+							<type>19104_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[볶음밥추가]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[3,000]]></price>
+					</item>
+				</menuType>
+			</section>
+
+			<section id="food">
+				<page><![CDATA[복 튀김]]></page>
+				<menuType>
+					<category>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+					</category>
+					<item code="110101">
+						<thumb>110101_s.png</thumb>
+						<images>
+							<type>110101_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[복탕수]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[27,500]]></price>
+					</item>
+					<item code="110102">
+						<thumb>110102_s.png</thumb>
+						<images>
+							<type>110102_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[복고니구이]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[22,000]]></price>
+					</item>
+					<item code="110103">
+						<thumb>110103_s.png</thumb>
+						<images>
+							<type>110103_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[복까스]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[18,000]]></price>
+					</item>
+					<item code="110104">
+						<thumb>110104_s.png</thumb>
+						<images>
+							<type>110104_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[복껍질무침]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[11,000]]></price>
+					</item>
+					<item code="110105">
+						<thumb>110105_s.png</thumb>
+						<images>
+							<type>110105_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[복만두]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[4,000]]></price>
+					</item>
+				</menuType>
+			</section>
+
+			<section id="drink">
+				<page><![CDATA[DRINK]]></page>
+				<menuType>
+				<category>
+						<type><![CDATA[일본주]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+					</category>
+					<item code="21101">
+						<thumb>21101_s.png</thumb>
+						<images>
+							<type>21101_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[도쿠리]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[5,500]]></price>
+					</item>
+					<item code="21102">
+						<thumb>21102_s.png</thumb>
+						<images>
+							<type>21102_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[도쿠리]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[11,000]]></price>
+					</item>
+					<item code="21103">
+						<thumb>21103_s.png</thumb>
+						<images>
+							<type>21103_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[히레사케]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[8,800]]></price>
+					</item>
+					<item code="21104">
+						<thumb>21104_s.png</thumb>
+						<images>
+							<type>21104_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[히레사케]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[13,200]]></price>
+					</item>
+					<item code="21105">
+						<thumb>21105_s.png</thumb>
+						<images>
+							<type>21105_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[나마조죠]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[16,500]]></price>
+					</item>
+					<item code="21106">
+						<thumb>21106_s.png</thumb>
+						<images>
+							<type>21106_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[준마이 다이긴조]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[88,000]]></price>
+					</item>
+				</menuType>
+				<menuType>
+					<category>
+						<type><![CDATA[한국주]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+					</category>
+					<item code="22101">
+						<thumb>22101_s.png</thumb>
+						<images>
+							<type>22101_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[모주(캔/240ml)]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[3,300]]></price>
+					</item>
+					<item code="22102">
+						<thumb>22102_s.png</thumb>
+						<images>
+							<type>22102_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[모주(병/240ml)]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[5,500]]></price>
+					</item>
+					<item code="22103">
+						<thumb>22103_s.png</thumb>
+						<images>
+							<type>22103_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[소주]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[5,500]]></price>
+					</item>
+					<item code="22104">
+						<thumb>22104_s.png</thumb>
+						<images>
+							<type>22104_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[맥주]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[5,500]]></price>
+					</item>
+					<item code="22105">
+						<thumb>22105_s.png</thumb>
+						<images>
+							<type>22105_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[막걸리]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[5,500]]></price>
+					</item>
+					<item code="22106">
+						<thumb>22106_s.png</thumb>
+						<images>
+							<type>22106_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[청하]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[8,800]]></price>
+					</item>
+					<item code="22107">
+						<thumb>22107_s.png</thumb>
+						<images>
+							<type>22107_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[백세주]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[13,200]]></price>
+					</item>
+					<item code="22108">
+						<thumb>22108_s.png</thumb>
+						<images>
+							<type>22108_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[화랑]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[13,200]]></price>
+					</item>
+					<item code="22109">
+						<thumb>22109_s.png</thumb>
+						<images>
+							<type>22109_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[매취순]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[13,200]]></price>
+					</item>
+					<item code="22110">
+						<thumb>22110_s.png</thumb>
+						<images>
+							<type>22110_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[천년약속]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[13,200]]></price>
+					</item>
+					<item code="22111">
+						<thumb>22111_s.png</thumb>
+						<images>
+							<type>22111_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[산사춘]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[13,200]]></price>
+					</item>
+					<item code="22112">
+						<thumb>22112_s.png</thumb>
+						<images>
+							<type>22112_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[복분자]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[16,500]]></price>
+					</item>
+				</menuType>
+				<menuType>
+					<category>
+						<type><![CDATA[양주]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+					</category>
+					<item code="23101">
+						<thumb>23101_s.png</thumb>
+						<images>
+							<type>23101_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[윈저 - 12년산]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[132,000]]></price>
+					</item>
+					<item code="23102">
+						<thumb>23102_s.png</thumb>
+						<images>
+							<type>23102_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[윈저 - 17년산]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[198,000]]></price>
+					</item>
+					<item code="23103">
+						<thumb>23103_s.png</thumb>
+						<images>
+							<type>23103_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[스카치블루 - 12년산]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[132,000]]></price>
+					</item>
+					<item code="23104">
+						<thumb>23104_s.png</thumb>
+						<images>
+							<type>23104_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[스카치블루 - 17년산]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[198,000]]></price>
+					</item>
+					<item code="23105">
+						<thumb>23105_s.png</thumb>
+						<images>
+							<type>23105_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[발렌타인 - 17년산]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[275,000]]></price>
+					</item>
+					<item code="23106">
+						<thumb>23106_s.png</thumb>
+						<images>
+							<type>23106_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[임페리얼 - 19년산]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[222,000]]></price>
+					</item>
+				</menuType>
+				<menuType>
+					<category>
+						<type><![CDATA[음료]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+						<type><![CDATA[]]></type>
+					</category>
+					<item code="24101">
+						<thumb>24101_s.png</thumb>
+						<images>
+							<type>24101_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[사이다]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[2,200]]></price>
+					</item>
+					<item code="24102">
+						<thumb>24102_s.png</thumb>
+						<images>
+							<type>24102_d_01.png</type>
+						</images>
+						<kcal><![CDATA[]]></kcal>
+						<description>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[콜라]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+							<type><![CDATA[]]></type>
+						</thumDesc>
+						<price><![CDATA[2,200]]></price>
+					</item>
+				</menuType>
+			</section>
+			<!--
+			<section id="drink">
+				<page><![CDATA[DRINK]]></page>
+				<menuType>
+					<category>
+						<type><![CDATA[국산/수입맥주]]></type>
+						<type><![CDATA[Beer]]></type>
+						<type><![CDATA[国産/輸入啤酒]]></type>
+						<type><![CDATA[国産/輸入ビール]]></type>
+					</category>
+					<item code="23101">
+						<thumb>thumb_024.png</thumb>
+						<images>
+							<type>004.png</type>
+							<type>005.png</type>
+							<type>006.png</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[하이트]]></type>
+							<type><![CDATA[Hite]]></type>
+							<type><![CDATA[hite啤酒]]></type>
+							<type><![CDATA[ハイト(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23102">
+						<thumb>thumb_024.png</thumb>
+						<images>
+							<type>004.png</type>
+							<type>005.png</type>
+							<type>006.png</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[카스]]></type>
+							<type><![CDATA[Cass]]></type>
+							<type><![CDATA[嘉士啤酒]]></type>
+							<type><![CDATA[カス(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23103">
+						<thumb>thumb_024.png</thumb>
+						<images>
+							<type>004.png</type>
+							<type>005.png</type>
+							<type>006.png</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[OB라거]]></type>
+							<type><![CDATA[OB Lager]]></type>
+							<type><![CDATA[OB Lager]]></type>
+							<type><![CDATA[OBラガー(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23104">
+						<thumb>thumb_024.png</thumb>
+						<images>
+							<type>004.png</type>
+							<type>005.png</type>
+							<type>006.png</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[생맥주(300ml)]]></type>
+							<type><![CDATA[draft beer]]></type>
+							<type><![CDATA[生啤酒]]></type>
+							<type><![CDATA[生なまビール(300ml)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[3,500]]></price>
+					</item>
+				</menuType>
+				<menuType>
+					<category>
+						<type><![CDATA[국산/수입맥주]]></type>
+						<type><![CDATA[Beer]]></type>
+						<type><![CDATA[国産/輸入啤酒]]></type>
+						<type><![CDATA[国産/輸入ビール]]></type>
+					</category>
+					<item code="23101">
+						<thumb>thumb_024.png</thumb>
+						<images>
+							<type>004.png</type>
+							<type>005.png</type>
+							<type>006.png</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[하이트]]></type>
+							<type><![CDATA[Hite]]></type>
+							<type><![CDATA[hite啤酒]]></type>
+							<type><![CDATA[ハイト(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23102">
+						<thumb>thumb_024.png</thumb>
+						<images>
+							<type>004.png</type>
+							<type>005.png</type>
+							<type>006.png</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[카스]]></type>
+							<type><![CDATA[Cass]]></type>
+							<type><![CDATA[嘉士啤酒]]></type>
+							<type><![CDATA[カス(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23103">
+						<thumb>thumb_024.png</thumb>
+						<images>
+							<type>004.png</type>
+							<type>005.png</type>
+							<type>006.png</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[OB라거]]></type>
+							<type><![CDATA[OB Lager]]></type>
+							<type><![CDATA[OB Lager]]></type>
+							<type><![CDATA[OBラガー(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+				</menuType>
+				<menuType>
+					<category>
+						<type><![CDATA[국산/수입맥주]]></type>
+						<type><![CDATA[Beer]]></type>
+						<type><![CDATA[国産/輸入啤酒]]></type>
+						<type><![CDATA[国産/輸入ビール]]></type>
+					</category>
+					<item code="23101">
+						<thumb>thumb_024.png</thumb>
+						<images>
+							<type>004.png</type>
+							<type>005.png</type>
+							<type>006.png</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[하이트]]></type>
+							<type><![CDATA[Hite]]></type>
+							<type><![CDATA[hite啤酒]]></type>
+							<type><![CDATA[ハイト(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23102">
+						<thumb>thumb_024.png</thumb>
+						<images>
+							<type>004.png</type>
+							<type>005.png</type>
+							<type>006.png</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[카스]]></type>
+							<type><![CDATA[Cass]]></type>
+							<type><![CDATA[嘉士啤酒]]></type>
+							<type><![CDATA[カス(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23103">
+						<thumb>thumb_024.png</thumb>
+						<images>
+							<type>004.png</type>
+							<type>005.png</type>
+							<type>006.png</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[OB라거]]></type>
+							<type><![CDATA[OB Lager]]></type>
+							<type><![CDATA[OB Lager]]></type>
+							<type><![CDATA[OBラガー(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23104">
+						<thumb>thumb_024.png</thumb>
+						<images>
+							<type>004.png</type>
+							<type>005.png</type>
+							<type>006.png</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[생맥주(300ml)]]></type>
+							<type><![CDATA[draft beer]]></type>
+							<type><![CDATA[生啤酒]]></type>
+							<type><![CDATA[生なまビール(300ml)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[3,500]]></price>
+					</item>
+					<item code="23104">
+						<thumb>thumb_024.png</thumb>
+						<images>
+							<type>004.png</type>
+							<type>005.png</type>
+							<type>006.png</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[생맥주(300ml)]]></type>
+							<type><![CDATA[draft beer]]></type>
+							<type><![CDATA[生啤酒]]></type>
+							<type><![CDATA[生なまビール(300ml)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[3,500]]></price>
+					</item>
+					<item code="23104">
+						<thumb>thumb_024.png</thumb>
+						<images>
+							<type>004.png</type>
+							<type>005.png</type>
+							<type>006.png</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[생맥주(300ml)]]></type>
+							<type><![CDATA[draft beer]]></type>
+							<type><![CDATA[生啤酒]]></type>
+							<type><![CDATA[生なまビール(300ml)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[3,500]]></price>
+					</item>
+					<item code="23104">
+						<thumb>thumb_024.png</thumb>
+						<images>
+							<type>004.png</type>
+							<type>005.png</type>
+							<type>006.png</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[생맥주(300ml)]]></type>
+							<type><![CDATA[draft beer]]></type>
+							<type><![CDATA[生啤酒]]></type>
+							<type><![CDATA[生なまビール(300ml)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[3,500]]></price>
+					</item>
+				</menuType>
+				<menuType>
+					<category>
+						<type><![CDATA[국산/수입맥주]]></type>
+						<type><![CDATA[Beer]]></type>
+						<type><![CDATA[国産/輸入啤酒]]></type>
+						<type><![CDATA[国産/輸入ビール]]></type>
+					</category>
+					<item code="23101">
+						<thumb>thumb_024.png</thumb>
+						<images>
+							<type>004.png</type>
+							<type>005.png</type>
+							<type>006.png</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[하이트]]></type>
+							<type><![CDATA[Hite]]></type>
+							<type><![CDATA[hite啤酒]]></type>
+							<type><![CDATA[ハイト(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23102">
+						<thumb>thumb_024.png</thumb>
+						<images>
+							<type>004.png</type>
+							<type>005.png</type>
+							<type>006.png</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[카스]]></type>
+							<type><![CDATA[Cass]]></type>
+							<type><![CDATA[嘉士啤酒]]></type>
+							<type><![CDATA[カス(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+					<item code="23103">
+						<thumb>thumb_024.png</thumb>
+						<images>
+							<type>004.png</type>
+							<type>005.png</type>
+							<type>006.png</type>
+						</images>
+						<kcal><![CDATA[835kcal]]></kcal>
+						<description>
+							<type><![CDATA[중화면 340g, 대하4마리,청경채50g,새송이버섯 1/2개]]></type>
+							<type><![CDATA[Chinese noodles 340g, Chronicles 4, cheonggyeongchae 50g, king oyster mushrooms 1/2]]></type>
+							<type><![CDATA[中国方便面340克, 历代志上4,瓢儿菜 50克,杏鲍菇1/2]]></type>
+							<type><![CDATA[中華麺340g, 大河4匹, チンゲン菜50g, エリンギ1/2個]]></type>
+						</description>
+						<menuName>
+							<type><![CDATA[OB라거]]></type>
+							<type><![CDATA[OB Lager]]></type>
+							<type><![CDATA[OB Lager]]></type>
+							<type><![CDATA[OBラガー(瓶ビール)]]></type>
+						</menuName>
+						<thumDesc>
+							<type><![CDATA[파마산치즈, 크림치즈, 체다치즈]]></type>
+							<type><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></type>
+							<type><![CDATA[帕玛森奶酪, 奶油干酪, 奶酪]]></type>
+							<type><![CDATA[パルメザン, クリーム, ホワイト]]></type>
+						</thumDesc>
+						<price><![CDATA[4,500]]></price>
+					</item>
+				</menuType>
+			</section>
+			-->
+		</menuList>
+	</viewList>
+</app>

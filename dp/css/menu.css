@@ -1,0 +1,259 @@
+﻿@font-face
+{ font-family: menuName; src: url('../res/font/NanumBarunGothic.ttf'), url('../res/font/NanumBarunGothic.woff'), url('../res/font/NanumBarunGothic.eot')}
+@font-face
+{ font-family: thumDesc; src: url('../res/font/YDIYG530.TTF'), url('../res/font/YDIYG530.eot'), url('../res/font/YDIYG530.woff') }
+@font-face
+{ font-family: priceDefault; src: url('../res/font/OpenSans-Semibold.ttf'), url('../res/font/OpenSans-Semibold.eot'), url('../res/font/OpenSans-Semibold.woff')}
+@font-face
+{ font-family: price_order; src: url('../res/font/OpenSans-Light.ttf'), url('../res/font/OpenSans-Light.eot'), url('../res/font/OpenSans-Light.woff') }
+@font-face
+{ font-family: price_total; src: url('../res/font/OpenSans-Bold.ttf'), url('../res/font/OpenSans-Bold.eot'), url('../res/font/OpenSans-Bold.woff')}
+@font-face
+{ font-family: sectionTitle; src: url('../res/font/NanumBarunGothicBold.ttf'), url('../res/font/NanumBarunGothicBold.eot'), url('../res/font/NanumBarunGothicBold.woff') }
+
+  /*@font-face {
+       font-family : 'NanumGothic';
+       font-style : normal;
+       font-weight : normal;
+       src: url('/font/NanumGothic.eot');
+       src : local('☺'), url('/font/NanumGothic.eot'), url('/font/NanumGothic.woff')
+             format('woff');
+  }*/
+html { touch-action: none; }
+body { overflow: hidden; background: #333; color: #9f9f9f; letter-spacing: -0.4px; }
+body, ul, li, div, img, span, p, strong { padding: 0; margin: 0; }
+li { list-style: none; }
+
+#tableCode .tableSet { position: absolute; background: url('../img/table/bg.png') 0 0 no-repeat; width: 1280px; height: 800px; z-index: 9999; }
+#tableCode .tableSet ul.tableNum { width: 640px; position: relative; top: 270px; left: 320px; }
+#tableCode .tableSet ul.tableNum li { float: left; margin: 1px 0 0 1px; }
+#tableCode .tableSet div.btnBack { position: relative; top: 527px; right: 319px; }
+#tableCode .tableSet div.btnOK { position: relative; top: 570px; right: 90px; }
+
+
+#wrap { position: relative;	width: 1280px; } 
+
+#header { position: absolute; top: 0; background: #333333; width: 100%; height: 50px; z-index: 9000; clear: both; }
+#header div { float: left; }
+#header div.home { top: 0; left: 0; position: relative; }
+#header div.utilContainer { position: absolute; right: 0; width: 483px; }
+#header ul.language li { float: left; margin: 6px 12px; overflow: hidden; height: 34px;}
+#header ul.language li img { position:relative }
+#header ul.utilMenu li { float: left; }
+
+#gnb { position: absolute; left: 0; top: 50px; }
+#gnb > ul { width: 115px;  position: relative; overflow: hidden; }
+#gnb > ul > li { width: 230px; position: relative; }
+#gnb li.menuActivate { position: relative; left: -115px; }
+#gnb div.callOrder { position: relative; top: 287px; z-index: 9900; overflow: hidden; width: 115px; }
+#gnb div.callOrder div { position: relative; width: 230px; }
+
+div.callList { position: relative; top: 172px; left: 80px; }
+div.callList ul { clear: both; }
+div.callList li { position: relative; float: left; opacity: 0; }
+
+#content { position: relative; top: 50px; height: 800px; z-index: 8000; overflow:hidden; clear: both; background: #f1f1f1; margin-left: 115px; }
+
+#menuList 
+{
+	position: relative;
+	float:left;	/*display: inline;*/
+	
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease-out;
+
+	-webkit-transform: translate3d(0px,0px,0px); 
+	-ms-transform: translate3d(0px,0px,0px); 
+}
+
+#menuList img
+{
+	-webkit-transform: translate3d(0px,0px,0px); 
+	-ms-transform: translate3d(0px,0px,0px); 
+}
+
+#menuList ul.pageCon li.pages { position: relative; width: 1280px; float: left; padding: 0; margin: 0; /*margin-top: 12px;*/}
+#menuList ul.pageCon li.pages div.section { position: relative; top: 30px; background: url('../img/top_bg.gif') 0 0 repeat-x; height: 113px; }
+
+#menuList ul.pageCon li.pages div.section p 
+{
+	padding-top: 45px;
+	margin-left: -115px;
+	display: block;
+	text-align: center; 
+	font-size: 87px; 
+	font-family: sectionTitle; 
+	letter-spacing: 0.1em; 
+	color: #FFF; 
+	font-weight: bold; 
+}
+#menuList ul.pageCon li.pages ul.pageList { clear: both; position: relative; }
+#menuList ul.pageCon li.pages ul.pageList li { position: relative; width: 569px; margin: 9px 8px 0 0; display: block; z-index: 0;}
+#menuList ul.pageCon li.pages ul.pageList li.mList 
+{ 
+	margin-left: 10px; 
+	float: left; 
+	position: relative; 
+	z-index: 8000; 
+	background: url('../img/menu/list.gif') 0 0 no-repeat; 
+	width: 569px; 
+	height: 235px; 
+}
+#menuList ul.pageCon li.pages ul.pageList li.cate { margin-top: 31px; display: block; position: relative; z-index: 0; width: 1165px; /*height: 60px;*/ }
+#menuList ul.pageCon li.pages ul.pageList li div.mType 
+{ 
+	position: relative;
+	width: 1165px;
+	margin: 0 auto;
+	font-family: thumDesc;
+	font-size: 34px; 
+	display: inline-block; 
+	text-align: center; 
+	letter-spacing: 0.25em; 
+	display: inline-block;
+}
+#menuList ul.pageCon li.pages ul.pageList li p { font-family: menuName; line-height: 26px; /*position: absolute;*/ margin-top: 24px; margin-left: 253px; color: #333333; font-size: 28px; }
+#menuList ul.pageCon li.pages ul.pageList li div.thumDesc { font-family: thumDesc; color: #9f9f9f; font-size: 17px; /*position: absolute;*/ margin-top: 10px; margin-left: 253px; font-weight: bold; }
+#menuList ul.pageCon li.pages ul.pageList li span.price 
+{ 
+	font-family: priceDefault; 
+	position: absolute; 
+	display: block; 
+	top: 191px; 
+	margin-left: 250px; 
+	color: #727272; 
+	font-size: 19px; 
+}
+#menuList ul.pageCon li.pages ul.pageList li span.price img { margin-top: -4px; margin-right: 8px; }
+#menuList ul.pageCon li.pages ul.pageList li div.addMenuContainer { position: absolute; width: 145px; height: 42px; overflow: hidden; top: 191px; left: 88px;}
+#menuList ul.pageCon li.pages ul.pageList li span.addMenu { position: absolute; display: inline-block; width: 290px; }
+#menuList ul.pageCon li.pages ul.pageList li div.detailMenuContainer { position: absolute; width: 88px; height: 42px; overflow: hidden; top: 191px; left: 0px;}
+#menuList ul.pageCon li.pages ul.pageList li span.detailMenu { position: absolute; display: inline-block; width: 176px; }
+#menuList ul.pageCon li.pages ul.pageList li span.detailImg { width: 232px; }
+.pagination {
+  position: absolute;
+  left: 0;
+  text-align: center;
+  bottom:5px;
+  width: 100%;
+}
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border-radius: 20px;
+  background: #FFFFFF;
+  opacity: 0.3;
+  /*box-shadow: 0px 1px 2px #555 inset;*/
+  margin: 0 3px;
+  cursor: pointer;
+}
+.swiper-active-switch {
+  background: #fff;
+  opacity: 1;
+}
+.detailModal { position: relative; left: -1280px; width: 1280px; height: 860px; background: #000; opacity: 0; z-index: 8888; }
+
+/*******************/
+
+#viewDetailContainer { position: absolute; background: url('../img/menu/detailBG.png') 0 0 no-repeat; left: -785px; width: 785px; height: 617px; top: 123px; z-index: 9999; }
+#viewDetailContainer ul { clear: both; }
+#viewDetailContainer > ul > li { float: left; position: relative; height: 617px; }
+#viewDetailContainer li.detailDiv_1 { width: 512px; }
+#viewDetailContainer li.detailDiv_2 { width: 218px; }
+#viewDetailContainer li.detailDiv_3 { width: 55px; }
+
+#viewDetailContainer li.detailDiv_1 div.imageContainer { width: 512px; overflow: hidden; height: 512px; }
+#viewDetailContainer li.detailDiv_1 div.imageContainer div.imgList { position: relative; }
+#viewDetailContainer li.detailDiv_1 div.currentMenuName { font-family: menuName; color: #9f9f9f; font-size: 2em; text-align: center; margin-top: -20px; }
+#viewDetailContainer li.detailDiv_1 div.detailUI { position: relative; top: -65px; right: 0;  background: url('../img/detailBar.png') 0 0px no-repeat; width: 512px; height: 65px; z-index: 8888; }
+#viewDetailContainer li.detailDiv_1 div.detailUI span.prev { position: absolute; right: 66px; }
+#viewDetailContainer li.detailDiv_1 div.detailUI span.next { position: absolute; right: 0; }
+
+#viewDetailContainer li.detailDiv_2 div.currentOrder { position: absolute; bottom: 0; }
+#viewDetailContainer li.detailDiv_2 span { position: absolute; display: block; top: 470px; width: 218px; border-top: 1px solid #555555; }
+#viewDetailContainer li.detailDiv_2 span p{ position: relative; margin: 9px 0 0 18px; font-family: priceDefault; font-size: 22px; color: #9f9f9f; }
+#viewDetailContainer ul.ingredient li { font-family: thumDesc; color: #9f9f9f; font-size: 18px; margin: 20px 0 0 18px; }
+/*******************/
+
+#orderStream { position: absolute; bottom: -600px; right: 10px; width: 324px; height: 0px; background: #010101; z-index: 9000; opacity: 0.8; }
+#orderStream div.orderlistBlock { position: relative; /*height: 83px;*/ margin-top: 20px; border-bottom: 1px solid #333333; }
+#orderStream div.orderButtonContainer { overflow: hidden; width: 324px; height: 71px; position:absolute; bottom: -71px; left: 0px; background: #FF00FF; z-index: 8888; }
+#orderStream div.orderComplete { position:relative; /*bottom: -71px;*/ left: 0px; display: block; background: #FF00FF; z-index: 8888; }
+#orderStream div.orderDecision { position:relative; /*bottom: -71px;*/ left: 0px; background: #FF00FF; z-index: 8888; width: 324px; height: 71px; background: url('../img/btnOrderDecision.gif') 0 0 no-repeat; }
+#orderStream div.orderDecision a.btnOK, #orderStream div.orderDecision a.btnCancel { display: inline-block; text-indent: -9999px; width: 162px; height: 71px; }
+#orderStream div.orderDecision a.btnCancel { float: right; }
+#orderStream div.orderToggle { position:absolute; /*top: -56px;*/ background: url('../img/orderToggle.png') 0 0 no-repeat; width: 324px; height: 56px; }
+#orderStream div.infoText { position: absolute; bottom: 0px; opacity: 0; }
+#orderStream div.total { font-family: price_total; width: 100%; position: absolute; bottom: 0px; height: 48px; color: #9f9f9f; font-size: 18px; margin-top: 20px; z-index: 8888; }
+#orderStream div.listContainer { height: 415px; overflow: hidden; position: relative; top: 56px; }
+#orderStream ul.orderContainer { clear: both; position: relative; }
+#orderStream ul.orderContainer li { float: left; color: #FFF; }
+#orderStream ul.orderContainer li.order_name { font-family: menuName; font-size: 18px; width: 208px; margin: 10px 0 9px 13px; letter-spacing: -0.5px; }
+#orderStream ul.orderContainer li.order_price 
+{ 
+	font-family: priceDefault;
+	clear: both; 
+	font-size: 16px; 
+	color: #9f9f9f; 
+	position: relative; 
+	margin: 0 0 0 13px; 
+}
+#orderStream ul.orderContainer li.order_count { position: absolute; right: 51px; width: 65px; height: 82px; font-size: 34px; background: url('../img/countBG.png') 0 0 no-repeat; }
+#orderStream ul.orderContainer li.order_count p 
+{ 
+	position: relative; 
+	width: 65px; 
+	text-align: center; 
+	margin: auto 0; 
+	display: block; 
+	line-height: 82px; 
+	vertical-align: middle; 
+	font-family: price_order;
+}
+#orderStream ul.orderContainer li.order_added { position: absolute; right: 0; top: 0; }
+#orderStream ul.orderContainer li.order_remove { position: absolute; right: 0; top: 41px; }
+
+.orderBills { margin-top: 50px; }
+div.viewOrderComplete { position: absolute; right: 0px; top: 50px; border: 10px solid #745eaf; /*display: none;*/ overflow: hidden; }
+/*div.orderCompletebg { overflow: hidden; }*/
+div.viewOrders { width: 314px; background: #000; opacity: 0.9; height: 600px; /*overflow: hidden;*/ }
+div.orderCompletelistBlock { width: 314px; height: 83px; border-bottom: 1px solid #333333; }
+ul.billsContainer { position: relative; }
+ul.billsContainer li { float: left; }
+ul.billsContainer li.b_menuName { position: relative; font-family: menuName; font-size: 18px; margin: 10px 0 0 10px; width: 249px; margin-right: 64px; }
+/*ul.billsContainer li.b_menuName p { font-family: price_order; margin-top: 10px; }*/
+ul.billsContainer li.b_price { font-size: 18px; font-family: price_order; margin-top: 10px; margin-left: 10px; }
+ul.billsContainer li.b_menuCount { position: absolute; font-family: menuName; font-size: 18px; right: 0; background: url('../img/b_countBG.png') 0 0 no-repeat; width: 65px; height: 82px; }
+ul.billsContainer li.b_menuCount p 
+{ 
+	position: relative; 
+	text-align: center; 
+	vertical-align: middle; 
+	display: block; 
+	font-size: 34px; 
+	font-family: price_order;
+	line-height: 82px; 
+}
+div.totalBills { position: relative; height: 102px; color: #ffc433; font-size: 34px; font-family: price_order; width: 314px; border-top: 1px solid #555555; }
+div.totalBills ul { position: relative; }
+div.totalBills li { float: left; }
+div.totalBills li.billsTotalPrices { position: relative; top: 35px; left: 10px; }
+div.totalBills li.btnOrderClose { position: absolute; right: 0; height: 102px; z-index: 9999; }
+
+div.compPop { position: absolute; top:100px; left: 0; z-index: 0; display: none; }
+div.viewPop { z-index: 9999; display: block; }
+/*ul.billsContainer li.b_menuCount { position: absolute; }*/
+/*#orderPage { position: absolute; width: 1000px; height: 500px; background: #000; opacity: 0.8; z-index: 9999; }*/
+/*#footer { position: fixed; bottom: 0;	width: 100%; height: 40px;	background: #ddd; z-index: 9000; }*/
+
+.clearfix:after 
+{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.ie_clearfix {*zoom:1;}

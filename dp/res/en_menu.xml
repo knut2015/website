@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<app>
+	<viewList>
+		<menuList>
+			<section page="0">
+				<item category="Side">
+					<thumb>thumb_00.jpg</thumb>
+					<images>thumb_00.jpg</images>
+					<menuName><![CDATA[Macaroni and Cheese]]></menuName>
+					<thumDesc><![CDATA[Gruyere, Parmesan, Fontina, White Cheddar, Cream Cheese]]></thumDesc>
+					<description><![CDATA[This recipe comes from Homeroom in Oakland, California, a restaurant that specializes in one thing: mac ‘n’ cheese. 
+						Owners Erin Wade and Allison Arevalo serve the dish in a multitude of creative combos, but this is their classic version, made with sharp cheddar. 
+						It calls for combining béchamel sauce with grated cheese, then stirring in just-cooked pasta. What’s nice about this recipe is its versatility. 
+						It works beautifully as both a creamy stovetop dish with any sort of mix-ins you like, and as a crunchy baked mac ‘n’ cheese sprinkled with panko breadcrumbs.]]></description>
+					<price><![CDATA[$15.00]]></price>
+				</item>
+				<item category="Side">
+					<thumb>thumb_01.jpg</thumb>
+					<images>thumb_01.jpg</images>
+					<menuName><![CDATA[Buffalo Wings]]></menuName>
+					<thumDesc><![CDATA[Count of 12 with Ranch and Louisiana Hot Sauce]]></thumDesc>
+					<description><![CDATA[Football (American) championship season. 
+						Sports bars, beer, and spicy things that make you want to drink more beer. 
+						Darts, pool, loud conversation, an either ill-spent or well-spent youth, depending on your perspective. 
+						Once in my early twenties I happened to be in Buffalo, New York for a wedding of a dear friend. 
+						On our site-seeing day the gang of us revelers happened to drive right by the Anchor Bar, home of the “Original Buffalo Chicken Wings”.]]></description>
+					<price><![CDATA[$16.00]]></price>
+				</item>
+				<item category="Side">
+					<thumb>thumb_02.jpg</thumb>
+					<images>thumb_02.jpg</images>
+					<menuName><![CDATA[Buffalo Wings]]></menuName>
+					<thumDesc><![CDATA[Count of 12 with Ranch and Louisiana Hot Sauce]]></thumDesc>
+					<description><![CDATA[Football (American) championship season. 
+						Sports bars, beer, and spicy things that make you want to drink more beer. 
+						Darts, pool, loud conversation, an either ill-spent or well-spent youth, depending on your perspective. 
+						Once in my early twenties I happened to be in Buffalo, New York for a wedding of a dear friend. 
+						On our site-seeing day the gang of us revelers happened to drive right by the Anchor Bar, home of the “Original Buffalo Chicken Wings”.]]></description>
+					<price><![CDATA[$16.00]]></price>
+				</item>
+			</section>
+			
+			<section page="1">
+				<item category="Soups">
+					<thumb>thumb_07.jpg</thumb>
+					<images>thumb_07.jpg</images>
+					<menuName><![CDATA[French Onion Soup]]></menuName>
+					<thumDesc><![CDATA[Swiss Cheese & Croutons]]></thumDesc>
+					<description><![CDATA[Hello weekend! Sacramento can’t decide if it wants to be hot or cool right now. 
+						But the weather has been cooperating gloriously recently, with lots of sun, perfect for relaxing on the patio with tortilla chips or saltines and some coctel de camarones, 
+						or Mexican shrimp cocktail. I love this version of shrimp cocktail, it’s sort of like a virgin bloody mary with cucumber, celery, red onions, avocados and lots of shrimp. 
+						Perfect for dipping, or eating with a spoon. Or picking out the shrimp pieces with a fork, then the avocado pieces, and then eating the rest with a spoon as if it were gazpacho. 
+						Enjoy!]]></description>
+					<price><![CDATA[$16.00]]></price>
+				</item>
+			</section>
+			
+			<section page="2">
+				<item category="Soups">
+					<thumb>thumb_03.jpg</thumb>
+					<images>thumb_03.jpg</images>
+					<menuName><![CDATA[French Onion Soup]]></menuName>
+					<thumDesc><![CDATA[Swiss Cheese & Croutons]]></thumDesc>
+					<description><![CDATA[Hello weekend! Sacramento can’t decide if it wants to be hot or cool right now. 
+						But the weather has been cooperating gloriously recently, with lots of sun, perfect for relaxing on the patio with tortilla chips or saltines and some coctel de camarones, 
+						or Mexican shrimp cocktail. I love this version of shrimp cocktail, it’s sort of like a virgin bloody mary with cucumber, celery, red onions, avocados and lots of shrimp. 
+						Perfect for dipping, or eating with a spoon. Or picking out the shrimp pieces with a fork, then the avocado pieces, and then eating the rest with a spoon as if it were gazpacho. 
+						Enjoy!]]></description>
+					<price><![CDATA[$16.00]]></price>
+				</item>
+				<item category="Soups">
+					<thumb>thumb_04.jpg</thumb>
+					<images>thumb_04.jpg</images>
+					<menuName><![CDATA[French Onion Soup]]></menuName>
+					<thumDesc><![CDATA[Swiss Cheese & Croutons]]></thumDesc>
+					<description><![CDATA[Hello weekend! Sacramento can’t decide if it wants to be hot or cool right now. 
+						But the weather has been cooperating gloriously recently, with lots of sun, perfect for relaxing on the patio with tortilla chips or saltines and some coctel de camarones, 
+						or Mexican shrimp cocktail. I love this version of shrimp cocktail, it’s sort of like a virgin bloody mary with cucumber, celery, red onions, avocados and lots of shrimp. 
+						Perfect for dipping, or eating with a spoon. Or picking out the shrimp pieces with a fork, then the avocado pieces, and then eating the rest with a spoon as if it were gazpacho. 
+						Enjoy!]]></description>
+					<price><![CDATA[$16.00]]></price>
+				</item>
+				<item category="Soups">
+					<thumb>thumb_06.jpg</thumb>
+					<images>thumb_06.jpg</images>
+					<menuName><![CDATA[French Onion Soup]]></menuName>
+					<thumDesc><![CDATA[Swiss Cheese & Croutons]]></thumDesc>
+					<description><![CDATA[Hello weekend! Sacramento can’t decide if it wants to be hot or cool right now. 
+						But the weather has been cooperating gloriously recently, with lots of sun, perfect for relaxing on the patio with tortilla chips or saltines and some coctel de camarones, 
+						or Mexican shrimp cocktail. I love this version of shrimp cocktail, it’s sort of like a virgin bloody mary with cucumber, celery, red onions, avocados and lots of shrimp. 
+						Perfect for dipping, or eating with a spoon. Or picking out the shrimp pieces with a fork, then the avocado pieces, and then eating the rest with a spoon as if it were gazpacho. 
+						Enjoy!]]></description>
+					<price><![CDATA[$16.00]]></price>
+				</item>
+				<item category="Soups">
+					<thumb>thumb_07.jpg</thumb>
+					<images>thumb_04.jpg</images>
+					<menuName><![CDATA[French Onion Soup]]></menuName>
+					<thumDesc><![CDATA[Swiss Cheese & Croutons]]></thumDesc>
+					<description><![CDATA[Hello weekend! Sacramento can’t decide if it wants to be hot or cool right now. 
+						But the weather has been cooperating gloriously recently, with lots of sun, perfect for relaxing on the patio with tortilla chips or saltines and some coctel de camarones, 
+						or Mexican shrimp cocktail. I love this version of shrimp cocktail, it’s sort of like a virgin bloody mary with cucumber, celery, red onions, avocados and lots of shrimp. 
+						Perfect for dipping, or eating with a spoon. Or picking out the shrimp pieces with a fork, then the avocado pieces, and then eating the rest with a spoon as if it were gazpacho. 
+						Enjoy!]]></description>
+					<price><![CDATA[$16.00]]></price>
+				</item>
+				<item category="Soups">
+					<thumb>thumb_08.jpg</thumb>
+					<images>thumb_06.jpg</images>
+					<menuName><![CDATA[French Onion Soup]]></menuName>
+					<thumDesc><![CDATA[Swiss Cheese & Croutons]]></thumDesc>
+					<description><![CDATA[Hello weekend! Sacramento can’t decide if it wants to be hot or cool right now. 
+						But the weather has been cooperating gloriously recently, with lots of sun, perfect for relaxing on the patio with tortilla chips or saltines and some coctel de camarones, 
+						or Mexican shrimp cocktail. I love this version of shrimp cocktail, it’s sort of like a virgin bloody mary with cucumber, celery, red onions, avocados and lots of shrimp. 
+						Perfect for dipping, or eating with a spoon. Or picking out the shrimp pieces with a fork, then the avocado pieces, and then eating the rest with a spoon as if it were gazpacho. 
+						Enjoy!]]></description>
+					<price><![CDATA[$16.00]]></price>
+				</item>
+			</section>
+			
+			<section page="3">
+				<item category="Soups">
+					<thumb>thumb_03.jpg</thumb>
+					<images>thumb_03.jpg</images>
+					<menuName><![CDATA[French Onion Soup]]></menuName>
+					<thumDesc><![CDATA[Swiss Cheese & Croutons]]></thumDesc>
+					<description><![CDATA[Hello weekend! Sacramento can’t decide if it wants to be hot or cool right now. 
+						But the weather has been cooperating gloriously recently, with lots of sun, perfect for relaxing on the patio with tortilla chips or saltines and some coctel de camarones, 
+						or Mexican shrimp cocktail. I love this version of shrimp cocktail, it’s sort of like a virgin bloody mary with cucumber, celery, red onions, avocados and lots of shrimp. 
+						Perfect for dipping, or eating with a spoon. Or picking out the shrimp pieces with a fork, then the avocado pieces, and then eating the rest with a spoon as if it were gazpacho. 
+						Enjoy!]]></description>
+					<price><![CDATA[$16.00]]></price>
+				</item>
+			</section>
+			
+			<section page="4">
+				<item category="Soups">
+					<thumb>thumb_03.jpg</thumb>
+					<images>thumb_03.jpg</images>
+					<menuName><![CDATA[French Onion Soup]]></menuName>
+					<thumDesc><![CDATA[Swiss Cheese & Croutons]]></thumDesc>
+					<description><![CDATA[Hello weekend! Sacramento can’t decide if it wants to be hot or cool right now. 
+						But the weather has been cooperating gloriously recently, with lots of sun, perfect for relaxing on the patio with tortilla chips or saltines and some coctel de camarones, 
+						or Mexican shrimp cocktail. I love this version of shrimp cocktail, it’s sort of like a virgin bloody mary with cucumber, celery, red onions, avocados and lots of shrimp. 
+						Perfect for dipping, or eating with a spoon. Or picking out the shrimp pieces with a fork, then the avocado pieces, and then eating the rest with a spoon as if it were gazpacho. 
+						Enjoy!]]></description>
+					<price><![CDATA[$16.00]]></price>
+				</item>
+			</section>
+			
+			<section page="5">
+				<item category="Soups">
+					<thumb>thumb_03.jpg</thumb>
+					<images>thumb_03.jpg</images>
+					<menuName><![CDATA[French Onion Soup]]></menuName>
+					<thumDesc><![CDATA[Swiss Cheese & Croutons]]></thumDesc>
+					<description><![CDATA[Hello weekend! Sacramento can’t decide if it wants to be hot or cool right now. 
+						But the weather has been cooperating gloriously recently, with lots of sun, perfect for relaxing on the patio with tortilla chips or saltines and some coctel de camarones, 
+						or Mexican shrimp cocktail. I love this version of shrimp cocktail, it’s sort of like a virgin bloody mary with cucumber, celery, red onions, avocados and lots of shrimp. 
+						Perfect for dipping, or eating with a spoon. Or picking out the shrimp pieces with a fork, then the avocado pieces, and then eating the rest with a spoon as if it were gazpacho. 
+						Enjoy!]]></description>
+					<price><![CDATA[$16.00]]></price>
+				</item>
+			</section>
+			
+			<section page="6">
+				<item category="Soups">
+					<thumb>thumb_02.jpg</thumb>
+					<images>thumb_03.jpg</images>
+					<menuName><![CDATA[French Onion Soup]]></menuName>
+					<thumDesc><![CDATA[Swiss Cheese & Croutons]]></thumDesc>
+					<description><![CDATA[Hello weekend! Sacramento can’t decide if it wants to be hot or cool right now. 
+						But the weather has been cooperating gloriously recently, with lots of sun, perfect for relaxing on the patio with tortilla chips or saltines and some coctel de camarones, 
+						or Mexican shrimp cocktail. I love this version of shrimp cocktail, it’s sort of like a virgin bloody mary with cucumber, celery, red onions, avocados and lots of shrimp. 
+						Perfect for dipping, or eating with a spoon. Or picking out the shrimp pieces with a fork, then the avocado pieces, and then eating the rest with a spoon as if it were gazpacho. 
+						Enjoy!]]></description>
+					<price><![CDATA[$16.00]]></price>
+				</item>
+			</section>
+		</menuList>
+	</viewList>
+</app>
