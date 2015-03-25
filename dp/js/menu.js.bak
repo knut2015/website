@@ -158,8 +158,8 @@ function creatGnb(){
 	var callState = true;
 	var $callList = $("div.callList");
 	
-	var foodMenu = "res/menu.xml";
-//	var foodMenu = "http://61.111.61.85/M2CASTContents/FTDM/dp/res/menu.xml";
+	//var foodMenu = "res/menu.xml";
+	var foodMenu = "http://61.111.61.85/M2CASTContents/FTDM/dp/res/menu.xml";
 
 	dataLoad(foodMenu);
 	
