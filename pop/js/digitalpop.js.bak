@@ -307,7 +307,7 @@ function textEditer(){
     });
 }
 
-var fontScale = 60;
+var fontScale = 20;
 angular.module('test', []).controller('AppCtrl', function($scope) {
 
     $scope.chart = {
