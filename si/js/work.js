@@ -60,9 +60,6 @@ var CreateWork = CreateWork || function(){
 		}else{
 			console.log((workData.length) - cal);
 			switch ((workData.length) - cal){
-				case 0:
-					return;
-					break;
 				case 1:
 					var $elems = getItemElement(cal);
 					break;
@@ -74,10 +71,12 @@ var CreateWork = CreateWork || function(){
 					break;
 			}
 
-			// append elements to container
-			$('.isotope').append( $elems )
-			// add and lay out newly appended elements
-			.isotope( 'appended', $elems );
+			if ((workData.length) - cal != 0){
+				// append elements to container
+				$('.isotope').append( $elems )
+				// add and lay out newly appended elements
+				.isotope( 'appended', $elems );
+			}
 		}
 	});
 }
