@@ -58,7 +58,7 @@ var CreateWork = CreateWork || function(){
 		if ( workData.length < cal ){
 			return;
 		}else{
-			switch ((workData.length-3) - cal){
+			switch ((workData.length) - cal){
 				case 1:
 					var $elems = getItemElement(cal);
 					break;
@@ -69,7 +69,7 @@ var CreateWork = CreateWork || function(){
 					var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
 					break;
 			}
-			 
+
 			// append elements to container
 			$('.isotope').append( $elems )
 			// add and lay out newly appended elements
