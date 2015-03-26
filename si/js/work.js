@@ -34,7 +34,6 @@ var CreateWork = CreateWork || function(){
 			var i;
 			//workData.length
 			for ( i = 0; i < 3; i++ ){
-				console.log(workData[i].w_Thumb);
 				$(".isotope").append("<div class='item'><img src='" + workData[i].w_Thumb + "'></div>");
 			}
 
@@ -51,8 +50,11 @@ var CreateWork = CreateWork || function(){
 
 	work.thumb();
 
+	var idx = 0;
 	$(".btnMore").on("click", function(){
-		var $elems = getItemElement().add( getItemElement() ).add( getItemElement() );
+		idx++;
+		var cal = idx * 3;
+		var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
 	    // append elements to container
 	    $('.isotope').append( $elems )
       	// add and lay out newly appended elements
@@ -61,15 +63,16 @@ var CreateWork = CreateWork || function(){
 }
 
 
-function getItemElement() {
-  var $item = $('<div class="item"><img src="'+ jsonResultModule.getJsonData()[1].work[4].w_Thumb +'"></div>');
-  // add width and height class
-  var wRand = Math.random();
-  var hRand = Math.random();
-  var widthClass = wRand > 0.85 ? 'width3' : wRand > 0.7 ? 'width2' : '';
-  var heightClass = hRand > 0.85 ? 'height3' : hRand > 0.5 ? 'height2' : '';
-  // $item.addClass( widthClass ).addClass( heightClass );
-  return $item;
+function getItemElement(cal) {
+
+	var $item = $('<div class="item"><img src="'+ jsonResultModule.getJsonData()[1].work[cal].w_Thumb +'"></div>');
+	// add width and height class
+	var wRand = Math.random();
+	var hRand = Math.random();
+	var widthClass = wRand > 0.85 ? 'width3' : wRand > 0.7 ? 'width2' : '';
+	var heightClass = hRand > 0.85 ? 'height3' : hRand > 0.5 ? 'height2' : '';
+	// $item.addClass( widthClass ).addClass( heightClass );
+	return $item;
 }
 
 
