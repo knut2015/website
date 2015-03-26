@@ -70,14 +70,18 @@ var CreateWork = CreateWork || function(){
 
 
 function getItemElement(cal) {
-	var $item = $('<div class="item"><img src="'+ jsonResultModule.getJsonData()[2].work[cal].w_Thumb +'"></div>');
-	// add width and height class
-	var wRand = Math.random();
-	var hRand = Math.random();
-	var widthClass = wRand > 0.85 ? 'width3' : wRand > 0.7 ? 'width2' : '';
-	var heightClass = hRand > 0.85 ? 'height3' : hRand > 0.5 ? 'height2' : '';
-	// $item.addClass( widthClass ).addClass( heightClass );
-	return $item;
+	if (jsonResultModule.getJsonData()[2].work[cal].w_Thumb == undefined){
+		return;
+	}else{
+		var $item = $('<div class="item"><img src="'+ jsonResultModule.getJsonData()[2].work[cal].w_Thumb +'"></div>');
+		// add width and height class
+		var wRand = Math.random();
+		var hRand = Math.random();
+		var widthClass = wRand > 0.85 ? 'width3' : wRand > 0.7 ? 'width2' : '';
+		var heightClass = hRand > 0.85 ? 'height3' : hRand > 0.5 ? 'height2' : '';
+		// $item.addClass( widthClass ).addClass( heightClass );
+		return $item;
+	}
 }
 
 
