@@ -55,11 +55,15 @@ var CreateWork = CreateWork || function(){
 	$(".btnMore").on("click", function(){
 		idx++;
 		var cal = idx * 3;
-		var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
-	    // append elements to container
-	    $('.isotope').append( $elems )
-      	// add and lay out newly appended elements
-      	.isotope( 'appended', $elems );
+		if ( workData.length < cal ){
+			return;
+		}else{
+			var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
+		    // append elements to container
+		    $('.isotope').append( $elems )
+	      	// add and lay out newly appended elements
+	      	.isotope( 'appended', $elems );
+		}
 	});
 }
 
