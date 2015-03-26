@@ -50,10 +50,27 @@ var CreateWork = CreateWork || function(){
 	var work = new Works();
 
 	work.thumb();
+
+	$(".btnMore").on("click", function(){
+		var $elems = getItemElement().add( getItemElement() ).add( getItemElement() );
+    // append elements to container
+    $container.append( $elems )
+      // add and lay out newly appended elements
+      .isotope( 'appended', $elems );
+	});
 }
 
 
-
+function getItemElement() {
+  var $item = $('<div class="item"></div>');
+  // add width and height class
+  var wRand = Math.random();
+  var hRand = Math.random();
+  var widthClass = wRand > 0.85 ? 'width3' : wRand > 0.7 ? 'width2' : '';
+  var heightClass = hRand > 0.85 ? 'height3' : hRand > 0.5 ? 'height2' : '';
+  $item.addClass( widthClass ).addClass( heightClass );
+  return $item;
+}
 
 
 
