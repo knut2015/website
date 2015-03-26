@@ -58,13 +58,22 @@ var CreateWork = CreateWork || function(){
 		if ( workData.length < cal ){
 			return;
 		}else{
-			console.log(workData.length - cal);
-			// for (var i = 0; i < (workData.length - 3) - cal; i++)
-			// var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
-		 //    // append elements to container
-		 //    $('.isotope').append( $elems )
-	  //     	// add and lay out newly appended elements
-	  //     	.isotope( 'appended', $elems );
+			switch ((workData.length-3) - cal){
+				case 1:
+					var $elems = getItemElement(cal);
+					break;
+				case 2:
+					var $elems = getItemElement(cal).add( getItemElement(cal+1) );
+					break;
+				default:
+					var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
+					break;
+			}
+			 
+			append elements to container
+			$('.isotope').append( $elems )
+			add and lay out newly appended elements
+			.isotope( 'appended', $elems );
 		}
 	});
 }
