@@ -58,6 +58,7 @@ var CreateWork = CreateWork || function(){
 		if ( workData.length < cal ){
 			return;
 		}else{
+			console.log((workData.length) - cal);
 			switch ((workData.length) - cal){
 				case 1:
 					var $elems = getItemElement(cal);
