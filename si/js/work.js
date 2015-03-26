@@ -56,7 +56,7 @@ var CreateWork = CreateWork || function(){
 
 
 function getItemElement() {
-  var $item = $('<div class="item"><img src="'+ workData[4].w_Thumb +'"></div>');
+  var $item = $('<div class="item"><img src="'+ jsonResultModule.getJsonData()[1].work[4].w_Thumb +'"></div>');
   // add width and height class
   var wRand = Math.random();
   var hRand = Math.random();
