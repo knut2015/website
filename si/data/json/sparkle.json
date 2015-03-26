@@ -156,6 +156,14 @@
 					"w_desc":"페이스북 운영",
 					"w_date":"2015.02",
 					"w_detail":""
+				},
+				{
+					"w_type":"movie",
+					"w_Thumb":"http://muzuk99.cafe24.com/pf/data/images/b_thumb_12.png",
+					"w_title":"하이마트",
+					"w_desc":"페이스북 운영",
+					"w_date":"2015.02",
+					"w_detail":""
 				}
 			]
 		},

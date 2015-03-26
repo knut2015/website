@@ -92,7 +92,6 @@ function getItemElement(cal) {
 }
 
 
-
 /**
  * isotope plugin
  * */
