@@ -55,10 +55,11 @@ var CreateWork = CreateWork || function(){
 	$(".btnMore").on("click", function(){
 		idx++;
 		var cal = idx * 3;
-		console.log( workData.length % 3);
+		console.log( workData.length % 3 = 2);
 		if ( workData.length < cal ){
 			return;
 		}else{
+			if (cal+2 == undefined) return;
 			var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
 		    // append elements to container
 		    $('.isotope').append( $elems )
