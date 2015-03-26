@@ -23,7 +23,8 @@ function pageComplete(isComplete){
 }
 
 var CreateWork = CreateWork || function(){
-	var workData = jsonResultModule.getJsonData()[1].work;
+	var workData = jsonResultModule.getJsonData()[2].work;
+	var idx = 0;
 
 	var Works = function(){
 
@@ -33,6 +34,7 @@ var CreateWork = CreateWork || function(){
 		thumb: function(){
 			var i;
 			//workData.length
+			console.log(jsonResultModule.getJsonData()[0].config.initThumb);
 			for ( i = 0; i < 3; i++ ){
 				$(".isotope").append("<div class='item'><img src='" + workData[i].w_Thumb + "'></div>");
 			}
@@ -50,7 +52,6 @@ var CreateWork = CreateWork || function(){
 
 	work.thumb();
 
-	var idx = 0;
 	$(".btnMore").on("click", function(){
 		idx++;
 		var cal = idx * 3;
@@ -64,7 +65,6 @@ var CreateWork = CreateWork || function(){
 
 
 function getItemElement(cal) {
-
 	var $item = $('<div class="item"><img src="'+ jsonResultModule.getJsonData()[1].work[cal].w_Thumb +'"></div>');
 	// add width and height class
 	var wRand = Math.random();
@@ -101,8 +101,6 @@ var isotopeUseful = function(){
 			}
 		}
 	});
-
-	
 
 	var filterFns = {
 		// show if number is greater than 50

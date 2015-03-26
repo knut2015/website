@@ -2,6 +2,15 @@
 	"item":
 	[
 		{
+			"config":
+			[
+				{ 
+					"initThumb":"3"
+				}
+			]
+		},
+
+		{
 			"company":
 			[
 				{
