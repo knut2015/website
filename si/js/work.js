@@ -56,7 +56,7 @@ var CreateWork = CreateWork || function(){
 
 
 function getItemElement() {
-  var $item = $('<div class="item"></div>');
+  var $item = $('<div class="item"><img src="'+ workData[4].w_Thumb +'"></div>');
   // add width and height class
   var wRand = Math.random();
   var hRand = Math.random();
@@ -92,13 +92,13 @@ var isotopeUseful = function(){
 			}
 		}
 	});
-	
+
 	$(".btnMore").on("click", function(){
 		var $elems = getItemElement().add( getItemElement() ).add( getItemElement() );
-    // append elements to container
-    $container.append( $elems )
-      // add and lay out newly appended elements
-      .isotope( 'appended', $elems );
+	    // append elements to container
+	    $container.append( $elems )
+      	// add and lay out newly appended elements
+      	.isotope( 'appended', $elems );
 	});
 
 	var filterFns = {
