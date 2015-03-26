@@ -51,13 +51,7 @@ var CreateWork = CreateWork || function(){
 
 	work.thumb();
 
-	$(".btnMore").on("click", function(){
-		var $elems = getItemElement().add( getItemElement() ).add( getItemElement() );
-    // append elements to container
-    $container.append( $elems )
-      // add and lay out newly appended elements
-      .isotope( 'appended', $elems );
-	});
+
 }
 
 
@@ -99,6 +93,14 @@ var isotopeUseful = function(){
 		}
 	});
 	
+	$(".btnMore").on("click", function(){
+		var $elems = getItemElement().add( getItemElement() ).add( getItemElement() );
+    // append elements to container
+    $container.append( $elems )
+      // add and lay out newly appended elements
+      .isotope( 'appended', $elems );
+	});
+
 	var filterFns = {
 		// show if number is greater than 50
 		numberGreaterThan50: function() {
