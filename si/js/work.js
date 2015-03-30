@@ -71,12 +71,14 @@ var CreateWork = CreateWork || function(){
 					break;
 			}
 
-			if ((workData.length) - cal != 0){
-				// append elements to container
-				$('.isotope').append( $elems )
-				// add and lay out newly appended elements
-				.isotope( 'appended', $elems );
-			}
+			$(window).resize(function(){
+				if ((workData.length) - cal != 0){
+					// append elements to container
+					$('.isotope').append( $elems )
+					// add and lay out newly appended elements
+					.isotope( 'appended', $elems );
+				}
+			}).resize();
 		}
 	});
 }
