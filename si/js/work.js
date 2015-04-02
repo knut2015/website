@@ -114,7 +114,7 @@ var idx = 0;
 					$elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
 					break;
 			}
-
+console.log("????? : " + cal);
 			// if ((workData.length) - cal != 0){
 				// append elements to container
 				$container.append( $elems )
