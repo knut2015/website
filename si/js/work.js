@@ -54,7 +54,7 @@ var CreateWork = CreateWork || function(){
 	var work = new Works();
 
 	work.thumb();
-	$(".isotope").append("<div class='item btnMore'>MORE</div>");
+	$(".isotope").append("<div class='item btnMore'>MORE<p class='number'>"+100+"</p></div>");
 	var idx = 0;
 	// more btn click
 	$(".btnMore").on("click", function(){
