@@ -75,17 +75,11 @@ var CreateWork = CreateWork || function(){
 					console.log("NO.3 : " + cal);
 					break;
 			}
-			
-			$(".item img").load(function(){
-				$(".isotope").append( $elems )
-				// add and lay out newly appended elements
-				.isotope( 'appended', $elems );
-			});
 
 			// append elements to container
-			//$(".isotope").append( $elems )
+			$(".isotope").append( $elems )
 			// add and lay out newly appended elements
-			//.isotope( 'appended', $elems );
+			.isotope( 'appended', $elems );
 		}
 	});
 }
@@ -94,6 +88,10 @@ var CreateWork = CreateWork || function(){
 function getItemElement(cal) {
 	var $item = $('<div class="item"><img src="'+ jsonResultModule.getJsonData()[2].work[cal].w_Thumb +'"></div>');
 	// add width and height class
+
+	$(".item").load(function(){
+		console.log("img load");
+	});
 
 	var wRand = Math.random();
 	var hRand = Math.random();
