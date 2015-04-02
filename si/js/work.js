@@ -45,6 +45,9 @@ var CreateWork = CreateWork || function(){
 		},
 		isotope: function(){
 			return isotopeUseful();
+		},
+		thumbClick: function(){
+
 		}
 	}
 
@@ -86,7 +89,7 @@ var CreateWork = CreateWork || function(){
 
 				$(".item").on("click", function(){
 					console.log($(this).position().top);
-				});
+				}).trigger("click");
 			});
 		}
 	});
