@@ -71,6 +71,7 @@
 			[
 				{
 					"w_type":"facebook",
+					"w_num":"0",
 					"w_Thumb":"http://muzuk99.cafe24.com/pf/data/images/b_thumb_01.png",
 					"w_title":"하이마트",
 					"w_desc":"페이스북 운영",
@@ -79,6 +80,7 @@
 				},
 				{
 					"w_type":"web",
+					"w_num":"1",
 					"w_Thumb":"http://muzuk99.cafe24.com/pf/data/images/b_thumb_02.png",
 					"w_title":"하이마트",
 					"w_desc":"페이스북 운영",
@@ -87,6 +89,7 @@
 				},
 				{
 					"w_type":"movie",
+					"w_num":"2",
 					"w_Thumb":"http://muzuk99.cafe24.com/pf/data/images/b_thumb_03.png",
 					"w_title":"하이마트",
 					"w_desc":"페이스북 운영",
@@ -95,6 +98,7 @@
 				},
 				{
 					"w_type":"facebook",
+					"w_num":"3",
 					"w_Thumb":"http://muzuk99.cafe24.com/pf/data/images/b_thumb_04.png",
 					"w_title":"하이마트",
 					"w_desc":"페이스북 운영",
@@ -103,6 +107,7 @@
 				},
 				{
 					"w_type":"facebook",
+					"w_num":"4",
 					"w_Thumb":"http://muzuk99.cafe24.com/pf/data/images/b_thumb_05.png",
 					"w_title":"하이마트",
 					"w_desc":"페이스북 운영",
@@ -111,6 +116,7 @@
 				},
 				{
 					"w_type":"web",
+					"w_num":"5",
 					"w_Thumb":"http://muzuk99.cafe24.com/pf/data/images/b_thumb_06.png",
 					"w_title":"하이마트",
 					"w_desc":"페이스북 운영",
@@ -119,6 +125,7 @@
 				},
 				{
 					"w_type":"movie",
+					"w_num":"6",
 					"w_Thumb":"http://muzuk99.cafe24.com/pf/data/images/b_thumb_07.png",
 					"w_title":"하이마트",
 					"w_desc":"페이스북 운영",
@@ -127,6 +134,7 @@
 				},
 				{
 					"w_type":"web",
+					"w_num":"7",
 					"w_Thumb":"http://muzuk99.cafe24.com/pf/data/images/b_thumb_08.png",
 					"w_title":"하이마트",
 					"w_desc":"페이스북 운영",
@@ -135,6 +143,7 @@
 				},
 				{
 					"w_type":"facebook",
+					"w_num":"8",
 					"w_Thumb":"http://muzuk99.cafe24.com/pf/data/images/b_thumb_09.png",
 					"w_title":"하이마트",
 					"w_desc":"페이스북 운영",
@@ -143,6 +152,7 @@
 				},
 				{
 					"w_type":"web",
+					"w_num":"9",
 					"w_Thumb":"http://muzuk99.cafe24.com/pf/data/images/b_thumb_10.png",
 					"w_title":"하이마트",
 					"w_desc":"페이스북 운영",
@@ -151,6 +161,7 @@
 				},
 				{
 					"w_type":"movie",
+					"w_num":"10",
 					"w_Thumb":"http://muzuk99.cafe24.com/pf/data/images/b_thumb_11.png",
 					"w_title":"하이마트",
 					"w_desc":"페이스북 운영",
@@ -159,6 +170,7 @@
 				},
 				{
 					"w_type":"movie",
+					"w_num":"11",
 					"w_Thumb":"http://muzuk99.cafe24.com/pf/data/images/b_thumb_12.png",
 					"w_title":"하이마트",
 					"w_desc":"페이스북 운영",
@@ -167,6 +179,7 @@
 				},
 				{
 					"w_type":"movie",
+					"w_num":"12",
 					"w_Thumb":"http://muzuk99.cafe24.com/pf/data/images/b_thumb_13.png",
 					"w_title":"하이마트",
 					"w_desc":"페이스북 운영",

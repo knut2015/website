@@ -109,7 +109,7 @@ function getItemElement(cal) {
 	var widthClass = wRand > 0.85 ? 'width3' : wRand > 0.7 ? 'width2' : '';
 	var heightClass = hRand > 0.85 ? 'height3' : hRand > 0.5 ? 'height2' : '';
 
-	var number = Math.floor( Math.random() * 100 );
+	var number = jsonResultModule.getJsonData()[2].work[cal].w_num;
   	// $item.find('img').addClass('number');
   	$item.append( '<p class="number">' + number + '</p>' );
 	// $item.addClass( widthClass ).addClass( heightClass );
