@@ -75,13 +75,17 @@ var CreateWork = CreateWork || function(){
 					console.log("NO.3 : " + cal);
 					break;
 			}
-
-			// if ((workData.length) - cal != 0){
-				// append elements to container
+			
+			$(".item img").load(function(){
 				$(".isotope").append( $elems )
 				// add and lay out newly appended elements
 				.isotope( 'appended', $elems );
-			// }
+			});
+
+			// append elements to container
+			//$(".isotope").append( $elems )
+			// add and lay out newly appended elements
+			//.isotope( 'appended', $elems );
 		}
 	});
 }
@@ -91,14 +95,11 @@ function getItemElement(cal) {
 	var $item = $('<div class="item"><img src="'+ jsonResultModule.getJsonData()[2].work[cal].w_Thumb +'"></div>');
 	// add width and height class
 
-	$(".item img").load(function(){
-		var wRand = Math.random();
-		var hRand = Math.random();
-		var widthClass = wRand > 0.85 ? 'width3' : wRand > 0.7 ? 'width2' : '';
-		var heightClass = hRand > 0.85 ? 'height3' : hRand > 0.5 ? 'height2' : '';
-		// $item.addClass( widthClass ).addClass( heightClass );
-		
-	});
+	var wRand = Math.random();
+	var hRand = Math.random();
+	var widthClass = wRand > 0.85 ? 'width3' : wRand > 0.7 ? 'width2' : '';
+	var heightClass = hRand > 0.85 ? 'height3' : hRand > 0.5 ? 'height2' : '';
+	// $item.addClass( widthClass ).addClass( heightClass );
 	return $item;
 }
 
