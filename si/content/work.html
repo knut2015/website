@@ -47,7 +47,7 @@
 			/* work */
 			.content { position: absolute; top: 100px; width: 100%; }
 			.w_content {}
-			.w_cate li { float: left; }
+			.w_cate div { float: left; }
 			.isotope { margin: 0 auto; padding-top: 100px; width: 360px; }
 			.btnMore { width: 380px; height: 287px; }
 
@@ -80,13 +80,11 @@
 				<h1>
 					SPARKLE <br> <span>WORK</span>
 				</h1>
-				<div>
-					<ul id="filters" class="w_cate button-group cf">
-						<li class="button is-checked" data-filter="*">ALL</li>
-						<li class="button" data-filter=".facebook">FACEBOOK</li>
-						<li class="button" data-filter=".web">WEB</li>
-						<li class="button" data-filter=".movie">MOVIE</li>
-					</ul>
+				<div id="filters" class="w_cate button-group cf">
+					<div class="button is-checked" data-filter="*">ALL</div>
+					<div class="button" data-filter=".facebook">FACEBOOK</div>
+					<div class="button" data-filter=".web">WEB</div>
+					<div class="button" data-filter=".movie">MOVIE</div>
 				</div>
 			</div>
 			<div class="isotope">
