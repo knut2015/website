@@ -41,6 +41,7 @@ var CreateWork = CreateWork || function(){
 
 			$(".item img").load(function(){
 				work.isotope();
+				$(".isotope").append("<div class='item btnMore'>MORE</div>");
 			});
 		},
 		isotope: function(){
