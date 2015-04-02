@@ -80,6 +80,10 @@ var CreateWork = CreateWork || function(){
 			$(".isotope").append( $elems )
 			// add and lay out newly appended elements
 			.isotope( 'appended', $elems );
+
+			$(".item img").load(function(){
+				console.log("img load" + $(".isotope").height());
+			});
 		}
 	});
 }
@@ -88,10 +92,6 @@ var CreateWork = CreateWork || function(){
 function getItemElement(cal) {
 	var $item = $('<div class="item"><img src="'+ jsonResultModule.getJsonData()[2].work[cal].w_Thumb +'"></div>');
 	// add width and height class
-
-	$(".item img").load(function(){
-		console.log("img load");
-	});
 
 	var wRand = Math.random();
 	var hRand = Math.random();
