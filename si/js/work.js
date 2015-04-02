@@ -78,7 +78,7 @@ var CreateWork = CreateWork || function(){
 
 			// if ((workData.length) - cal != 0){
 				// append elements to container
-				$container.append( $elems )
+				$(".isotope").append( $elems )
 				// add and lay out newly appended elements
 				.isotope( 'appended', $elems );
 			// }
