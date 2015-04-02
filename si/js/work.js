@@ -98,7 +98,6 @@ var CreateWork = CreateWork || function(){
 
 	$(".button").on("click", function(){
 		console.log($(this).text());
-		$(".btnMore").
 	});
 }
 
