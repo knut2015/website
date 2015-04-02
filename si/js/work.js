@@ -37,6 +37,7 @@ var CreateWork = CreateWork || function(){
 			// console.log(jsonResultModule.getJsonData()[0].config.initThumb);
 			for ( i = 0; i < 3; i++ ){
 				$(".isotope").append("<div class='item'><img src='" + workData[i].w_Thumb + "'></div>");
+				console.log("IMAGE: " + workData[i].w_Thumb);
 			}
 
 			$(".item img").load(function(){
@@ -104,13 +105,13 @@ var idx = 0;
 			var $elems = [];
 			switch ((workData.length) - cal){
 				case 1:
-					var $elems = getItemElement(cal);
+					$elems = getItemElement(cal);
 					break;
 				case 2:
-					var $elems = getItemElement(cal).add( getItemElement(cal+1) );
+					$elems = getItemElement(cal).add( getItemElement(cal+1) );
 					break;
 				default:
-					var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
+					$elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
 					break;
 			}
 
