@@ -58,27 +58,38 @@ var CreateWork = CreateWork || function(){
 	// more btn click
 	$(".btnMore").on("click", function(){
 		idx++;
-		var cal = idx * 7;
+		var cal = idx * 10;
 
-		switch ( Math.abs((workData.length) - cal) ){
-			case 1:
-				var $elems = getItemElement(cal);
-				break;
-			case 2:
-				var $elems = getItemElement(cal).add( getItemElement(cal+1) );
-				break;
-			default:
-				var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
-				break;
+		var rest = Math.abs((workData.length) - 10);
+
+		var elems = [];
+		for ( var i = 0; i < rest; i++ ){
+			// var $elems = getItemElement(i);
+			var elem = getItemElement(i);
+			var number = Math.floor( Math.random() * 100 );
+		    $( elem ).append( '<p class="number">' + number + '</p>' );
+		    elems.push( elem );
 		}
+
+		// switch ( Math.abs((workData.length) - 10) ){
+		// 	case 1:
+		// 		var $elems = getItemElement(cal);
+		// 		break;
+		// 	case 2:
+		// 		var $elems = getItemElement(cal).add( getItemElement(cal+1) );
+		// 		break;
+		// 	default:
+		// 		var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
+		// 		break;
+		// }
 		
 		// append elements to container
-		$(".isotope").append( $elems );
+		$(".isotope").append( elems );
 
 		$(".item img").eq(cal).load(function(){
 			
 			// add and lay out newly appended elements
-			$(".isotope").isotope( 'insert', $elems );
+			$(".isotope").isotope( 'insert', elems );
 			getThumbClick();
 		});
 	});
