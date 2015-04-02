@@ -102,16 +102,15 @@ var idx = 0;
 		if ( workData.length < cal ){
 			return;
 		}else{
-			var $elems = [];
 			switch ((workData.length) - cal){
 				case 1:
-					$elems = getItemElement(cal);
+					var $elems = getItemElement(cal);
 					break;
 				case 2:
-					$elems = getItemElement(cal).add( getItemElement(cal+1) );
+					var $elems = getItemElement(cal).add( getItemElement(cal+1) );
 					break;
 				default:
-					$elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
+					var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
 					break;
 			}
 console.log("????? : " + cal);
