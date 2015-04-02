@@ -36,7 +36,7 @@ var CreateWork = CreateWork || function(){
 			// workData.length
 			// console.log(jsonResultModule.getJsonData()[0].config.initThumb);
 			for ( i = 0; i < 3; i++ ){
-				$(".isotope").append("<div class='item'><img src='" + workData[i].w_Thumb + "'><p class='number'>"+i+"</p></div>");
+				$(".isotope").append("<div class='item' data-category='"+workData.w_type+"'><img src='" + workData[i].w_Thumb + "'><p class='number'>"+i+"</p></div>");
 			}
 
 			$(".item img").load(function(){
@@ -101,7 +101,7 @@ var CreateWork = CreateWork || function(){
 
 
 function getItemElement(cal) {
-	var $item = $('<div class="item"><img src="'+ jsonResultModule.getJsonData()[2].work[cal].w_Thumb +'"></div>');
+	var $item = $('<div class="item" data-category="'+jsonResultModule.getJsonData()[2].work[cal].w_type+'"><img src="'+ jsonResultModule.getJsonData()[2].work[cal].w_Thumb +'"></div>');
 	// add width and height class
 
 	var wRand = Math.random();
