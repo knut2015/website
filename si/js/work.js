@@ -36,7 +36,7 @@ var CreateWork = CreateWork || function(){
 			// workData.length
 			// console.log(jsonResultModule.getJsonData()[0].config.initThumb);
 			for ( i = 0; i < 3; i++ ){
-				$(".isotope").append("<div class='item'><img src='" + workData[i].w_Thumb + "'></div>");
+				$(".isotope").append("<div class='item'><img src='" + workData[i].w_Thumb + "'><p class='number'>"+i+"</p></div>");
 			}
 
 			$(".item img").load(function(){
