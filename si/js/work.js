@@ -84,19 +84,20 @@ var CreateWork = CreateWork || function(){
 				
 				// add and lay out newly appended elements
 				$(".isotope").isotope( 'appended', $elems );
-
-				console.log("img load: " + $(".isotope").height());
-
-				$(".item").on("click", function(){
-					console.log($(this).position().top);
-				}).trigger("click");
+				getThumbClick();
 			});
 		}
 	});
 
-	
+	getThumbClick();
 }
 
+// thumbnail click
+function getThumbClick(){
+	$(".item").on("click", function(){
+		console.log($(this).position().top);
+	})
+}
 
 function getItemElement(cal) {
 	var $item = $('<div class="item"><img src="'+ jsonResultModule.getJsonData()[2].work[cal].w_Thumb +'"></div>');
