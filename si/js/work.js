@@ -52,34 +52,7 @@ var CreateWork = CreateWork || function(){
 
 	work.thumb();
 
-	$(".btnMore").on("click", function(){
-		idx++;
-		var cal = idx * 3;
-
-		if ( workData.length < cal ){
-			return;
-		}else{
-			var $elems = [];
-			switch ((workData.length) - cal){
-				case 1:
-					var $elems = getItemElement(cal);
-					break;
-				case 2:
-					var $elems = getItemElement(cal).add( getItemElement(cal+1) );
-					break;
-				default:
-					var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
-					break;
-			}
-
-			if ((workData.length) - cal != 0){
-				// append elements to container
-				$('.isotope').append( $elems )
-				// add and lay out newly appended elements
-				.isotope( 'appended', $elems );
-			}
-		}
-	});
+	
 }
 
 
@@ -117,6 +90,35 @@ var isotopeUseful = function(){
 				var weight = $( itemElem ).find('.weight').text();
 				return parseFloat( weight.replace( /[\(\)]/g, '') );
 			}
+		}
+	});
+
+	$(".btnMore").on("click", function(){
+		idx++;
+		var cal = idx * 3;
+
+		if ( workData.length < cal ){
+			return;
+		}else{
+			var $elems = [];
+			switch ((workData.length) - cal){
+				case 1:
+					var $elems = getItemElement(cal);
+					break;
+				case 2:
+					var $elems = getItemElement(cal).add( getItemElement(cal+1) );
+					break;
+				default:
+					var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
+					break;
+			}
+
+			// if ((workData.length) - cal != 0){
+				// append elements to container
+				$container.append( $elems )
+				// add and lay out newly appended elements
+				.isotope( 'appended', $elems );
+			// }
 		}
 	});
 
