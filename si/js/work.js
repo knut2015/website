@@ -33,8 +33,6 @@ var CreateWork = CreateWork || function(){
 	Works.prototype = {
 		thumb: function(){
 			var i;
-			// workData.length
-			// console.log(jsonResultModule.getJsonData()[0].config.initThumb);
 			for ( i = 0; i < 3; i++ ){
 				$(".isotope").append("<div class='item "+workData[i].w_type+"' data-category='" + workData[i].w_type + "'><img src='" + workData[i].w_Thumb + "'><p class='number'>"+i+"</p></div>");
 			}
@@ -54,7 +52,8 @@ var CreateWork = CreateWork || function(){
 	var work = new Works();
 
 	work.thumb();
-	$(".isotope").append("<div class='item btnMore'>MORE<p class='number'>"+100+"</p></div>");
+
+	$(".isotope").append("<div class='item btnMore'>MORE<p class='number'>" + 100 + "</p></div>");
 	var idx = 0;
 	// more btn click
 	$(".btnMore").on("click", function(){
@@ -94,14 +93,17 @@ var CreateWork = CreateWork || function(){
 	function getThumbClick(){
 		$(".item").on("click", function(){
 			console.log($(this).position().top);
-		})
+		});
 	}
+
+	$(".button").on("click", function(){
+		console.log($(this).text());
+	});
 }
 
-
-
 function getItemElement(cal) {
-	var $item = $('<div class="item '+jsonResultModule.getJsonData()[2].work[cal].w_type+'" data-category="'+jsonResultModule.getJsonData()[2].work[cal].w_type+'"><img src="'+ jsonResultModule.getJsonData()[2].work[cal].w_Thumb +'"></div>');
+	var workData = jsonResultModule.getJsonData()[2];
+	var $item = $('<div class="item '+workData.work[cal].w_type+'" data-category="'+workData.work[cal].w_type+'"><img src="'+ workData.work[cal].w_Thumb +'"></div>');
 	// add width and height class
 
 	var wRand = Math.random();
@@ -109,7 +111,7 @@ function getItemElement(cal) {
 	var widthClass = wRand > 0.85 ? 'width3' : wRand > 0.7 ? 'width2' : '';
 	var heightClass = hRand > 0.85 ? 'height3' : hRand > 0.5 ? 'height2' : '';
 
-	var number = jsonResultModule.getJsonData()[2].work[cal].w_num;
+	var number = workData.work[cal].w_num;
   	// $item.find('img').addClass('number');
   	$item.append( '<p class="number">' + number + '</p>' );
 	// $item.addClass( widthClass ).addClass( heightClass );
