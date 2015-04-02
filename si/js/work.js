@@ -82,7 +82,7 @@ var CreateWork = CreateWork || function(){
 			$(".item img").eq(cal).load(function(){
 				
 				// add and lay out newly appended elements
-				// $(".isotope").isotope( 'appended', $elems );
+				$(".isotope").isotope( 'insert', $elems );
 				getThumbClick();
 			});
 		}
@@ -108,6 +108,9 @@ function getItemElement(cal) {
 	var hRand = Math.random();
 	var widthClass = wRand > 0.85 ? 'width3' : wRand > 0.7 ? 'width2' : '';
 	var heightClass = hRand > 0.85 ? 'height3' : hRand > 0.5 ? 'height2' : '';
+
+	var number = Math.floor( Math.random() * 100 );
+  	$item.find('img').addClass('number');
 	// $item.addClass( widthClass ).addClass( heightClass );
 	return $item;
 }
@@ -125,7 +128,6 @@ var isotopeUseful = function(){
 		  // columnWidth: 360,
 		  isFitWidth: true // center align http://codepen.io/desandro/pen/BptxJ, http://isotope.metafizzy.co/layout-modes/masonry.html
 		},
-		
 		getSortData: {
 			name: '.name',
 			symbol: '.symbol',
@@ -142,7 +144,7 @@ var isotopeUseful = function(){
 		// show if number is greater than 50
 		numberGreaterThan50: function() {
 			var number = $(this).find('.number').text();
-			return parseInt( number, 10 ) > 50;
+			return parseInt( number, 10 );
 		},
 		// show if name ends with -ium
 		ium: function() {
