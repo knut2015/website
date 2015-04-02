@@ -75,7 +75,6 @@ var CreateWork = CreateWork || function(){
 					var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
 					break;
 			}
-
 			
 			// append elements to container
 			$(".isotope").append( $elems )
