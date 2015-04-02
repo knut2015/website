@@ -84,8 +84,8 @@ var CreateWork = CreateWork || function(){
 		// }
 		
 		// append elements to container
-		// $(".isotope").append( elems );
-		$(".isotope").isotope( 'insert', elems );
+		$(".isotope").append( elems )
+		.isotope( 'insert', elems );
 		getThumbClick();
 		$(".item img").eq(cal).load(function(){
 			
@@ -110,6 +110,7 @@ var CreateWork = CreateWork || function(){
 
 function getItemElement(cal) {
 	var workData = jsonResultModule.getJsonData()[2];
+	console.log("cal : " + cal  + ", type: " + workData.work[cal].y-type );
 	var $item = $('<div class="item '+workData.work[cal].w_type+'" data-category="'+workData.work[cal].w_type+'"><img src="'+ workData.work[cal].w_Thumb +'"></div>');
 	// add width and height class
 
