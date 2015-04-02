@@ -33,7 +33,7 @@ var CreateWork = CreateWork || function(){
 	Works.prototype = {
 		thumb: function(){
 			var i;
-			//workData.length
+			// workData.length
 			// console.log(jsonResultModule.getJsonData()[0].config.initThumb);
 			for ( i = 0; i < 3; i++ ){
 				$(".isotope").append("<div class='item'><img src='" + workData[i].w_Thumb + "'></div>");
@@ -55,28 +55,39 @@ var CreateWork = CreateWork || function(){
 	$(".btnMore").on("click", function(){
 		idx++;
 		var cal = idx * 3;
+
 		if ( workData.length < cal ){
 			return;
 		}else{
-			console.log((workData.length) - cal);
-			switch ((workData.length) - cal){
-				case 1:
-					var $elems = getItemElement(cal);
-					break;
-				case 2:
-					var $elems = getItemElement(cal).add( getItemElement(cal+1) );
-					break;
-				default:
-					var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
-					break;
-			}
+			// var $elems = [];
+			// switch ((workData.length) - cal){
+			// 	case 1:
+			// 		var $elems = getItemElement(cal);
+			// 		break;
+			// 	case 2:
+			// 		var $elems = getItemElement(cal).add( getItemElement(cal+1) );
+			// 		break;
+			// 	default:
+			// 		var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
+			// 		break;
+			// }
 
-			if ((workData.length) - cal != 0){
-				// append elements to container
-				$('.isotope').append( $elems )
-				// add and lay out newly appended elements
-				.isotope( 'appended', $elems );
-			}
+			// if ((workData.length) - cal != 0){
+			// 	// append elements to container
+			// 	$('.isotope').append( $elems )
+			// 	// add and lay out newly appended elements
+			// 	.isotope( 'appended', $elems );
+			// }
+			 // create new item elements
+			  var elems = [];
+			  for ( var i = 0; i < 3; i++ ) {
+			    var elem = getItemElement();
+			    elems.push( elem );
+			  }
+			  // append elements to container
+			  $('.isotope').append( elems )
+			    // add and lay out newly appended elements
+			    .isotope( 'appended', elems );
 		}
 	});
 }
