@@ -76,13 +76,15 @@ var CreateWork = CreateWork || function(){
 					break;
 			}
 
-			// append elements to container
-			$(".isotope").append( $elems )
-			// add and lay out newly appended elements
-			.isotope( 'appended', $elems );
+			
 
 			$(".item img").load(function(){
-				console.log("img load" + $(".isotope").height());
+				// append elements to container
+				$(".isotope").append( $elems )
+				// add and lay out newly appended elements
+				.isotope( 'appended', $elems );
+
+				console.log("img load: " + $(".isotope").height());
 			});
 		}
 	});
