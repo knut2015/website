@@ -77,12 +77,13 @@ var CreateWork = CreateWork || function(){
 			}
 
 			
-
+			// append elements to container
+			$(".isotope").append( $elems )
+			
 			$(".item img").load(function(){
-				// append elements to container
-				$(".isotope").append( $elems )
+				
 				// add and lay out newly appended elements
-				.isotope( 'appended', $elems );
+				$(".isotope").isotope( 'appended', $elems );
 
 				console.log("img load: " + $(".isotope").height());
 			});
