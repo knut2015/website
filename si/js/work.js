@@ -53,7 +53,37 @@ var CreateWork = CreateWork || function(){
 
 	work.thumb();
 
-	
+	var idx = 0;
+	$(".btnMore").on("click", function(){
+		idx++;
+		var cal = idx * 3;
+
+		if ( workData.length < cal ){
+			return;
+		}else{
+			switch ((workData.length) - cal){
+				case 1:
+					var $elems = getItemElement(cal);
+					console.log("NO.1 : " + cal);
+					break;
+				case 2:
+					var $elems = getItemElement(cal).add( getItemElement(cal+1) );
+					console.log("NO.2 : " + cal);
+					break;
+				default:
+					var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
+					console.log("NO.3 : " + cal);
+					break;
+			}
+
+			// if ((workData.length) - cal != 0){
+				// append elements to container
+				$container.append( $elems )
+				// add and lay out newly appended elements
+				.isotope( 'appended', $elems );
+			// }
+		}
+	});
 }
 
 
@@ -91,38 +121,6 @@ var isotopeUseful = function(){
 				var weight = $( itemElem ).find('.weight').text();
 				return parseFloat( weight.replace( /[\(\)]/g, '') );
 			}
-		}
-	});
-var workData = jsonResultModule.getJsonData()[2].work;
-var idx = 0;
-	$(".btnMore").on("click", function(){
-		idx++;
-		var cal = idx * 3;
-
-		if ( workData.length < cal ){
-			return;
-		}else{
-			switch ((workData.length) - cal){
-				case 1:
-					var $elems = getItemElement(cal);
-					console.log("NO.1 : " + cal);
-					break;
-				case 2:
-					var $elems = getItemElement(cal).add( getItemElement(cal+1) );
-					console.log("NO.2 : " + cal);
-					break;
-				default:
-					var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
-					console.log("NO.3 : " + cal);
-					break;
-			}
-
-			// if ((workData.length) - cal != 0){
-				// append elements to container
-				$container.append( $elems )
-				// add and lay out newly appended elements
-				.isotope( 'appended', $elems );
-			// }
 		}
 	});
 
