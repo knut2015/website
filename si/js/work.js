@@ -59,35 +59,25 @@ var CreateWork = CreateWork || function(){
 		if ( workData.length < cal ){
 			return;
 		}else{
-			// var $elems = [];
-			// switch ((workData.length) - cal){
-			// 	case 1:
-			// 		var $elems = getItemElement(cal);
-			// 		break;
-			// 	case 2:
-			// 		var $elems = getItemElement(cal).add( getItemElement(cal+1) );
-			// 		break;
-			// 	default:
-			// 		var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
-			// 		break;
-			// }
+			var $elems = [];
+			switch ((workData.length) - cal){
+				case 1:
+					var $elems = getItemElement(cal);
+					break;
+				case 2:
+					var $elems = getItemElement(cal).add( getItemElement(cal+1) );
+					break;
+				default:
+					var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
+					break;
+			}
 
-			// if ((workData.length) - cal != 0){
-			// 	// append elements to container
-			// 	$('.isotope').append( $elems )
-			// 	// add and lay out newly appended elements
-			// 	.isotope( 'appended', $elems );
-			// }
-			 // create new item elements
-			  var elems = [];
-			  for ( var i = cal; i < cal+2; i++ ) {
-			    var elem = getItemElement(cal);
-			    elems.push( elem );
-			  }
-			  // append elements to container
-			  $('.isotope').append( elems )
-			    // add and lay out newly appended elements
-			    .isotope( 'appended', elems );
+			if ((workData.length) - cal != 0){
+				// append elements to container
+				$('.isotope').append( $elems )
+				// add and lay out newly appended elements
+				.isotope( 'appended', $elems );
+			}
 		}
 	});
 }
