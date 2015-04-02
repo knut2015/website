@@ -129,7 +129,7 @@ var isotopeUseful = function(){
 		  // columnWidth: 360,
 		  isFitWidth: true // center align http://codepen.io/desandro/pen/BptxJ, http://isotope.metafizzy.co/layout-modes/masonry.html
 		},
-		sortBy: 'category',
+		sortBy: 'number',
 		getSortData: {
 			name: '.name',
 			symbol: '.symbol',
