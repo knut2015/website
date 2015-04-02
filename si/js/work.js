@@ -36,7 +36,7 @@ var CreateWork = CreateWork || function(){
 			// workData.length
 			// console.log(jsonResultModule.getJsonData()[0].config.initThumb);
 			for ( i = 0; i < 3; i++ ){
-				$(".isotope").append("<div class='item' data-category='"+workData.w_type+"'><img src='" + workData[i].w_Thumb + "'><p class='number'>"+i+"</p></div>");
+				$(".isotope").append("<div class='item' data-category='" + workData[i].w_type + "'><img src='" + workData[i].w_Thumb + "'><p class='number'>"+i+"</p></div>");
 			}
 
 			$(".item img").load(function(){
@@ -129,7 +129,7 @@ var isotopeUseful = function(){
 		  // columnWidth: 360,
 		  isFitWidth: true // center align http://codepen.io/desandro/pen/BptxJ, http://isotope.metafizzy.co/layout-modes/masonry.html
 		},
-		sortBy: 'category',
+		// sortBy: 'category',
 		getSortData: {
 			name: '.name',
 			symbol: '.symbol',
