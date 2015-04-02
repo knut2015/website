@@ -92,7 +92,7 @@ var isotopeUseful = function(){
 			}
 		}
 	});
-
+var idx = 0;
 	$(".btnMore").on("click", function(){
 		idx++;
 		var cal = idx * 3;
