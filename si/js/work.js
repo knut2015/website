@@ -89,7 +89,7 @@ function getItemElement(cal) {
 	var $item = $('<div class="item"><img src="'+ jsonResultModule.getJsonData()[2].work[cal].w_Thumb +'"></div>');
 	// add width and height class
 
-	$(".item").load(function(){
+	$(".item img").load(function(){
 		console.log("img load");
 	});
 
