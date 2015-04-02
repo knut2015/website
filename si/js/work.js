@@ -36,7 +36,7 @@ var CreateWork = CreateWork || function(){
 			// workData.length
 			// console.log(jsonResultModule.getJsonData()[0].config.initThumb);
 			for ( i = 0; i < 3; i++ ){
-				$(".isotope").append("<div class='item' data-category='" + workData[i].w_type + "'><img src='" + workData[i].w_Thumb + "'><p class='number'>"+i+"</p></div>");
+				$(".isotope").append("<div class='item "+workData[i].w_type+"' data-category='" + workData[i].w_type + "'><img src='" + workData[i].w_Thumb + "'><p class='number'>"+i+"</p></div>");
 			}
 
 			$(".item img").load(function(){
@@ -101,7 +101,7 @@ var CreateWork = CreateWork || function(){
 
 
 function getItemElement(cal) {
-	var $item = $('<div class="item" data-category="'+jsonResultModule.getJsonData()[2].work[cal].w_type+'"><img src="'+ jsonResultModule.getJsonData()[2].work[cal].w_Thumb +'"></div>');
+	var $item = $('<div class="item '+jsonResultModule.getJsonData()[2].work[cal].w_type+'" data-category="'+jsonResultModule.getJsonData()[2].work[cal].w_type+'"><img src="'+ jsonResultModule.getJsonData()[2].work[cal].w_Thumb +'"></div>');
 	// add width and height class
 
 	var wRand = Math.random();
@@ -129,7 +129,7 @@ var isotopeUseful = function(){
 		  // columnWidth: 360,
 		  isFitWidth: true // center align http://codepen.io/desandro/pen/BptxJ, http://isotope.metafizzy.co/layout-modes/masonry.html
 		},
-		// sortBy: 'category',
+		sortBy: 'number',
 		getSortData: {
 			name: '.name',
 			symbol: '.symbol',
@@ -146,7 +146,7 @@ var isotopeUseful = function(){
 		// show if number is greater than 50
 		numberGreaterThan50: function() {
 			var number = $(this).find('.number').text();
-			return parseInt( number, 10 );
+			return parseInt( number, 10 ) > 50;
 		},
 		// show if name ends with -ium
 		ium: function() {
