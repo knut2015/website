@@ -97,8 +97,9 @@ function getItemElement(cal) {
 		var widthClass = wRand > 0.85 ? 'width3' : wRand > 0.7 ? 'width2' : '';
 		var heightClass = hRand > 0.85 ? 'height3' : hRand > 0.5 ? 'height2' : '';
 		// $item.addClass( widthClass ).addClass( heightClass );
-		return $item;
+		
 	});
+	return $item;
 }
 
 
