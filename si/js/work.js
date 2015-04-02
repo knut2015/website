@@ -84,13 +84,13 @@ var CreateWork = CreateWork || function(){
 		// }
 		
 		// append elements to container
-		$(".isotope").append( elems );
-
+		// $(".isotope").append( elems );
+		$(".isotope").isotope( 'insert', elems );
+		getThumbClick();
 		$(".item img").eq(cal).load(function(){
 			
 			// add and lay out newly appended elements
-			$(".isotope").isotope( 'insert', elems );
-			getThumbClick();
+			
 		});
 	});
 
