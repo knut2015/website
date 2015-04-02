@@ -171,5 +171,7 @@ var isotopeUseful = function(){
 			$( this ).addClass('is-checked');
 		});
 	});
+
+	$("item btnMore").css('display', 'block');
 }
 /*****/
