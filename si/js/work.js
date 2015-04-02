@@ -110,7 +110,7 @@ var CreateWork = CreateWork || function(){
 
 function getItemElement(cal) {
 	var workData = jsonResultModule.getJsonData()[2];
-	console.log("cal : " + cal  + ", type: " + workData.work[cal].y-type );
+	console.log("cal : " + cal  + ", type: " + workData.work[cal].w_type );
 	var $item = $('<div class="item '+workData.work[cal].w_type+'" data-category="'+workData.work[cal].w_type+'"><img src="'+ workData.work[cal].w_Thumb +'"></div>');
 	// add width and height class
 
