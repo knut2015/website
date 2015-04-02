@@ -37,7 +37,6 @@ var CreateWork = CreateWork || function(){
 			// console.log(jsonResultModule.getJsonData()[0].config.initThumb);
 			for ( i = 0; i < 3; i++ ){
 				$(".isotope").append("<div class='item'><img src='" + workData[i].w_Thumb + "'></div>");
-				console.log("IMAGE: " + workData[i].w_Thumb);
 			}
 
 			$(".item img").load(function(){
@@ -54,6 +53,7 @@ var CreateWork = CreateWork || function(){
 	work.thumb();
 
 	var idx = 0;
+	// more btn click
 	$(".btnMore").on("click", function(){
 		idx++;
 		var cal = idx * 3;
@@ -64,15 +64,12 @@ var CreateWork = CreateWork || function(){
 			switch ((workData.length) - cal){
 				case 1:
 					var $elems = getItemElement(cal);
-					console.log("NO.1 : " + cal);
 					break;
 				case 2:
 					var $elems = getItemElement(cal).add( getItemElement(cal+1) );
-					console.log("NO.2 : " + cal);
 					break;
 				default:
 					var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
-					console.log("NO.3 : " + cal);
 					break;
 			}
 
@@ -88,6 +85,10 @@ var CreateWork = CreateWork || function(){
 				console.log("img load: " + $(".isotope").height());
 			});
 		}
+	});
+
+	$(".item").on("click", function(){
+		console.log($(this).position().top);
 	});
 }
 
