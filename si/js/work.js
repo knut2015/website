@@ -80,8 +80,8 @@ var CreateWork = CreateWork || function(){
 			// }
 			 // create new item elements
 			  var elems = [];
-			  for ( var i = 0; i < 3; i++ ) {
-			    var elem = getItemElement();
+			  for ( var i = cal; i < cal+2; i++ ) {
+			    var elem = getItemElement(cal);
 			    elems.push( elem );
 			  }
 			  // append elements to container
