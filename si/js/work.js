@@ -110,7 +110,8 @@ function getItemElement(cal) {
 	var heightClass = hRand > 0.85 ? 'height3' : hRand > 0.5 ? 'height2' : '';
 
 	var number = Math.floor( Math.random() * 100 );
-  	$item.find('img').addClass('number');
+  	// $item.find('img').addClass('number');
+  	$item.append( '<p class="number">' + number + '</p>' );
 	// $item.addClass( widthClass ).addClass( heightClass );
 	return $item;
 }
@@ -128,6 +129,7 @@ var isotopeUseful = function(){
 		  // columnWidth: 360,
 		  isFitWidth: true // center align http://codepen.io/desandro/pen/BptxJ, http://isotope.metafizzy.co/layout-modes/masonry.html
 		},
+		sortBy: 'number',
 		getSortData: {
 			name: '.name',
 			symbol: '.symbol',
