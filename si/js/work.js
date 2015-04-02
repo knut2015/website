@@ -83,13 +83,15 @@ var CreateWork = CreateWork || function(){
 				$(".isotope").isotope( 'appended', $elems );
 
 				console.log("img load: " + $(".isotope").height());
+
+				$(".item").on("click", function(){
+					console.log($(this).position().top);
+				});
 			});
 		}
 	});
 
-	$(".item").on("click", function(){
-		console.log($(this).position().top);
-	});
+	
 }
 
 
