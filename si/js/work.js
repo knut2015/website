@@ -33,7 +33,7 @@ var CreateWork = CreateWork || function(){
 	Works.prototype = {
 		thumb: function(){
 			var i;
-			for ( i = 0; i < 3; i++ ){
+			for ( i = 0; i < 7; i++ ){
 				$(".isotope").append("<div class='item "+workData[i].w_type+"' data-category='" + workData[i].w_type + "'><img src='" + workData[i].w_Thumb + "'><p class='number'>"+i+"</p></div>");
 			}
 
@@ -98,6 +98,7 @@ var CreateWork = CreateWork || function(){
 
 	$(".button").on("click", function(){
 		console.log($(this).text());
+		$(".btnMore").
 	});
 }
 
