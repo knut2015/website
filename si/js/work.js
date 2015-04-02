@@ -58,7 +58,7 @@ var CreateWork = CreateWork || function(){
 	// more btn click
 	$(".btnMore").on("click", function(){
 		idx++;
-		var cal = idx * 3;
+		var cal = idx * 7;
 
 		if ( workData.length < cal ){
 			return;
