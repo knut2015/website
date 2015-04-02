@@ -79,8 +79,8 @@ var CreateWork = CreateWork || function(){
 			
 			// append elements to container
 			$(".isotope").append( $elems )
-			
-			$(".item img").load(function(){
+
+			$(".item img").eq(cal).load(function(){
 				
 				// add and lay out newly appended elements
 				$(".isotope").isotope( 'appended', $elems );
