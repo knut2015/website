@@ -105,15 +105,18 @@ var idx = 0;
 			switch ((workData.length) - cal){
 				case 1:
 					var $elems = getItemElement(cal);
+					console.log("NO.1 : " + cal);
 					break;
 				case 2:
 					var $elems = getItemElement(cal).add( getItemElement(cal+1) );
+					console.log("NO.2 : " + cal);
 					break;
 				default:
 					var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
+					console.log("NO.3 : " + cal);
 					break;
 			}
-console.log("????? : " + cal);
+
 			// if ((workData.length) - cal != 0){
 				// append elements to container
 				$container.append( $elems )
