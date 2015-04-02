@@ -77,26 +77,28 @@ var CreateWork = CreateWork || function(){
 			}
 			
 			// append elements to container
-			$(".isotope").append( $elems )
+			$(".isotope").append( $elems );
 
 			$(".item img").eq(cal).load(function(){
 				
 				// add and lay out newly appended elements
-				$(".isotope").isotope( 'appended', $elems );
+				// $(".isotope").isotope( 'appended', $elems );
 				getThumbClick();
 			});
 		}
 	});
 
 	getThumbClick();
+
+	// thumbnail click
+	function getThumbClick(){
+		$(".item").on("click", function(){
+			console.log($(this).position().top);
+		})
+	}
 }
 
-// thumbnail click
-function getThumbClick(){
-	$(".item").on("click", function(){
-		console.log($(this).position().top);
-	})
-}
+
 
 function getItemElement(cal) {
 	var $item = $('<div class="item"><img src="'+ jsonResultModule.getJsonData()[2].work[cal].w_Thumb +'"></div>');
