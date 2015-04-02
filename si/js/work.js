@@ -60,31 +60,27 @@ var CreateWork = CreateWork || function(){
 		idx++;
 		var cal = idx * 7;
 
-		if ( workData.length < cal ){
-			return;
-		}else{
-			switch ((workData.length) - cal){
-				case 1:
-					var $elems = getItemElement(cal);
-					break;
-				case 2:
-					var $elems = getItemElement(cal).add( getItemElement(cal+1) );
-					break;
-				default:
-					var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
-					break;
-			}
-			
-			// append elements to container
-			$(".isotope").append( $elems );
-
-			$(".item img").eq(cal).load(function(){
-				
-				// add and lay out newly appended elements
-				$(".isotope").isotope( 'insert', $elems );
-				getThumbClick();
-			});
+		switch ( Math.abs((workData.length) - cal) ){
+			case 1:
+				var $elems = getItemElement(cal);
+				break;
+			case 2:
+				var $elems = getItemElement(cal).add( getItemElement(cal+1) );
+				break;
+			default:
+				var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
+				break;
 		}
+		
+		// append elements to container
+		$(".isotope").append( $elems );
+
+		$(".item img").eq(cal).load(function(){
+			
+			// add and lay out newly appended elements
+			$(".isotope").isotope( 'insert', $elems );
+			getThumbClick();
+		});
 	});
 
 	getThumbClick();
