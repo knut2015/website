@@ -89,6 +89,10 @@ var CreateWork = CreateWork || function(){
 		$(".item").on("click", function(){
 			var posY = $(this).position().top;
 			$(".detailView").css({"top": posY + "px", "display":"block", "height":"1000px"});
+
+			$(".item").each(function(){
+				console.log($(this).position().top);
+			});
 		});
 	}
 }
