@@ -62,9 +62,15 @@ var CreateWork = CreateWork || function(){
 
 		var elems = [];
 		for (var i = startImg; i < initNum * (idx+1); i++ ){
-			var $elems = getItemElement(i);
-			$(".isotope").append( $elems ).isotope( 'insert', $elems );
+			if ( i == workData.length ){
+				return;
+			}else{
+				var $elems = getItemElement(i);
+				$(".isotope").append( $elems ).isotope( 'insert', $elems );
+			}
 		}
+
+		idx++;
 		
 
 
@@ -124,7 +130,7 @@ var CreateWork = CreateWork || function(){
 		
 		// append elements to container
 		$(".isotope").append( $elems ).isotope( 'insert', $elems );*/
-		getThumbClick();
+		// getThumbClick();
 	});
 
 	getThumbClick();
