@@ -101,7 +101,7 @@ var CreateWork = CreateWork || function(){
 					$(this).css("top", expandItemY + 1000 + "px");
 				}
 			});
-		});
+		}).trigger("click");
 	}
 }
 
