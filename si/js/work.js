@@ -87,11 +87,13 @@ var CreateWork = CreateWork || function(){
 	// thumbnail click
 	function getThumbClick(){
 		$(".item").on("click", function(){
-			var posY = $(this).position().top;
-			$(".detailView").css({"top": posY + "px", "display":"block", "height":"1000px"});
+			var currentThumbY = $(this).position().top;
+			$(".detailView").css({"top": currentThumbY + "px", "display":"block", "height":"1000px"});
 
 			$(".item").each(function(){
-				console.log($(this).position().top);
+				if ( $(this).position().top > currentThumbY){
+					console.log($(".item").position().top);
+				}
 			});
 		});
 	}
