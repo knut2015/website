@@ -84,8 +84,8 @@ var CreateWork = CreateWork || function(){
 		// }
 		
 		// append elements to container
-		$(".isotope").append( elems )
-		.isotope( 'insert', elems );
+		// $(".isotope").append( elems )
+		$(".isotope").isotope( 'insert', elems );
 		getThumbClick();
 		$(".item img").eq(cal).load(function(){
 			
