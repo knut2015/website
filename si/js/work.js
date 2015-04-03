@@ -64,7 +64,7 @@ var CreateWork = CreateWork || function(){
 
 		var rest = Math.abs((workData.length) - cal);
 
-		var $elems = [];
+		// var $elems = [];
 		// for ( var i = cal; i < initNum * (idx+1); i++ ){
 		// 	if ( cal > workData.length ){
 		// 		return;
