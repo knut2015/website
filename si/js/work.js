@@ -64,7 +64,7 @@ var CreateWork = CreateWork || function(){
 					return;
 				}else{
 					var $elems = getItemElement( i );
-					$(".isotope").isotope( 'insert', $elems );
+					$(".isotope").isotope( 'prepended', $elems );
 
 				}
 			}
