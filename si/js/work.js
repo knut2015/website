@@ -94,7 +94,9 @@ var CreateWork = CreateWork || function(){
 				if ( $(this).position().top > currentThumbY){
 					console.log($(this).position().top);
 					var expandItemY = $(this).position().top;
-					$(this).css("top", expandItemY + 1000 + "px");
+					if (!$(this).attr("css", "btnMore")){
+						$(this).css("top", expandItemY + 1000 + "px");
+					}
 				}
 			});
 		});
