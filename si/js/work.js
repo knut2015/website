@@ -88,7 +88,7 @@ var CreateWork = CreateWork || function(){
 	function getThumbClick(){
 		$(".item").on("click", function(){
 			var currentThumbY = $(this).position().top;
-			$(".detailView").css({"top": currentThumbY + "px", "display":"block", "height":"1000px"});
+			// $(".detailView").css({"top": currentThumbY + "px", "display":"block", "height":"1000px"});
 
 			$(".item").each(function(){
 				// console.log($(this).position().top +", "+ currentThumbY);
