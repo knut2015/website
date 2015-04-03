@@ -61,7 +61,7 @@ var CreateWork = CreateWork || function(){
 				if ( i == workData.length ){
 					$(".btnMore").unbind("click");
 					// getThumbClick();
-					return;
+					
 				}else{
 					var $elems = getItemElement( i );
 					$(".isotope").isotope( 'insert', $elems );
