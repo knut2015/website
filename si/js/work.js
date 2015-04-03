@@ -41,7 +41,7 @@ var CreateWork = CreateWork || function(){
 			$(".item img").load(function(){
 				work.isotope();				
 			});
-			
+
 			getThumbClick();
 		},
 		isotope: function(){
@@ -84,12 +84,11 @@ var CreateWork = CreateWork || function(){
 		work.viewMore();
 	});
 
-	// 
-
 	// thumbnail click
 	function getThumbClick(){
 		$(".item").on("click", function(){
-			console.log($(this).position().top);
+			var posY = $(this).position().top;
+			$(".detailView").css({"top": posY + "px", "display":"block", "height":"1000px"});
 		});
 	}
 }
