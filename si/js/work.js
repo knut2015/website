@@ -94,7 +94,9 @@ var CreateWork = CreateWork || function(){
 				if ( $(this).position().top > currentThumbY){
 					console.log($(this).position().top);
 					var expandItemY = $(this).position().top;
-					if (!$(this).attr("css", "btnMore")){
+					if ($(this).hasClass("btnMore")){
+						return;
+					}else{
 						$(this).css("top", expandItemY + 1000 + "px");
 					}
 				}
