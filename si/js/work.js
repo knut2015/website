@@ -57,13 +57,13 @@ var CreateWork = CreateWork || function(){
 	$(".isotope").append("<div class='item btnMore'>MORE<p class='number'>" + 100 + "</p></div>");
 	var idx = 1;
 	// more btn click
-	$(".btnMore").on("click", function(){
+	$(".btnMore").bind("click", function(){
 		var startImg = idx * initNum;
 
 		var elems = [];
 		for (var i = startImg; i < initNum * (idx+1); i++ ){
 			if ( i == workData.length ){
-				return;
+				$(".btnMore").unbind("click");
 			}else{
 				var $elems = getItemElement(i);
 				$(".isotope").append( $elems ).isotope( 'insert', $elems );
