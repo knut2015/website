@@ -84,11 +84,7 @@ var CreateWork = CreateWork || function(){
 		work.viewMore();
 	});
 
-	$('#filters div').click(function(){
-	  var selector = $(this).attr('data-filter');
-	  $container.isotope({ filter: selector });
-	  return false;
-	});
+
 
 	// thumbnail click
 	function getThumbClick(){
@@ -103,7 +99,7 @@ var CreateWork = CreateWork || function(){
 					if ($(this).hasClass("btnMore")){
 						return;
 					}else{
-						$(this).css("top", expandItemY + 1000 + "px");
+						// $(this).css("top", expandItemY + 1000 + "px");
 					}
 				}
 			});
