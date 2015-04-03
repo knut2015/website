@@ -89,15 +89,15 @@ var CreateWork = CreateWork || function(){
 
 	// thumbnail click
 	function getThumbClick(){
-		$(".thumb ").on("click", function(){
+		$(".thumb").on("click", function(){
 			var currentThumbY = $(this).position().top;
 			// $(".detailView").css({"top": currentThumbY + "px", "display":"block", "height":"1000px"});
 
-			$(".thumb ").each(function(){
-				if ( $(this).position().top > currentThumbY){
+			$(".thumb").each(function(){
+				if ( $(".item").position().top > currentThumbY){
 					console.log($(this).position().top);
 					var expandItemY = $(this).position().top;
-					$(this).css("top", expandItemY + 1000 + "px");
+					$(".item").css("top", expandItemY + 1000 + "px");
 				}
 			});
 		});
