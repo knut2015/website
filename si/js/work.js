@@ -65,10 +65,11 @@ var CreateWork = CreateWork || function(){
 				}else{
 					var $elems = getItemElement( i );
 					$(".isotope").append( $elems ).isotope( 'insert', $elems );
+					getThumbClick();
 				}
 			}
 			
-			getThumbClick();
+			
 			idx++;
 		}
 	}
@@ -96,11 +97,7 @@ var CreateWork = CreateWork || function(){
 				if ( $(this).position().top > currentThumbY){
 					console.log($(this).position().top);
 					var expandItemY = $(this).position().top;
-					if ($(this).hasClass("btnMore")){
-						return;
-					}else{
-						// $(this).css("top", expandItemY + 1000 + "px");
-					}
+					$(this).css("top", expandItemY + 1000 + "px");
 				}
 			});
 		});
