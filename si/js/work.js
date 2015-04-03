@@ -91,9 +91,10 @@ var CreateWork = CreateWork || function(){
 			$(".detailView").css({"top": currentThumbY + "px", "display":"block", "height":"1000px"});
 
 			$(".item").each(function(){
-				if ( $(this).position().top > currentThumbY){
-					console.log($(".item").position().top);
-				}
+				console.log($(this).position().top +", "+ currentThumbY);
+				// if ( $(this).position().top > currentThumbY){
+					// console.log($(".item").position().top);
+				// }
 			});
 		});
 	}
