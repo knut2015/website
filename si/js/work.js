@@ -33,7 +33,7 @@ var CreateWork = CreateWork || function(){
 	Works.prototype = {
 		thumb: function(){
 			var i;
-			for ( i = 0; i < 10; i++ ){
+			for ( i = 0; i < 3; i++ ){
 				$(".isotope").append("<div class='item "+workData[i].w_type+"' data-category='" + workData[i].w_type + "'><img src='" + workData[i].w_Thumb + "'><p class='number'>"+i+"</p></div>");
 			}
 
