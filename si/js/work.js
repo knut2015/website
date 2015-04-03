@@ -62,7 +62,7 @@ var CreateWork = CreateWork || function(){
 		idx++;
 		var cal = idx * initNum;
 
-		var rest = Math.abs((workData.length) - cal);
+		var rest = Math.abs((workData.length) - viewImg);
 		console.log("length: "+ workData.length + ", cal: " + cal + ", rest: " + rest);
 		// var $elems = [];
 		// for ( var i = cal; i < initNum * (idx+1); i++ ){
