@@ -64,30 +64,33 @@ var CreateWork = CreateWork || function(){
 
 		var rest = Math.abs((workData.length) - 10);
 
-		var elems = [];
-		for ( var i = cal; i < initNum * (idx+1); i++ ){
-			// var $elems = getItemElement(i);
-			var elem = getItemElement(i);
-			var number = Math.floor( Math.random() * 100 );
-		    $( elem ).append( '<p class="number">' + number + '</p>' );
-		    elems.push( elem );
-		}
-
-		// switch ( Math.abs((workData.length) - 10) ){
-		// 	case 1:
-		// 		var $elems = getItemElement(cal);
-		// 		break;
-		// 	case 2:
-		// 		var $elems = getItemElement(cal).add( getItemElement(cal+1) );
-		// 		break;
-		// 	default:
-		// 		var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
-		// 		break;
+		var $elems = [];
+		// for ( var i = cal; i < initNum * (idx+1); i++ ){
+		// 	if ( cal > workData.length ){
+		// 		return;
+		// 	}else{
+		// 		// var $elems = getItemElement(i);
+		// 		var elem = getItemElement(i);
+		// 		var number = Math.floor( Math.random() * 100 );
+		// 	    elems.push( elem );
+		// 	}
 		// }
+
+		switch ( Math.abs((workData.length) - 10) ){
+			case 1:
+				var $elems = getItemElement(cal);
+				break;
+			case 2:
+				var $elems = getItemElement(cal).add( getItemElement(cal+1) );
+				break;
+			default:
+				var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
+				break;
+		}
 		
 		// append elements to container
-		$(".isotope").append( elems )
-		.isotope( 'insert', elems );
+		$(".isotope").append( $elems )
+		.isotope( 'insert', $elems );
 		getThumbClick();
 		$(".item img").eq(cal).load(function(){
 			
