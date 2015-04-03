@@ -60,10 +60,12 @@ var CreateWork = CreateWork || function(){
 	$(".btnMore").on("click", function(){
 		var startImg = idx * initNum;
 
+		var elems = [];
 		for (var i = startImg; i < initNum * (idx+1); i++ ){
 			var $elems = getItemElement(i);
-			$(".isotope").append( $elems ).isotope( 'insert', $elems );
+			elems.push($elems);
 		}
+		$(".isotope").append( elems ).isotope( 'insert', elems );
 		
 
 
