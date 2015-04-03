@@ -39,9 +39,10 @@ var CreateWork = CreateWork || function(){
 			}
 
 			$(".item img").load(function(){
-				work.isotope();
-				getThumbClick();
+				work.isotope();				
 			});
+			
+			getThumbClick();
 		},
 		isotope: function(){
 			return isotopeUseful();
