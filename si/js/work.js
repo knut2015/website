@@ -62,20 +62,9 @@ var CreateWork = CreateWork || function(){
 		idx++;
 		var cal = idx * initNum;
 
-		var rest = Math.abs((workData.length) - viewImg);
+		var rest = Math.abs((workData.length) - cal);
 		console.log("length: "+ workData.length + ", cal: " + cal + ", rest: " + rest);
-		// var $elems = [];
-		// for ( var i = cal; i < initNum * (idx+1); i++ ){
-		// 	if ( cal > workData.length ){
-		// 		return;
-		// 	}else{
-		// 		// var $elems = getItemElement(i);
-		// 		var elem = getItemElement(i);
-		// 		var number = Math.floor( Math.random() * 100 );
-		// 	    elems.push( elem );
-		// 	}
-		// }
-
+	
 		switch ( rest ){
 			case 1:
 				var $elems = getItemElement(viewImg);
@@ -95,14 +84,8 @@ var CreateWork = CreateWork || function(){
 		}
 		
 		// append elements to container
-		$(".isotope").append( $elems )
-		.isotope( 'insert', $elems );
+		$(".isotope").append( $elems ).isotope( 'insert', $elems );
 		getThumbClick();
-		$(".item img").eq(cal).load(function(){
-			
-			// add and lay out newly appended elements
-			
-		});
 	});
 
 	getThumbClick();
