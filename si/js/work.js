@@ -58,6 +58,7 @@ var CreateWork = CreateWork || function(){
 			for (var i = startImg; i < initNum * (idx+1); i++ ){
 				if ( i == workData.length ){
 					$(".btnMore").unbind("click");
+					getThumbClick();
 					return;
 				}else{
 					var $elems = getItemElement( i );
@@ -103,7 +104,7 @@ function getItemElement(cal) {
 
 	var number = workData.work[cal].w_num;
   	$item.append( '<p class="number">' + number + '</p>' );
-  	
+
 	return $item;
 }
 
