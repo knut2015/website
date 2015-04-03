@@ -84,7 +84,7 @@ var CreateWork = CreateWork || function(){
 				var $elems = getItemElement(cal).add( getItemElement(cal+1) );
 				break;
 			default:
-				var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) );
+				var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) ).add( getItemElement(cal+3) ).add( getItemElement(cal+4) );
 				break;
 		}
 		
