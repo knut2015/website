@@ -42,7 +42,7 @@ var CreateWork = CreateWork || function(){
 				work.isotope();				
 			});
 
-			// getThumbClick();
+			getThumbClick();
 		},
 		isotope: function(){
 			return isotopeUseful();
@@ -60,7 +60,7 @@ var CreateWork = CreateWork || function(){
 			for (var i = startImg; i < initNum * (idx+1); i++ ){
 				if ( i == workData.length ){
 					$(".btnMore").unbind("click");
-					// getThumbClick();
+					getThumbClick();
 					return;
 				}else{
 					var $elems = getItemElement( i );
@@ -91,9 +91,10 @@ var CreateWork = CreateWork || function(){
 			// $(".detailView").css({"top": currentThumbY + "px", "display":"block", "height":"1000px"});
 
 			$(".item").each(function(){
-				// console.log($(this).position().top +", "+ currentThumbY);
 				if ( $(this).position().top > currentThumbY){
 					console.log($(this).position().top);
+					var expandItemY = $(this).position().top;
+					$(this).css("top", expandItemY + 1000 + "px");
 				}
 			});
 		});
