@@ -53,8 +53,10 @@ var CreateWork = CreateWork || function(){
 		},
 		viewMore: function(){
 			var startImg = idx * initNum;
-
 			var elems = [];
+			
+			getThumbClick();
+
 			for (var i = startImg; i < initNum * (idx+1); i++ ){
 				if ( i == workData.length ){
 					$(".btnMore").unbind("click");
@@ -66,8 +68,6 @@ var CreateWork = CreateWork || function(){
 			}
 
 			idx++;
-
-			getThumbClick();
 		}
 	}
 
