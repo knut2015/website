@@ -55,14 +55,14 @@ var CreateWork = CreateWork || function(){
 	work.thumb();
 
 	$(".isotope").append("<div class='item btnMore'>MORE<p class='number'>" + 100 + "</p></div>");
-	var idx = 0;
+	var idx = 1;
 	// more btn click
 	$(".btnMore").on("click", function(){
+		var viewImg = idx * initNum;
 		idx++;
 		var cal = idx * initNum;
 
-
-		var rest = Math.abs((workData.length) - 10);
+		var rest = Math.abs((workData.length) - cal);
 
 		var $elems = [];
 		// for ( var i = cal; i < initNum * (idx+1); i++ ){
@@ -76,15 +76,21 @@ var CreateWork = CreateWork || function(){
 		// 	}
 		// }
 
-		switch ( Math.abs((workData.length) - cal) ){
+		switch ( rest ){
 			case 1:
-				var $elems = getItemElement(cal);
+				var $elems = getItemElement(viewImg).add( getItemElement(viewImg+1) ).add( getItemElement(viewImg+2) ).add( getItemElement(viewImg+3) );
 				break;
 			case 2:
-				var $elems = getItemElement(cal).add( getItemElement(cal+1) );
+				var $elems = getItemElement(viewImg).add( getItemElement(viewImg+1) ).add( getItemElement(viewImg+2) );
+				break;
+			case 3:
+				var $elems = getItemElement(viewImg).add( getItemElement(viewImg+1) );
+				break;
+			case 4:
+				var $elems = getItemElement(viewImg);
 				break;
 			default:
-				var $elems = getItemElement(cal).add( getItemElement(cal+1) ).add( getItemElement(cal+2) ).add( getItemElement(cal+3) ).add( getItemElement(cal+4) );
+				var $elems = getItemElement(viewImg).add( getItemElement(viewImg+1) ).add( getItemElement(viewImg+2) ).add( getItemElement(viewImg+3) ).add( getItemElement(viewImg+4) );
 				break;
 		}
 		
