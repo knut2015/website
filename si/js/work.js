@@ -65,11 +65,11 @@ var CreateWork = CreateWork || function(){
 				}else{
 					var $elems = getItemElement( i );
 					$(".isotope").append( $elems ).isotope( 'insert', $elems );
-					getThumbClick();
+					
 				}
 			}
 			
-			
+			getThumbClick();
 			idx++;
 		}
 	}
