@@ -65,7 +65,7 @@ var CreateWork = CreateWork || function(){
 			var $elems = getItemElement(i);
 			elems.push($elems);
 		}
-		$(".isotope").append( elems ).isotope( 'insert', elems );
+		$(".isotope").isotope( 'insert', elems );
 		
 
 
