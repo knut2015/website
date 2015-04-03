@@ -93,7 +93,7 @@ var CreateWork = CreateWork || function(){
 			$(".item").each(function(){
 				// console.log($(this).position().top +", "+ currentThumbY);
 				if ( $(this).position().top > currentThumbY){
-					console.log($(".item").position().top);
+					console.log($(this).position().top);
 				}
 			});
 		});
