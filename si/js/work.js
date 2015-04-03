@@ -24,6 +24,7 @@ function pageComplete(isComplete){
 
 var CreateWork = CreateWork || function(){
 	var workData = jsonResultModule.getJsonData()[2].work;
+	var initNum = 5;
 	var idx = 0;
 
 	var Works = function(){
@@ -33,7 +34,7 @@ var CreateWork = CreateWork || function(){
 	Works.prototype = {
 		thumb: function(){
 			var i;
-			for ( i = 0; i < 3; i++ ){
+			for ( i = 0; i < initNum; i++ ){
 				$(".isotope").append("<div class='item "+workData[i].w_type+"' data-category='" + workData[i].w_type + "'><img src='" + workData[i].w_Thumb + "'><p class='number'>"+i+"</p></div>");
 			}
 
@@ -58,12 +59,13 @@ var CreateWork = CreateWork || function(){
 	// more btn click
 	$(".btnMore").on("click", function(){
 		idx++;
-		var cal = idx * 10;
+		var cal = idx * initNum;
+
 
 		var rest = Math.abs((workData.length) - 10);
 
 		var elems = [];
-		for ( var i = 0; i < rest; i++ ){
+		for ( var i = cal; i < initNum * (idx+1); i++ ){
 			// var $elems = getItemElement(i);
 			var elem = getItemElement(i);
 			var number = Math.floor( Math.random() * 100 );
@@ -84,8 +86,8 @@ var CreateWork = CreateWork || function(){
 		// }
 		
 		// append elements to container
-		// $(".isotope").append( elems )
-		$(".isotope").isotope( 'insert', elems );
+		$(".isotope").append( elems )
+		.isotope( 'insert', elems );
 		getThumbClick();
 		$(".item img").eq(cal).load(function(){
 			
