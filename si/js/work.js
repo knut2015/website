@@ -84,6 +84,12 @@ var CreateWork = CreateWork || function(){
 		work.viewMore();
 	});
 
+	$('#filters div').click(function(){
+	  var selector = $(this).attr('data-filter');
+	  $container.isotope({ filter: selector });
+	  return false;
+	});
+
 	// thumbnail click
 	function getThumbClick(){
 		$(".item").on("click", function(){
