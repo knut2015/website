@@ -55,8 +55,6 @@ var CreateWork = CreateWork || function(){
 			var startImg = idx * initNum;
 			var elems = [];
 			
-			getThumbClick();
-
 			for (var i = startImg; i < initNum * (idx+1); i++ ){
 				if ( i == workData.length ){
 					$(".btnMore").unbind("click");
@@ -81,16 +79,13 @@ var CreateWork = CreateWork || function(){
 	$(".btnMore").bind("click", function(){
 		work.viewMore();
 	});
-
-	getThumbClick();
-
-	// thumbnail click
-	function getThumbClick(){
-		$(".item").on("click", function(){
-			console.log($(this).position().top);
-		});
-	}
 }
+
+$(window).load(function(){
+	$(".item").on("click", function(){
+		console.log($(this).position().top);
+	});
+})
 
 function getItemElement(cal) {
 	var workData = jsonResultModule.getJsonData()[2];
