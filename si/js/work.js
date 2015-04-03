@@ -64,7 +64,7 @@ var CreateWork = CreateWork || function(){
 					$(".isotope").append( $elems ).isotope( 'insert', $elems );
 				}
 			}
-
+getThumbClick();
 			idx++;
 		}
 	}
@@ -79,13 +79,16 @@ var CreateWork = CreateWork || function(){
 	$(".btnMore").bind("click", function(){
 		work.viewMore();
 	});
-}
 
-$(window).load(function(){
-	$(".item").on("click", function(){
-		console.log($(this).position().top);
-	});
-})
+	// 
+
+	// thumbnail click
+	function getThumbClick(){
+		$(".item").on("click", function(){
+			console.log($(this).position().top);
+		});
+	}
+}
 
 function getItemElement(cal) {
 	var workData = jsonResultModule.getJsonData()[2];
@@ -99,9 +102,8 @@ function getItemElement(cal) {
 	var heightClass = hRand > 0.85 ? 'height3' : hRand > 0.5 ? 'height2' : '';
 
 	var number = workData.work[cal].w_num;
-  	// $item.find('img').addClass('number');
   	$item.append( '<p class="number">' + number + '</p>' );
-	// $item.addClass( widthClass ).addClass( heightClass );
+  	
 	return $item;
 }
 
