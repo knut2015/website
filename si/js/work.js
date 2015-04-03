@@ -78,16 +78,16 @@ var CreateWork = CreateWork || function(){
 
 		switch ( rest ){
 			case 1:
-				var $elems = getItemElement(viewImg).add( getItemElement(viewImg+1) ).add( getItemElement(viewImg+2) ).add( getItemElement(viewImg+3) );
+				var $elems = getItemElement(viewImg);
 				break;
 			case 2:
-				var $elems = getItemElement(viewImg).add( getItemElement(viewImg+1) ).add( getItemElement(viewImg+2) );
-				break;
-			case 3:
 				var $elems = getItemElement(viewImg).add( getItemElement(viewImg+1) );
 				break;
+			case 3:
+				var $elems = getItemElement(viewImg).add( getItemElement(viewImg+1) ).add( getItemElement(viewImg+2) );
+				break;
 			case 4:
-				var $elems = getItemElement(viewImg);
+				var $elems = getItemElement(viewImg).add( getItemElement(viewImg+1) ).add( getItemElement(viewImg+2) ).add( getItemElement(viewImg+3) );
 				break;
 			default:
 				var $elems = getItemElement(viewImg).add( getItemElement(viewImg+1) ).add( getItemElement(viewImg+2) ).add( getItemElement(viewImg+3) ).add( getItemElement(viewImg+4) );
