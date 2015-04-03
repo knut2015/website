@@ -64,7 +64,7 @@ var CreateWork = CreateWork || function(){
 					return;
 				}else{
 					var $elems = getItemElement( i );
-					$(".isotope").append( $elems ).isotope( 'insert', $elems );
+					$(".isotope").isotope( 'insert', $elems );
 
 				}
 			}
@@ -94,10 +94,10 @@ var CreateWork = CreateWork || function(){
 			// $(".detailView").css({"top": currentThumbY + "px", "display":"block", "height":"1000px"});
 
 			$(".thumb").each(function(){
-				if ( $(".item").position().top > currentThumbY){
+				if ( $(this).position().top > currentThumbY){
 					console.log($(this).position().top);
 					var expandItemY = $(this).position().top;
-					$(".item").css("top", expandItemY + 1000 + "px");
+					$(this).css("top", expandItemY + 1000 + "px");
 				}
 			});
 		});
