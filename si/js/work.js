@@ -58,12 +58,49 @@ var CreateWork = CreateWork || function(){
 	var idx = 1;
 	// more btn click
 	$(".btnMore").on("click", function(){
+		var startImg = idx * initNum;
+
+		for (var i = startImg; i < initNum * (idx+1); i++ ){
+			var $elems = getItemElement(viewImg);
+		}
+		$(".isotope").append( $elems ).isotope( 'insert', $elems );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
 		var viewImg = idx * initNum;
 		idx++;
-		var cal = idx * initNum;
+		var total = idx * initNum;
 
-		var rest = Math.abs((workData.length) - cal);
-		console.log("length: "+ workData.length + ", cal: " + cal + ", rest: " + rest);
+		var rest = Math.abs((workData.length) - viewImg);
+		console.log("length: "+ workData.length + ", total: " + total + ", rest: " + rest);
 	
 		switch ( rest ){
 			case 1:
@@ -84,7 +121,7 @@ var CreateWork = CreateWork || function(){
 		}
 		
 		// append elements to container
-		$(".isotope").append( $elems ).isotope( 'insert', $elems );
+		$(".isotope").append( $elems ).isotope( 'insert', $elems );*/
 		getThumbClick();
 	});
 
