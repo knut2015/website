@@ -40,6 +40,7 @@ var CreateWork = CreateWork || function(){
 
 			$(".item img").load(function(){
 				work.isotope();
+				getThumbClick();
 			});
 		},
 		isotope: function(){
@@ -65,7 +66,8 @@ var CreateWork = CreateWork || function(){
 					$(".isotope").append( $elems ).isotope( 'insert', $elems );
 				}
 			}
-getThumbClick();
+			
+			getThumbClick();
 			idx++;
 		}
 	}
