@@ -35,7 +35,7 @@ var CreateWork = CreateWork || function(){
 		thumb: function(){
 			var i;
 			for ( i = 0; i < initNum; i++ ){
-				$(".isotope").append("<div class='item "+workData[i].w_type+"' data-category='" + workData[i].w_type + "'><img src='" + workData[i].w_Thumb + "'><p class='number'>"+i+"</p></div>");
+				$(".isotope").append("<div class='thumb item "+workData[i].w_type+"' data-category='" + workData[i].w_type + "'><img src='" + workData[i].w_Thumb + "'><p class='number'>"+i+"</p></div>");
 			}
 
 			$(".item img").load(function(){
@@ -65,7 +65,7 @@ var CreateWork = CreateWork || function(){
 				}else{
 					var $elems = getItemElement( i );
 					$(".isotope").append( $elems ).isotope( 'insert', $elems );
-					
+
 				}
 			}
 			
@@ -89,11 +89,11 @@ var CreateWork = CreateWork || function(){
 
 	// thumbnail click
 	function getThumbClick(){
-		$(".item").on("click", function(){
+		$(".thumb ").on("click", function(){
 			var currentThumbY = $(this).position().top;
 			// $(".detailView").css({"top": currentThumbY + "px", "display":"block", "height":"1000px"});
 
-			$(".item").each(function(){
+			$(".thumb ").each(function(){
 				if ( $(this).position().top > currentThumbY){
 					console.log($(this).position().top);
 					var expandItemY = $(this).position().top;
@@ -107,7 +107,7 @@ var CreateWork = CreateWork || function(){
 function getItemElement(cal) {
 	var workData = jsonResultModule.getJsonData()[2];
 	console.log("cal : " + cal  + ", type: " + workData.work[cal].w_type );
-	var $item = $('<div class="item '+workData.work[cal].w_type+'" data-category="'+workData.work[cal].w_type+'"><img src="'+ workData.work[cal].w_Thumb +'"></div>');
+	var $item = $('<div class="thumb item '+workData.work[cal].w_type+'" data-category="'+workData.work[cal].w_type+'"><img src="'+ workData.work[cal].w_Thumb +'"></div>');
 	// add width and height class
 
 	var wRand = Math.random();
