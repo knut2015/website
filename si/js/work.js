@@ -61,7 +61,7 @@ var CreateWork = CreateWork || function(){
 		var startImg = idx * initNum;
 
 		for (var i = startImg; i < initNum * (idx+1); i++ ){
-			var $elems = getItemElement(viewImg);
+			var $elems = getItemElement(i);
 		}
 		$(".isotope").append( $elems ).isotope( 'insert', $elems );
 
