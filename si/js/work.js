@@ -45,93 +45,39 @@ var CreateWork = CreateWork || function(){
 		isotope: function(){
 			return isotopeUseful();
 		},
+		moreBtn: function(){
+			$(".isotope").append("<div class='item btnMore'>MORE<p class='number'>" + 100 + "</p></div>");
+		},
 		thumbClick: function(){
 
+		},
+		viewMore: function(){
+			var startImg = idx * initNum;
+
+			var elems = [];
+			for (var i = startImg; i < initNum * (idx+1); i++ ){
+				if ( i == workData.length ){
+					$(".btnMore").unbind("click");
+					return;
+				}else{
+					var $elems = getItemElement( i );
+					$(".isotope").append( $elems ).isotope( 'insert', $elems );
+				}
+			}
+
+			idx++;
 		}
 	}
 
 	var work = new Works();
+	var idx = 1;
 
 	work.thumb();
-
-	$(".isotope").append("<div class='item btnMore'>MORE<p class='number'>" + 100 + "</p></div>");
-	var idx = 1;
+	work.moreBtn();
+	
 	// more btn click
 	$(".btnMore").bind("click", function(){
-		var startImg = idx * initNum;
-
-		var elems = [];
-		for (var i = startImg; i < initNum * (idx+1); i++ ){
-			if ( i == workData.length ){
-				$(".btnMore").unbind("click");
-				return;
-			}else{
-				var $elems = getItemElement(i);
-				$(".isotope").append( $elems ).isotope( 'insert', $elems );
-			}
-		}
-
-		idx++;
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-
-		var viewImg = idx * initNum;
-		idx++;
-		var total = idx * initNum;
-
-		var rest = Math.abs((workData.length) - viewImg);
-		console.log("length: "+ workData.length + ", total: " + total + ", rest: " + rest);
-	
-		switch ( rest ){
-			case 1:
-				var $elems = getItemElement(viewImg);
-				break;
-			case 2:
-				var $elems = getItemElement(viewImg).add( getItemElement(viewImg+1) );
-				break;
-			case 3:
-				var $elems = getItemElement(viewImg).add( getItemElement(viewImg+1) ).add( getItemElement(viewImg+2) );
-				break;
-			case 4:
-				var $elems = getItemElement(viewImg).add( getItemElement(viewImg+1) ).add( getItemElement(viewImg+2) ).add( getItemElement(viewImg+3) );
-				break;
-			default:
-				var $elems = getItemElement(viewImg).add( getItemElement(viewImg+1) ).add( getItemElement(viewImg+2) ).add( getItemElement(viewImg+3) ).add( getItemElement(viewImg+4) );
-				break;
-		}
-		
-		// append elements to container
-		$(".isotope").append( $elems ).isotope( 'insert', $elems );*/
-		// getThumbClick();
+		work.viewMore();
 	});
 
 	getThumbClick();
@@ -142,10 +88,6 @@ var CreateWork = CreateWork || function(){
 			console.log($(this).position().top);
 		});
 	}
-
-	$(".button").on("click", function(){
-		console.log($(this).text());
-	});
 }
 
 function getItemElement(cal) {
