@@ -63,7 +63,7 @@ var CreateWork = CreateWork || function(){
 		var cal = idx * initNum;
 
 		var rest = Math.abs((workData.length) - cal);
-
+		console.log("length: "+ workData.length + ", cal: " + cal + ", rest: " + rest);
 		// var $elems = [];
 		// for ( var i = cal; i < initNum * (idx+1); i++ ){
 		// 	if ( cal > workData.length ){
