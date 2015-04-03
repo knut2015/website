@@ -76,7 +76,7 @@ var CreateWork = CreateWork || function(){
 		// 	}
 		// }
 
-		switch ( Math.abs((workData.length) - 10) ){
+		switch ( Math.abs((workData.length) - cal) ){
 			case 1:
 				var $elems = getItemElement(cal);
 				break;
