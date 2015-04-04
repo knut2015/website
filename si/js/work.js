@@ -102,6 +102,9 @@ function getThumbClick(){
 				// $(".btnMore").css("top", expandItemY + 1000 + "px");
 				// $(this).css("top", expandItemY + 1000 + "px");
 				$(".detailView").append("<img src='"+ detail +"' alt=''>");
+				$(".detailView img").load(function(){
+					console.log("H : " + $(this).height());
+				});
 			}
 		});
 	});
