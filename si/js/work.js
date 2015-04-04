@@ -99,9 +99,11 @@ function getThumbClick(){
 				var expandItemY = $(this).position().top;
 				// $(".btnMore").css("top", expandItemY + 1000 + "px");
 				// $(this).css("top", expandItemY + 1000 + "px");
-				$(".detailView").append("<img src='"+ detail +"' alt=''>").css('display', 'block');
+				$(".detailView").empty().append("<img src='"+ detail +"' alt=''>").css('display', 'block');
 				$(".detailView img").load(function(){
-					console.log($(".detailView img").height());
+					var h = $(".detailView img").height();
+					$(".btnMore").css("top", expandItemY + h + "px");
+					$(".thumb").css("top", expandItemY + h + "px");
 				});
 			}
 		});
