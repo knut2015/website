@@ -65,7 +65,7 @@ var CreateWork = CreateWork || function(){
 				}else{
 					var $elems = getItemElement( i );
 					$(".isotope").isotope( 'insert', $elems );
-
+					getThumbClick();
 				}
 			}
 			
@@ -117,7 +117,7 @@ function getItemElement(cal) {
 
 	var number = workData.work[cal].w_num;
   	$item.append( '<p class="number">' + number + '</p>' );
-getThumbClick();
+
 	return $item;
 }
 
