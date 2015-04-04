@@ -124,13 +124,37 @@
 		<script type="text/javascript" charset="utf-8" src="../libs/js/jquery.easing.1.3.js"></script>
 		<script type="text/javascript" charset="utf-8" src="../libs/js/grid.js"></script>
 		<script type="text/javascript" charset="utf-8" src="../libs/js/memento.js"></script>
-		<script type="text/javascript" charset="utf-8" src="../js/work.js"></script>
+		<!-- <script type="text/javascript" charset="utf-8" src="../js/work.js"></script> -->
 
 		<script type="text/javascript">
-			$(function() {
+			dataLoadModule.setURL("../data/json/sparkle.json");
+			dataLoadModule.setDataType("text");
+			dataLoadModule.getAjax();
+
+			function successHandler(json){
+				var item = $.parseJSON(json).item;
+				var itemLen = item.length;
+				
+				jsonResultModule.setJsonData(item);
+				jsonResultModule.setDataLength(itemLen);
+				
+				$.AppInit(pageComplete);
+			}
+
+			function errorHandler(){
+				console.log("ajax error");
+			}
+
+			function pageComplete(isComplete){
+				if (isComplete){
+					Work();
+				}
+			}
+			
+			var Work = Work || function(){
 				Grid.init();
 				Grid.addItems( $items );
-			});
+			}
 		</script>
 	</body>
 </html>
