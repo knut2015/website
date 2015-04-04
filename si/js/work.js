@@ -87,7 +87,9 @@ var CreateWork = CreateWork || function(){
 
 	getThumbClick();
 
-	// thumbnail click
+	
+}
+// thumbnail click
 	function getThumbClick(){
 		$(".thumb").on("click", function(){
 			var currentThumbY = $(this).position().top;
@@ -102,8 +104,6 @@ var CreateWork = CreateWork || function(){
 			});
 		}).trigger("click");
 	}
-}
-
 function getItemElement(cal) {
 	var workData = jsonResultModule.getJsonData()[2];
 	console.log("cal : " + cal  + ", type: " + workData.work[cal].w_type );
@@ -117,7 +117,7 @@ function getItemElement(cal) {
 
 	var number = workData.work[cal].w_num;
   	$item.append( '<p class="number">' + number + '</p>' );
-
+getThumbClick();
 	return $item;
 }
 
