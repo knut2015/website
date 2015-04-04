@@ -92,13 +92,13 @@ function getThumbClick(){
 	$(".thumb").on("click", function(){
 		var currentIdx = $(this).index();
 		var currentThumbY = $(this).position().top;
-
+console.log(jsonResultModule.getJsonData[2].work[currentIdx].w_detail);
 		$(".thumb").each(function(){
 			if ( $(this).position().top > currentThumbY ){
 				var expandItemY = $(this).position().top;
 				// $(".btnMore").css("top", expandItemY + 1000 + "px");
 				// $(this).css("top", expandItemY + 1000 + "px");
-				$(".btnMore").append("<img src='"+jsonResultModule.getJsonData[2].work[currentIdx].w_detail+"' alt=''>");
+				// $(".btnMore").append("<img src='"+jsonResultModule.getJsonData[2].work[currentIdx].w_detail+"' alt=''>");
 			}
 		});
 	});
