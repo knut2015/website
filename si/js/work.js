@@ -98,13 +98,13 @@ function getThumbClick(){
 			if ( $(this).position().top > currentThumbY ){
 				var expandItemY = $(this).position().top;
 				// $(".btnMore").css("top", expandItemY + 1000 + "px");
-				// $(this).css("top", expandItemY + 1000 + "px");
+				
 				$(".detailView").empty().append("<img src='"+ detail +"' alt=''>").css('display', 'block');
 				$(".detailView img").load(function(){
 					var h = $(".detailView img").height();
 					$(".btnMore").css("top", expandItemY + h + "px");
-					$(".thumb").css("top", expandItemY + h + "px");
 				});
+				$(this).css("top", expandItemY + h + "px");
 			}
 		});
 	});
