@@ -95,7 +95,7 @@ function getThumbClick(){
 		var currentIdx = $(this).index();
 		var currentThumbY = $(this).position().top;
 
-console.log(workData.work[0].w_type);
+console.log(workData.work[currentIdx].w_detail);
 
 		$(".thumb").each(function(){
 			if ( $(this).position().top > currentThumbY ){
