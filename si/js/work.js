@@ -65,7 +65,6 @@ var CreateWork = CreateWork || function(){
 				}else{
 					var $elems = getItemElement( i );
 					$(".isotope").isotope( 'insert', $elems );
-					getThumbClick();
 				}
 			}
 			
@@ -85,25 +84,25 @@ var CreateWork = CreateWork || function(){
 		work.viewMore();
 	});
 
-	getThumbClick();
-
-	
+	getThumbClick();	
 }
-// thumbnail click
-	function getThumbClick(){
-		$(".thumb").on("click", function(){
-			var currentThumbY = $(this).position().top;
 
-			$(".thumb").each(function(){
-				if ( $(this).position().top > currentThumbY){
-					console.log($(this).position().top);
-					var expandItemY = $(this).position().top;
-					$(".btnMore").css("top", expandItemY + 1000 + "px");
-					$(this).css("top", expandItemY + 1000 + "px");
-				}
-			});
-		}).trigger("click");
-	}
+// thumbnail click
+function getThumbClick(){
+	$(".thumb").on("click", function(){
+		var currentThumbY = $(this).position().top;
+
+		$(".thumb").each(function(){
+			if ( $(this).position().top > currentThumbY){
+				console.log($(this).position().top);
+				var expandItemY = $(this).position().top;
+				$(".btnMore").css("top", expandItemY + 1000 + "px");
+				$(this).css("top", expandItemY + 1000 + "px");
+			}
+		});
+	});
+}
+
 function getItemElement(cal) {
 	var workData = jsonResultModule.getJsonData()[2];
 	console.log("cal : " + cal  + ", type: " + workData.work[cal].w_type );
