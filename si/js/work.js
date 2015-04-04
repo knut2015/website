@@ -60,8 +60,8 @@ var CreateWork = CreateWork || function(){
 			for (var i = startImg; i < initNum * (idx+1); i++ ){
 				if ( i == workData.length ){
 					$(".btnMore").unbind("click");
-					// getThumbClick();
-					
+					getThumbClick();
+					return;
 				}else{
 					var $elems = getItemElement( i );
 					$(".isotope").isotope( 'insert', $elems );
