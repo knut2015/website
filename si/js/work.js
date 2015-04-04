@@ -92,7 +92,7 @@ function getThumbClick(){
 	$(".thumb").on("click", function(){
 		var currentIdx = $(this).index();
 		var currentThumbY = $(this).position().top;
-console.log(jsonResultModule.getJsonData[2].work[currentIdx].w_detail);
+console.log(jsonResultModule.getJsonData[2]);
 		$(".thumb").each(function(){
 			if ( $(this).position().top > currentThumbY ){
 				var expandItemY = $(this).position().top;
