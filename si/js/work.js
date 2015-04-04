@@ -99,9 +99,9 @@ function getThumbClick(){
 				var expandItemY = $(this).position().top;
 				// $(".btnMore").css("top", expandItemY + 1000 + "px");
 				// $(this).css("top", expandItemY + 1000 + "px");
-				$(".detailView").append("<img src='"+ detail +"' alt=''>");
+				$(".detailView").append("<img src='"+ detail +"' alt=''>").css('display', 'block');
 				$(".detailView img").load(function(){
-					console.log("H : " + $(".detailView img").height());
+					console.log($(".detailView img").height());
 				});
 			}
 		});
