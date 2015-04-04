@@ -68,7 +68,7 @@ var CreateWork = CreateWork || function(){
 				}
 			}
 			
-			// getThumbClick();
+			getThumbClick();
 			idx++;
 		}
 	}
