@@ -44,17 +44,7 @@
 			.mainNav { left: 0; }
 			.utilNav { right: 0; }
 
-			/* work */
-			.content { position: absolute; top: 100px; width: 100%; }
-			.w_content {}
-			.w_cate div { float: left; }
-			.item { width: 380px; height: 285px; }
-			.isotope { margin: 0 auto; padding-top: 100px; width: 360px; }
-			.btnMore { width: 380px; height: 285px; }
 
-			.detailView { background: gray; width: 100%; display: none; position: absolute; }
-
-.imgView li { float: left; }
 			footer { position: fixed; bottom: 0; margin-bottom: 2px; right: 0; }
 		</style>
 	</head>
@@ -93,7 +83,6 @@
 			</div>
 			<div class="main">
 				<ul id="og-grid" class="og-grid">
-					
 					<li>
 						<a href="#" data-largesrc="http://muzuk99.cafe24.com/pf/data/images/b_thumb_10.png" data-title="" data-description="">
 							<img src="http://muzuk99.cafe24.com/pf/data/images/b_thumb_10.png" alt="img02"/>
@@ -154,6 +143,35 @@
 			var Work = Work || function(){
 				Grid.init();
 				console.log("grid init");
+
+				var workData = jsonResultModule.getJsonData()[2].work;
+				var initNum = 5;
+				var idx = 0;
+
+				var Works = function(){
+
+				}
+
+				Works.prototype = {
+					thumb: function(){
+						var i;
+						for ( i = 0; i < initNum; i++ ){
+							$("#og-grid").append(
+								"<li>" + 
+									"<a href='#' data-largesrc='http://muzuk99.cafe24.com/pf/data/images/b_thumb_10.png' data-title='' data-description=''>" + 
+										"<img src='http://muzuk99.cafe24.com/pf/data/images/b_thumb_10.png' alt='img02'/>" + 
+									"</a>" + 
+								"</li>"
+								);
+						}
+
+						$(".item img").load(function(){
+							
+						});
+					}
+				}
+
+				var work = new Works();
 
 				// $('#og-additems').on( 'click', function() {
 				// 	var $items = $('').appendTo( $( '#og-grid' ) );
