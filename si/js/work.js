@@ -90,14 +90,15 @@ var CreateWork = CreateWork || function(){
 // thumbnail click
 function getThumbClick(){
 	$(".thumb").on("click", function(){
+		var currentIdx = $(this).index();
 		var currentThumbY = $(this).position().top;
 
 		$(".thumb").each(function(){
-			if ( $(this).position().top > currentThumbY){
-				console.log($(this).position().top);
+			if ( $(this).position().top > currentThumbY ){
 				var expandItemY = $(this).position().top;
-				$(".btnMore").css("top", expandItemY + 1000 + "px");
-				$(this).css("top", expandItemY + 1000 + "px");
+				// $(".btnMore").css("top", expandItemY + 1000 + "px");
+				// $(this).css("top", expandItemY + 1000 + "px");
+				$(".btnMore").append("<img src='"+jsonResultModule.getJsonData[2].work[currentIdx].w_detail+"' alt=''>");
 			}
 		});
 	});
