@@ -69,7 +69,7 @@ var CreateWork = CreateWork || function(){
 				}
 			}
 			
-			getThumbClick();
+			// getThumbClick();
 			idx++;
 		}
 	}
@@ -85,13 +85,12 @@ var CreateWork = CreateWork || function(){
 		work.viewMore();
 	});
 
-	getThumbClick();
+	// getThumbClick();
 
 	// thumbnail click
 	function getThumbClick(){
 		$(".thumb").on("click", function(){
 			var currentThumbY = $(this).position().top;
-			// $(".detailView").css({"top": currentThumbY + "px", "display":"block", "height":"1000px"});
 
 			$(".thumb").each(function(){
 				if ( $(this).position().top > currentThumbY){
