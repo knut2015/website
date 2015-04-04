@@ -101,7 +101,7 @@ function getThumbClick(){
 				var expandItemY = $(this).position().top;
 				// $(".btnMore").css("top", expandItemY + 1000 + "px");
 				// $(this).css("top", expandItemY + 1000 + "px");
-				$(".btnMore").append("<img src='"+ detail +"' alt=''>");
+				$(".detailView").append("<img src='"+ detail +"' alt=''>");
 			}
 		});
 	});
