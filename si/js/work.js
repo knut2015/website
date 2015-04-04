@@ -89,10 +89,14 @@ var CreateWork = CreateWork || function(){
 
 // thumbnail click
 function getThumbClick(){
+	var workData = jsonResultModule.getJsonData()[2];
+
 	$(".thumb").on("click", function(){
 		var currentIdx = $(this).index();
 		var currentThumbY = $(this).position().top;
-console.log(jsonResultModule.getJsonData[2]);
+
+console.log(workData.work[0].w_type);
+
 		$(".thumb").each(function(){
 			if ( $(this).position().top > currentThumbY ){
 				var expandItemY = $(this).position().top;
