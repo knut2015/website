@@ -127,7 +127,7 @@
 			}
 			
 			var Work = Work || function(){
-				Grid.init();
+				
 				console.log("grid init");
 
 				var workData = jsonResultModule.getJsonData()[2].work;
@@ -152,7 +152,7 @@
 						}
 
 						$(".item img").load(function(){
-							
+							Grid.init();
 						});
 					}
 				}
