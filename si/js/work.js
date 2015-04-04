@@ -85,7 +85,7 @@ var CreateWork = CreateWork || function(){
 		work.viewMore();
 	});
 
-	// getThumbClick();
+	getThumbClick();
 
 	// thumbnail click
 	function getThumbClick(){
