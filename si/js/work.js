@@ -41,8 +41,6 @@ var CreateWork = CreateWork || function(){
 			$(".item img").load(function(){
 				work.isotope();				
 			});
-
-			// getThumbClick();
 		},
 		isotope: function(){
 			return isotopeUseful();
@@ -103,7 +101,7 @@ function getThumbClick(){
 				// $(this).css("top", expandItemY + 1000 + "px");
 				$(".detailView").append("<img src='"+ detail +"' alt=''>");
 				$(".detailView img").load(function(){
-					console.log("H : " + $(this).height());
+					console.log("H : " + $(".detailView img").height());
 				});
 			}
 		});
